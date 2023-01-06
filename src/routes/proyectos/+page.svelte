@@ -1,7 +1,13 @@
 <script lang="ts">
-	let title = 'Paly Zambrano';
+	import ProjectEntry from './components/ProjectEntry.svelte';
+
+	export let data: {
+		items: PalyzambranoDotCom.ProjectItem[];
+	};
+
+	let title = 'Paly Zambrano | Proyectos';
 	let description = '';
-	let avatarUrl = 'https://avatars.githubusercontent.com/u/29868332?v=4';
+	let avatarUrl = '';
 </script>
 
 <svelte:head>
@@ -27,26 +33,9 @@
 	<meta name="twitter:image:src" content={avatarUrl} />
 </svelte:head>
 
-<section class="flex items-center justify-center">
-	<div class="relative w-[600px] h-[600px] overflow-hidden">
-		<video
-			class="object-cover top-0 left-0 absolute w-[600px] h-[600px] m-auto border border-white"
-			autoplay
-			muted
-			loop
-			playsinline
-			height="610"
-			width="610"
-			src="/videos/paly.mp4"
-		/>
-	</div>
-	<div class="w-1/2 text-center space-y-6 text-tx-blue">
-		<h2 class="text-2xl ">Hola, soy Paly!</h2>
-		<p class="w-2/5 m-auto">
-			Me alegra que estés aquí, cree este espacio para contarte quien soy y que conozcas mi trabajo.
-		</p>
-		<a class=" text-white inline-block bg-violet px-8 py-2 rounded-full" href="#"
-			>Mira mis proyectos</a
-		>
-	</div>
+<h2>Proyectos</h2>
+<section class="flex flex-wrap justify-center">
+	{#each data.items as item}
+		<ProjectEntry {item} />
+	{/each}
 </section>

@@ -10,7 +10,9 @@ module.exports = {
 			colors: {
 				violet: '#98A2EB',
 				'tx-blue': '#394287',
-				'bg-white': '#FAFAFA'
+				'bg-white': '#FAFAFA',
+				rosita: '#FFE3EE',
+				rojito: '#F54F41'
 			},
 			fontFamily: {}
 		}

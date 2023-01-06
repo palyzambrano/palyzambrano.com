@@ -7,3 +7,23 @@ declare namespace App {
 	// interface PageData {}
 	// interface Platform {}
 }
+
+declare namespace PalyzambranoDotCom {
+	interface BlogPost {
+		slug: string;
+		title: string;
+		description: string;
+		categories: string[];
+		date: Date;
+		lang: string;
+	}
+
+	interface ProjectItem {
+		slug: string;
+		title: string;
+		description: string;
+		categories: string[];
+		date: Date;
+		lang: string;
+	}
+}

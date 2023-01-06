@@ -1,6 +1,8 @@
 <script lang="ts">
+	import BlogPost from './components/BlogPost.svelte';
+
 	export let data: {
-		posts: Domain.BlogNote[];
+		posts: PalyzambranoDotCom.BlogPost[];
 	};
 
 	let title = 'Paly Zambrano | Blog';
@@ -31,8 +33,9 @@
 	<meta name="twitter:image:src" content={avatarUrl} />
 </svelte:head>
 
-<ul class="flex flex-col md:grid md:grid-cols-3 md:gap-6">
-	{#each data.notes as note}
-		{data.posts.title}
+<h2>Proyectos</h2>
+<section class="flex flex-wrap justify-center">
+	{#each data.posts as post}
+		<BlogPost {post} />
 	{/each}
-</ul>
+</section>

@@ -1,6 +1,6 @@
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
-	const modules = import.meta.glob('../../blog/*.svx');
+	const modules = import.meta.glob('../../proyectos/*.svx');
 	const promises = [];
 
 	for (const [path, resolver] of Object.entries(modules)) {
@@ -16,8 +16,8 @@ export async function GET() {
 		promises.push(promise);
 	}
 
-	const posts = await Promise.all(promises);
-	const sorted = posts.sort((a, b) => (+new Date(a.date) > +new Date(b.date) ? -1 : 1));
+	const items = await Promise.all(promises);
+	const sorted = items.sort((a, b) => (+new Date(a.date) > +new Date(b.date) ? -1 : 1));
 
 	return new Response(JSON.stringify(sorted));
 }
