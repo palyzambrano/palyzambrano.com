@@ -7,7 +7,7 @@
 
 <div class="bg-bg-white">
 	<Header />
-	<main>
+	<main class="max-w-screen-xl mx-auto">
 		<slot />
 	</main>
 	<Footer />

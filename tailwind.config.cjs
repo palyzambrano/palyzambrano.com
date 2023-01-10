@@ -11,8 +11,8 @@ module.exports = {
 				violet: '#98A2EB',
 				'tx-blue': '#394287',
 				'bg-white': '#FAFAFA',
-				rosita: '#FFE3EE',
-				rojito: '#F54F41'
+				'rosita': '#FFE3EE',
+				'rojito': '#F54F41'
 			},
 			fontFamily: {}
 		}

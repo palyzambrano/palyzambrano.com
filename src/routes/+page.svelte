@@ -28,18 +28,9 @@
 </svelte:head>
 
 <section class="flex items-center justify-center">
-	<div class="relative w-[600px] h-[600px] overflow-hidden">
-		<video
-			class="object-cover top-0 left-0 absolute w-[600px] h-[600px] m-auto border border-white"
-			autoplay
-			muted
-			loop
-			playsinline
-			height="610"
-			width="610"
-			src="/videos/paly.mp4"
-		/>
-	</div>
+	<figure class="relative w-[550px] h-[550px] overflow-hidden ml-[100px]">
+		<img alt="Ilustracion Paly" src="/me.gif"/>
+	</figure>
 	<div class="w-1/2 text-center space-y-6 text-tx-blue">
 		<h2 class="text-2xl ">Hola, soy Paly!</h2>
 		<p class="w-2/5 m-auto">
