@@ -33,7 +33,7 @@
 	</figure>
 	<div class="w-1/2 text-center space-y-6 text-tx-blue md:mt-[120px]">
 		<h2 class="text-2xl ">Hola, soy Paly!</h2>
-		<p class="w-2/5 m-auto">
+		<p class="w-2/5 m-auto font-extralight">
 			Me alegra que estés aquí, cree este espacio para contarte quien soy y que conozcas mi trabajo.
 		</p>
 		<a class=" text-white inline-block bg-violet px-8 py-2 rounded-full" href="/proyectos"
