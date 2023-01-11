@@ -10,15 +10,15 @@ const config = {
 	server: {
 		port: 3000
 	},
-	plugins: [sveltekit(),
+	plugins: [
+		sveltekit(),
 		Icons({
 			compiler: 'svelte',
 			customCollections: {
-			  custom: FileSystemIconLoader('./static/icons'),
-			},
-		  }),
+				custom: FileSystemIconLoader('./static/icons')
+			}
+		})
 	]
-
 };
 
 export default config;

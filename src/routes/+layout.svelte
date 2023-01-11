@@ -5,9 +5,9 @@
 	import '../app.css';
 </script>
 
-<div class="bg-bg-white">
+<div class="bg-bg-white text-body">
 	<Header />
-	<main class="max-w-screen-xl mx-auto">
+	<main class="max-w-screen-xl mx-auto mt-20">
 		<slot />
 	</main>
 	<Footer />

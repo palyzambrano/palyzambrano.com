@@ -33,8 +33,8 @@
 	<meta name="twitter:image:src" content={avatarUrl} />
 </svelte:head>
 
-<h2>Proyectos</h2>
-<section class="flex flex-wrap justify-center">
+<h2 class="text-4xl text-tx-blue mb-12">Proyectos</h2>
+<section class="flex flex-wrap justify-between">
 	{#each data.items as item}
 		<ProjectEntry {item} />
 	{/each}
