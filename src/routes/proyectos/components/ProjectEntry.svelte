@@ -14,9 +14,9 @@
 		<h3 class="text-4xl w-[340px] m-auto font-light">
 			{item.title}
 		</h3>
-		<div class="flex justify-center mb-16 ">
-			<p class="text-lg font-extralight"> ver más</p>
-			<Arrow class="w-12 ml-4 fill-white"/>
+		<div class="flex justify-center h-10">
+			<p class="text-lg font-extralight h-6"> ver más</p>
+			<Arrow class="w-12 ml-4 fill-white h-6 pt-2"/>
 		</div>
 	</article>
 </a>
