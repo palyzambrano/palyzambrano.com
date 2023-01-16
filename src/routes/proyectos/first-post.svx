@@ -1,86 +1,62 @@
 ---
-title: "Restore PostgreSQL database running in Docker Container"
-description: "Short guide on restoring your PostgreSQL database instance running in Docker"
+title: "Sitio Web Koffee Organics"
+description: "Diseño de sitio web e-commerce para koffee organics"
 categories: [pg_restore, dump, restore, docker, postgresql, psql, sql]
 icon: docker
 date: 2021-11-13
 lang: "en"
 preview_image_url: "https://images.unsplash.com/photo-1589532768434-a92c95dad7cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 ---
+ 
+## Koffee Organics
 
-When you are working on a feature that involves implementing new queries to
-the database, you may want to use a local environment to run your SQL queries
-instead of running these commands against the production instance.
+Este Proyecto fue creado para la asignatura de Emprendimientos y Servicios web 
+de la Carrera de Desarrollo y Diseño Web del Instituto Profesional Duoc UC, en 
+Conjunto con la marca Koffee Organics con el fin de desarrollar una propuesta 
+de servicio digital que considere los factores que inciden en la elaboración de 
+un proyecto según los requerimientos del mercado, cliente y/o usuario.
 
-This is a good idea if this database or the dump in question doesn't include
-any sensitive records.
+Koffe es un Emprendimiento de Productos Orgánicos para el cuidado de la piel 
+que inició en el año 2017 impulsado por el compromiso de su creadora por el 
+cuidado y respeto del medio ambiente.
 
-> Avoid dumping your database if sensitive data may be included in such dump, **it's a big deal to leak sensitive data**.
+Primera Etapa
 
-If you are not sure on what does _sensitive data_ means, here's some examples:
+Se realizó una instancia de acercamiento con el emprendedor para conocer sus 
+referentes en el mercado, su competencia, los problemas y  las necesidades a 
+las que se enfrenta para poder ofrecer una solución acorde a sus requerimientos.
 
-- Credit Card details
-- Sevice Tokens
-- Passwords (Even hashes)
-- Phone Numbers
-- Email Addresses
-- Physhical Addresses
+Se analizó la competencia y los referentes del cliente para poder conocer 
+qué es lo que espera lograr, los factores que analizamos fueron :  sus sitios 
+web, la forma en que se comunican con sus usuarios, cuales son sus plataformas 
+de venta, su identidad y el público al que se dirigen.
 
-## Running a PostgreSQL instance using Docker
+[ Resultados ]
 
-Open your terminal and paste the following docker command:
+Contexto: El emprendedor siente la necesidad de tener un sitio web que le 
+permita expandir su negocio e incrementar sus ventas, pero la mayoría de los 
+presupuestos que le han entregado no se ajustan a su modelo de negocio y le 
+ofrecen más herramientas de las que realmente cree necesitar.
 
-```bash
-docker run --name my_fav_pg_instance \ 
-  -e POSTGRES_PASSWORD=secret \
-  -d postgres
-```
 
-Here we are pulling the `postgres` image on it's latest release
-(`postgres:latest`). Then run `docker ps` to ensure the instance is running
-as expected:
+Problema:  Algunos de los problemas con los que se encuentra regularmente es 
+la poca confianza de la gente para realizar compras a través de redes sociales, 
+los tiempos de respuesta son muy lentos y las opciones de pago son más limitadas.
 
-```bash
-docker ps
 
-# Expect similar output
-CONTAINER ID   IMAGE      COMMAND                  CREATED              STATUS              PORTS      NAMES
-0a6dd23bac73   postgres   "docker-entrypoint.s…"   About a minute ago   Up About a minute   5432/tcp   my_fav_pg_instance
+Objetivo: El objetivo es desarrollar una plataforma digital que se ajuste a 
+las necesidades del cliente,  que le permita a su creadora trabajar desde su 
+casa para poder enfocarse en la producción y así automatizar el proceso de 
+compra para que de esta forma pueda tener un mayor índice de ventas,  realizar 
+un seguimiento y medir el progreso en el tiempo, que también  permita a sus 
+usuarios conocer la procedencia de los productos que ofrece, les enseñe a 
+utilizarlos y que además sus  usuarios puedan adquirir los productos desde 
+cualquier parte del país con distintos medios de pago.
 
-```
 
-This means our PostgreSQL image was builded and is now running on a container
-with the ID: `0a6dd23bac73`, the PostgreSQL instance is reachable on port `5432`.
+Al ser la primera vez que el cliente se va a mostrar en una plataforma digital 
+diferente a instagram se decidió  comenzar con un sitio web e-commerce que pueda 
+cubrir las necesidades básicas de la marca, utilizando herramientas que nos 
+ayuden a medir a corto plazo que el servicio que le ofrecemos esté funcionando 
+correctamente y obteniendo buenos resultados. 
 
-## Recover the database using an existing _dump_ file
-
-First let's execute a `CREATE DATABASE` query in our _dockerized_ PostgreSQL
-instance, this is the database we are going to use to run our "Recovery" or
-"Restore" process, I'm calling it _back_from_dump_.
-
-```bash
-docker exec -e PGPASSWORD=secret -i 0a6dd23bac73 psql -U postgres -d postgres -p 5432 -c 'CREATE DATABASE back_from_dump'
-```
-
-Then you must execute the `pg_restore` command through docker as well:
-
-```bash
-docker exec -e PGPASSWORD=secret -i 0a6dd23bac73 pg_restore -U postgres -p 5432 -v -d postgres < ~/Files/back_from_dump.dump
-
-```
-
-If it happens that you have ACL or Owner features in your dump, you can skip
-them using the `--no-owner`, `--no-acl` options.
-
-```bash
-docker exec -e PGPASSWORD=secret -i 0a6dd23bac73 pg_restore -U postgres -p 5432 -v -d postgres --no-owner --no-acl < ~/Files/back_from_dump.dump
-```
-
-## Conclusion
-
-To summarize, you are able to execute a dump on a PostgreSQL instance everywhere
-using the Dockerized environment, make sure your dump files are safe and
-sensitive data free.
-
-If you find any issues with this note, please don't hesitate to open a PR or
-issue in my [GitHub](https://github.com/EstebanBorai/EstebanBorai)!

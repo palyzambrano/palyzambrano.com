@@ -15,8 +15,8 @@
 			{item.title}
 		</h3>
 		<div class="flex justify-center h-10">
-			<p class="text-lg font-extralight h-6"> ver más</p>
-			<Arrow class="w-12 ml-4 fill-white h-6 pt-2"/>
+			<p class="text-lg font-extralight h-6">ver más</p>
+			<Arrow class="w-12 ml-4 fill-white h-6 pt-2" />
 		</div>
 	</article>
 </a>
