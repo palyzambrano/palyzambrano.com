@@ -50,7 +50,6 @@
 		loop
 		autoplay
 		muted
-		webkit-playsinline
 		playsinline
 		class="relative w-full -top-20"
 	>
