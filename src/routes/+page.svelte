@@ -30,7 +30,7 @@
 
 <section
   id="video-promocional"
-  class="w-screen"
+  class="h-screen w-screen"
 	>
 	<div class="absolute flex justify-center max-w-screen-xl z-10 mt-20 ml-16">
 		<figure class="w-[550px] h-[550px] overflow-hidden ml-[100px]">
@@ -46,14 +46,5 @@
 			>
 		</div>
 	</div>
-  	<video
-		loop
-		autoplay
-		muted
-		playsinline
-		class="relative w-full -top-20"
-	>
-    <source src="/videos/lila-ondas.mp4" />
-  </video>
 </section>
 

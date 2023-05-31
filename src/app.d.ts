@@ -16,6 +16,7 @@ declare namespace PalyzambranoDotCom {
 		categories: string[];
 		date: Date;
 		lang: string;
+		preview_image_url: string;
 	}
 
 	interface ProjectItem {
@@ -25,5 +26,6 @@ declare namespace PalyzambranoDotCom {
 		categories: string[];
 		date: Date;
 		lang: string;
+		preview_image_url: string;
 	}
 }

@@ -1,22 +1,34 @@
 <script lang="ts">
 	import Arrow from '~icons/custom/arrow';
 
+	import { humanDate } from '$lib/utils/date';
+
 	export let item: PalyzambranoDotCom.ProjectItem;
 
 	let date = new Date(item.date);
+	let dateString = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
 </script>
 
-<a href="/proyectos/{item.slug}">
-	<article
-		class="flex flex-col w-[380px] h-[380px] text-center bg-violet text-white justify-between"
-	>
-		<span class="text-sm mt-6 font-normal">{date.getMonth()} {date.getFullYear()}</span>
-		<h3 class="text-4xl w-[340px] m-auto font-light">
-			{item.title}
-		</h3>
-		<div class="flex justify-center h-10">
-			<p class="text-lg font-extralight h-6">ver más</p>
-			<Arrow class="w-12 ml-4 fill-white h-6 pt-2" />
+<article
+	class="flex flex-col w-[380px] h-[480px] text-center justify-between border border-sky-500 rounded-md"
+>
+	<div>
+		<div>
+			<h3 class="text-4xl w-[340px] m-auto">
+				{item.title}
+			</h3>
+			<time datetime="{dateString} 00:00">
+				{humanDate(date)}
+			</time>
 		</div>
-	</article>
-</a>
+	</div>
+	<div>
+		<p>{item.description}</p>
+		<figure class="h-[200px] overflow-hidden">
+			<img src="{item.preview_image_url}" height="200" alt="">
+		</figure>
+	</div>
+	<div>
+		<a href="/proyectos/{item.slug}">Algo</a>
+	</div>
+</article>
