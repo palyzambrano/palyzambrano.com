@@ -5,7 +5,7 @@ categories: [pg_restore, dump, restore, docker, postgresql, psql, sql]
 icon: docker
 date: 2021-11-13
 lang: "en"
-preview_image_url: "/me.gif"
+preview_image_url: "/img-card/kooffee-card.png"
 ---
  
 ## Koffee Organics

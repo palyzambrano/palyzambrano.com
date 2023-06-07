@@ -10,25 +10,26 @@
 </script>
 
 <article
-	class="flex flex-col w-[380px] h-[480px] text-center justify-between border border-sky-500 rounded-md"
+	class="bg-[url({item.preview_image_url})] flex flex-col w-[380px] h-[480px] text-left justify-between border border-sky-500 rounded-md" 
 >
-	<div>
+	<div class="mt-8">
 		<div>
-			<h3 class="text-4xl w-[340px] m-auto">
-				{item.title}
-			</h3>
-			<time datetime="{dateString} 00:00">
+			<time class="ml-4 mt-8" datetime="{dateString} 00:00">
 				{humanDate(date)}
 			</time>
+			<h3 class="text-2xl w-[340px] ml-4">
+				{item.title}
+			</h3>
+			<p class="ml-4 w-9/12">{item.description}</p>
+		</div>
+		<div>
+			<a href="/proyectos/{item.slug}">ver más </a>
 		</div>
 	</div>
 	<div>
-		<p>{item.description}</p>
 		<figure class="h-[200px] overflow-hidden">
 			<img src="{item.preview_image_url}" height="200" alt="">
 		</figure>
 	</div>
-	<div>
-		<a href="/proyectos/{item.slug}">Algo</a>
-	</div>
+	
 </article>
