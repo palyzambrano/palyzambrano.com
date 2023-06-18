@@ -1,5 +1,5 @@
 ---
-title: "Sitio Web Koffee Organics"
+title: "Koffee Organics"
 description: "Diseño de sitio web e-commerce para koffee organics"
 categories: [pg_restore, dump, restore, docker, postgresql, psql, sql]
 icon: docker
