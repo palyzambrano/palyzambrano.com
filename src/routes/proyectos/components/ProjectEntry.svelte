@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Arrow from '~icons/custom/arrow';
 
+	import Button from '$lib/components/Button.svelte';
 	import { humanDate } from '$lib/utils/date';
 
 	export let item: PalyzambranoDotCom.ProjectItem;
@@ -23,7 +24,8 @@
 			<p class="ml-4 w-9/12">{item.description}</p>
 		</div>
 		<div>
-			<a href="/proyectos/{item.slug}">ver más </a>
+			<Button>Paulina</Button>
+			<!-- <a href="/proyectos/{item.slug}">ver más </a> -->
 		</div>
 	</div>
 	<div>

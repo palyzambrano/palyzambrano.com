@@ -1,0 +1,38 @@
+<button class="button">
+   <slot/>
+</button>
+<style>
+    .button {
+  --font-color: #323232;
+  --bg-color: #fff;
+  --main-color: #323232;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #d1cdff;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.button:before {
+  background-color: transparent;
+  content: '';
+  top:3px;
+  position: absolute;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 20px;
+    transition: all .25s;
+}
+.button:hover::before {
+    left: 0px;
+    top:0px;
+    transition: all .25s;
+}
+</style>
