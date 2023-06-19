@@ -1,42 +1,46 @@
 <script lang="ts">
-	import Arrow from '~icons/custom/arrow';
+  import Arrow from '~icons/custom/arrow';
 
-	import Button from '$lib/components/Button.svelte';
-	import { humanDate } from '$lib/utils/date';
-	import Share from '$lib/components/Share.svelte';
+  import Button from '$lib/components/Button.svelte';
+  import { humanDate } from '$lib/utils/date';
+  import Share from '$lib/components/Share.svelte';
+  import { goto } from '$app/navigation';
 
-	export let item: PalyzambranoDotCom.ProjectItem;
+  export let item: PalyzambranoDotCom.ProjectItem;
 
-	let date = new Date(item.date);
-	let dateString = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
+  let date = new Date(item.date);
+  let dateString =
+    date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
 </script>
 
 <article
-	class="bg-[url({item.preview_image_url})] flex flex-col w-[380px] h-[480px] text-left justify-between border border-sky-500 rounded-md" 
+  class="bg-[#FAF7EF] flex flex-col w-[380px] h-[560px] text-left justify-between border border-zinc-900 rounded-2xl mt-6"
 >
-	<div class="">
-		<Share> Env</Share>
-		<!-- <a href="/proyectos/{item.slug}">ver más </a> -->
-	</div>
-	<div class="mt-8">
-		<div class=" ml-6  w-4/5">
-			<time class=" mt-8" datetime="{dateString} 00:00">
-				{humanDate(date)}
-			</time>
-			<h3 class="text-2xl">
-				{item.title}
-			</h3>
-			<p>{item.description}</p>
-		</div>
-	</div>
-	<div class=" ml-6 mt-6">
-		<Button>Paulina</Button>
-		<!-- <a href="/proyectos/{item.slug}">ver más </a> -->
-	</div>
-	<div>
-		<figure class="h-[200px] overflow-hidden">
-			<img src="{item.preview_image_url}" height="200" alt="">
-		</figure>
-	</div>
-	
+  <div class="flex justify-end pt-4 pr-4">
+    <Share>V</Share>
+  </div>
+  <div class="-mt-16">
+    <div class=" ml-6  w-4/5">
+      <time class=" mt-8" datetime="{dateString} 00:00">
+        {humanDate(date)}
+      </time>
+      <h3 class="text-2xl">
+        {item.title}
+      </h3>
+      <p>{item.description}</p>
+    </div>
+    <div class=" ml-6 mt-4">
+      <Button on:click={() => goto(`/proyectos/${item.slug}`)}>ver más</Button>
+    </div>
+  </div>
+  <div>
+    <figure class="h-[340px] overflow-hidden rounded-2xl">
+      <img
+        class="object-cover"
+        src={item.preview_image_url}
+        height="350"
+        alt=""
+      />
+    </figure>
+  </div>
 </article>
