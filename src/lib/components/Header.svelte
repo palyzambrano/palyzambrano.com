@@ -6,9 +6,10 @@
       <img alt="Paly Logo" src="/paly.png" height="50" width="50" />
     </figure>
   </a>
-  <nav class="space-x-8 text-tx-blue">
-    <a class="hover:text-rojito" href="/">Home</a>
-    <a class="hover:text-rojito" href="/proyectos">Proyectos</a>
-    <a class="hover:text-rojito" href="/blog">Blog</a>
+  <nav class="space-x-8">
+    <a href="/">Home</a>
+    <a href="/proyectos">Proyectos</a>
+    <a href="/servicios">Servicios</a>
+    <a href="/servicios">Acerca</a>
   </nav>
 </header>

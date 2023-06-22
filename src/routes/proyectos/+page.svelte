@@ -34,7 +34,11 @@
 </svelte:head>
 
 <div class="max-w-screen-xl mx-auto my-20 ">
-  <h2 class="text-4xl text-tx-blue mb-12">Proyectos</h2>
+  <div>
+    <h2 class="text-4xl mb-12 text-center">Mis Proyectos</h2>
+    <p class="text-center w-[600px] m-auto">Explora mi portafolio  y descubre como podemos hacer crecer tu emprendimiento, estoy aquí para hacer brillar tu presencia en línea.</p>
+  </div>
+  
   <section class="flex flex-wrap justify-between">
     {#each data.items as item}
       <ProjectEntry {item} />

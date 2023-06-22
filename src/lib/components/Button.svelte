@@ -1,4 +1,9 @@
-<button class="button" on:click>
+<script lang="ts">
+  let className: string;
+  export { className as class };
+</script>
+
+<button class="button {className || ''}" on:click>
   <slot />
 </button>
 
