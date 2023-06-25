@@ -1,17 +1,17 @@
 ---
-title: "Repuestos Bemarka"
-description: "Diseño de landing page informativa sobre la tienda de repuestos."
+title: "Marshall"
+description: "Diseño y Desarrollo de landingpage promocional para producto marshall."
 categories:  [diseno_web , desarrollo, branding]
 date: 2021-11-13
 lang: "en"
-preview_image_url: "/img-card/card-bmk.png"
-favorite: true
+preview_image_url: "/img-card/card-marshall.png"
+favorite: false
 tooling: [xd, ps, ai]
 project: "Diseño y Desarrollo Web"
 context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
  la búsqueda y compra de repuestos automotrices de calidad, garantizando una 
  experiencia de usuario satisfactoria y una aún mejor atención al cliente."
 brand_logo_url: "/brand_logo/bemarka_logo.png"
-client: "Bemarka"
+client: "Caso de estudio"
 ---
  

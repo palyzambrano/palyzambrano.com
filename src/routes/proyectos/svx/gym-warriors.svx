@@ -1,11 +1,19 @@
 ---
 title: "Gym Warriors"
 description: "Diseño de sitio web a modo de catálogo de servicios y precios."
-categories: []
-date: 2021-11-13
+categories: [diseno_web, desarrollo, branding]
+date: 2022-10-20
 lang: "es"
 preview_image_url: "/img-card/card-gw.png"
 favorite: false
+tooling: [xd, ps, ai]
+project: "Diseño y Desarrollo Web"
+context: "Gym Warriors es un proyecto de diseño y desarrollo web que busca ayudar 
+a las personas en su búsqueda de un estilo de vida saludable y activo,donde los 
+usuarios pueden recibir orientación acerca de los programas de entrenamiento y 
+nutricion en Gym Warriors."
+brand_logo_url: "/brand_logo/bemarka_logo.png"
+client: "Erik Rubilar"
 ---
 
-First post ever!
+hh

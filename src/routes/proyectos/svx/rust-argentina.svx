@@ -1,0 +1,21 @@
+---
+title: "Rust Argentina"
+description: "Diseño de sitio web para la comunidad de programacion en Lenguaje Rust"
+categories: [diseno_web]
+date: 2020-11-13
+lang: "es"
+preview_image_url: "/img-card/card-rust.png"
+favorite: false
+tooling: [xd, ps, ai]
+project: "Diseño Web"
+context: "La comunidad de Rust Argentina es un grupo de jóvenes y adultos que comparten el 
+interés por aprender y enseñar la práctica de Rust como lenguaje de programación a partir 
+de esto surge en ellos la necesidad de crear un sitio web que les permita tener más alcance 
+y más visibilidad para que más personas puedan acceder a tener la posibilidad de pertenecer 
+a la comunidad."
+brand_logo_url: "/brand_logo/lebon_logo.png"
+client: "Comunidad de Rust en Argentina"
+---
+
+
+

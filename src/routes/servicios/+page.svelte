@@ -9,7 +9,7 @@
         <p class="text-center w-[400px] m-auto">Quiero ayudarte a cumplir tus objetivos e impulsar tu crecimiento digital </p>
     </div>
     <div class="flex flex-col md:flex-row ">
-        <article class="border rounded-2xl flex flex-col md:flex-row m-4 bg-[#FFF5E8]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4 bg-[#FFF5E8]">
             <figure class="m-4 md:m-8 w-[120px]">
                 <img src="/img-servicios/design.png" alt="">
             </figure>
@@ -18,7 +18,7 @@
                 <p class="mt-4">puedo crear el diseño para tus interfaces de software o dispositivos</p>
             </div>
         </article>
-        <article class="border rounded-2xl flex flex-col md:flex-row m-4 bg-[#FFF5E8]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4 bg-[#FFF5E8]">
             <figure class="m-6 md:m-8 w-[120px]">
                 <img src="/img-servicios/desarrollo.png" alt="">
             </figure>
@@ -50,7 +50,7 @@
         <h2 class="text-2xl mb-12 text-center">conoce mi proceso</h2>
     </div>
     <div class="flex flex-col md:flex-row ">
-        <article class="border rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
             <figure class="m-4 md:m-8 w-[80px]">
                 <img src="/img-servicios/investigacion.png" alt="">
             </figure>
@@ -59,7 +59,7 @@
                 <p class="mt-4">puedo crear el diseño para tus interfaces de software o dispositivos</p>
             </div>
         </article>
-        <article class="border rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
             <figure class="m-4 md:m-8 w-[80px]">
                 <img src="/img-servicios/designer.png" alt="">
             </figure>
@@ -68,7 +68,7 @@
                 <p class="mt-4">puedo crear el diseño para tus interfaces de software o dispositivos</p>
             </div>
         </article>
-        <article class="border rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
             <figure class="m-4 md:m-8 w-[80px]">
                 <img src="/img-servicios/implementacion.png" alt="">
             </figure>
@@ -77,7 +77,7 @@
                 <p class="mt-4">puedo crear el diseño para tus interfaces de software o dispositivos</p>
             </div>
         </article>
-        <article class="border rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8]">
             <figure class="m-4 md:m-8 w-[80px]">
                 <img src="/img-servicios/ultrevision.png" alt="">
             </figure>

@@ -1,0 +1,21 @@
+---
+title: "Pill Watch"
+description: "Propuesta de app para crear recordatorios de medicamentos"
+categories: [diseno_web]
+date: 2020-07-07
+lang: "es"
+preview_image_url: "/img-card/card-pillwatch.png"
+favorite: false
+tooling: [xd, ps, ai, js]
+project: "Diseño - Caso de estudio"
+context: "Le Bon Dessert nace en el año 2019 con la ilusión de hacer tangible
+un proyecto independiente lleno de amor y dulzura, acompañada de un
+rosa suave y marrones desaturados que representan la calidez de 
+compartir y disfrutar deliciosos postres  y recetas tradicionales 
+elaborados con materias primas de primera calidad."
+brand_logo_url: "/brand_logo/lebon_logo.png"
+client: "Caso de Estudio"
+---
+
+
+

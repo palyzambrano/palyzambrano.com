@@ -1,3 +1,3 @@
-<p class="py-4 border">
+<p class="py-4">
   <slot />
 </p>

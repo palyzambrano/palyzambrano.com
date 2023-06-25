@@ -1,13 +1,13 @@
 ---
-title: "Repuestos Bemarka"
+title: "Euphoria Fest"
 description: "Diseño de landing page informativa sobre la tienda de repuestos."
 categories:  [diseno_web , desarrollo, branding]
 date: 2021-11-13
 lang: "en"
-preview_image_url: "/img-card/card-bmk.png"
-favorite: true
+preview_image_url: "/img-card/card-euphoria.png"
+favorite: false
 tooling: [xd, ps, ai]
-project: "Diseño y Desarrollo Web"
+project: "Diseño - Caso de estudio"
 context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
  la búsqueda y compra de repuestos automotrices de calidad, garantizando una 
  experiencia de usuario satisfactoria y una aún mejor atención al cliente."
