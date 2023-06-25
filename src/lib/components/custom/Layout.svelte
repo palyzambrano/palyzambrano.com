@@ -5,20 +5,22 @@
   export { h2, p };
 </script>
 
-<script lang="ts">
+<script>
   import { humanDate } from '$lib/utils/date';
-  export let title: string;
-  export let categories: string;
-  export let date: Date;
-  export let tooling: string[];
-  export let project: string;
-  export let context: string;
-  export let client: string;
-  export let brand_logo_url: string;
+
+  export let title;
+  export let categories;
+  export let date;
+  export let tooling;
+  export let project;
+  export let context;
+  export let client;
+  export let brand_logo_url;
+
   const publishedTime = new Date(date);
   const formattedDate = humanDate(publishedTime);
 
-  function translateCategories(cats: string[]): string[] {
+  function translateCategories(cats) {
     const traducciones = {
       diseno_web: "Diseño Web"
     }
