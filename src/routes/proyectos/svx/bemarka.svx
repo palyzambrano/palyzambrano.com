@@ -2,16 +2,35 @@
 title: "Repuestos Bemarka"
 description: "Diseño de landing page informativa sobre la tienda de repuestos."
 categories:  [diseno_web , desarrollo, branding]
-date: 2021-11-13
+date: 2021-12-17
 lang: "en"
 preview_image_url: "/img-card/card-bmk.png"
 favorite: true
-tooling: [xd, ps, ai]
+tooling: [xd, ps, ai, svelte, html, tailwind]
 project: "Diseño y Desarrollo Web"
 context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
  la búsqueda y compra de repuestos automotrices de calidad, garantizando una 
  experiencia de usuario satisfactoria y una aún mejor atención al cliente."
 brand_logo_url: "/brand_logo/bemarka_logo.png"
 client: "Bemarka"
+link_to_project: "https://repuestosbemarka.com"
 ---
  
+![portada](/img-brand/bemarka/portada-bemarka.png)
+
+
+En el desarrollo de nuestro proyecto de landing page para Repuestos Bemarka, nos enfocamos 
+en crear una plataforma en línea intuitiva y funcional para satisfacer las necesidades 
+de nuestros clientes en la búsqueda y adquisición de repuestos automotrices de alta calidad.
+
+Además, para brindar un excelente servicio al cliente, hemos implementado un sistema de 
+atención al cliente ágil y receptivo, integrando whatsapp para que los usuarios puedan 
+realizar consultas, obtener asesoramiento técnico y recibir soporte postventa de manera
+rápida y eficiente.
+
+![portada](/img-brand/bemarka/mobile-desktop.png)
+
+Dada la problematica y el contexto social del país en el que se encuentra esta tienda nuestro 
+objetivo principal fue encontrar la forma de brindar una experiencia de compra fluida y
+eficiente, donde los usuarios puedan encontrar fácilmente la tienda y obtener información 
+detallada sobre los productos y realizar compras de manera segura y conveniente.

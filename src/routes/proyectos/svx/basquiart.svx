@@ -1,17 +1,42 @@
 ---
 title: "Basquiart"
-description: "Proyecto institucional de Diseño de web site para festival de musica."
-categories:  [diseno_web, desarrollo, branding]
+description: "Proyecto Académico, propuesta de aplicación."
+categories: [diseno_web]
 date: 2021-06-07
 lang: "en"
 preview_image_url: "/img-card/card-basquiart.png"
 favorite: false
 tooling: [xd, ps, ai]
 project: "Diseño - Caso de estudio"
-context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
- la búsqueda y compra de repuestos automotrices de calidad, garantizando una 
- experiencia de usuario satisfactoria y una aún mejor atención al cliente."
-brand_logo_url: "/brand_logo/bemarka_logo.png"
-client: "Caso de estudio"
+context: "Basquiart es una propuesta de aplicación para la asignatura de Arquitectura 
+y diseño de interfaces, que propone impulsar las instancias de participacion de los ciudadanos
+con el trabajo de los artistas y así contribuir con la democratización cultural."
+brand_logo_url: "/brand_logo/basquiart_logo.png"
+client: "Proyecto Académico"
+link_to_project: "https://www.behance.net/gallery/125741687/Basquiart-UXUI"
 ---
  
+![portada](/img-brand/basquiart/portada-basquiart.png)
+
+El arte tiene la necesidad de cumplir su función social, llegar a distintos sectores 
+y poder generar un sistema de reconocimiento y valorizacion por el trabajo de los artistas,
+al mismo tiempo, fomentar la participacion de artistas emergentes a mostrar su arte en 
+espacios públicos y que este sirva para establecer un acto de educación popular.
+
+Para abordar estas problemáticas y necesidad, creamos una plataforma que impulse las 
+instancias de participación de los ciudadanos, para con el arte, dando lugar a que este 
+además de ser reconocido en las calles tenga su lugar en el mundo digital, y como 
+consecuencia un mayor alcance de público.
+
+![portada](/img-brand/basquiart/pantallas-app.png) 
+
+Algunas de sus principales funciones serían:
+
+* Con Basquiart podrías realizar donaciones a los diferentes artistas callejeros, 
+escaneando el código QR que ellos tendrán a disposición.
+* Para el método de pago la aplicación contaría con una billetera virtual para 
+añadir toas las tarjetas que el usuario desee.
+* Se podría ver toda la información del Artista al que le estás realizando la 
+donación, su biografia, obras, proyectos terminado y en proceso.
+* Podrás guardar los perfiles de tus artistas favoritos y mantenerte informado 
+de sus actividades artísticas.

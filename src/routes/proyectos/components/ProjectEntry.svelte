@@ -21,9 +21,9 @@
   </div>
   <div class="-mt-16">
     <div class=" ml-6  w-4/5">
-      <time class=" mt-8" datetime="{dateString} 00:00">
-        {humanDate(date)}
-      </time>
+      <span class=" mt-8">
+        {item.project}
+      </span>
       <h3 class="text-2xl">
         {item.title}
       </h3>

@@ -1,8 +1,8 @@
 ---
-title: "Gradient"
+title: "Gradients"
 description: "Gradient es tu destino en línea para adquirir cosméticos de calidad. "
 categories: [diseno_web , desarrollo, branding]
-date: 2020-11-13
+date: 2022-06-13
 lang: "es"
 preview_image_url: "/img-card/card-gradient.png"
 favorite: false
@@ -11,7 +11,7 @@ project: "Diseño y Desarrollo Web"
 context: "Nuestro objetivo principal es brindarte una experiencia de compra en línea 
 excepcional, combinando la comodidad de la tecnología con la emoción de descubrir 
 nuevos productos y tendencias en el mundo de la belleza."
-brand_logo_url: "/brand_logo/lebon_logo.png"
+brand_logo_url: "/brand_logo/gradients_logo.png"
 client: "M° Guadalupe Borai"
 ---
 
