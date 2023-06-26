@@ -1,6 +1,6 @@
 ---
 title: "Euphoria Fest"
-description: "Proyecto Académico."
+description: "Proyecto Académico, solución digital para festival de musica."
 categories:  [diseno_web , desarrollo, branding]
 date: 2021-05-30
 lang: "en"

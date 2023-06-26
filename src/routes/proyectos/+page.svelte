@@ -36,7 +36,7 @@
 <div class="max-w-screen-xl mx-auto my-20 ">
   <div>
     <h2 class="text-4xl mb-12 text-center">Mis Proyectos</h2>
-    <p class="text-center w-[600px] m-auto">Explora mi portafolio  y descubre como podemos hacer crecer tu emprendimiento, estoy aquí para hacer brillar tu presencia en línea.</p>
+    <p class="text-center md:w-1/3 md:m-auto mx-2">Explora mi portafolio  y descubre como podemos hacer crecer tu emprendimiento, estoy aquí para hacer brillar tu presencia en línea.</p>
   </div>
   
   <section class="flex flex-wrap justify-between">

@@ -8,10 +8,27 @@ preview_image_url: "/img-card/card-silcos.png"
 favorite: false
 tooling: [xd, ps, ai]
 project: "Diseño y Desarrollo Web"
-context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
- la búsqueda y compra de repuestos automotrices de calidad, garantizando una 
- experiencia de usuario satisfactoria y una aún mejor atención al cliente."
-brand_logo_url: "/brand_logo/bemarka_logo.png"
+context: "Diseño y desarrollo web del portafolio para la agencia inmobiliaria Silva & Cosmeli
+tiene como objetivo crear una plataforma en línea profesional y atractiva para mostrar los 
+servicios y propiedades de la agencia."
 client: "Caso de estudio"
+link_to_project: "https://github.com/palyzambrano/marshall"
 ---
- 
+ Silva&Cosmeli es un proyecto Diseñado y desarrollado para la asignatura de Administracion 
+ de contenido, el objetivo principal es facilitar a los visitantes la búsqueda y visualización 
+ de propiedades.
+
+![portada](/img-brand/silcos/silcos-home.png)
+
+El diseño del sitio web refleja la identidad y el enfoque de la agencia. Se utilizó una 
+combinación de colores elegantes y sofisticados, junto con elementos visuales de alta calidad, 
+para transmitir una imagen de confianza y profesionalismo. La navegación será sencilla y 
+clara, permitiendo a los visitantes acceder fácilmente a las diferentes secciones del portafolio.
+
+![portada](/img-brand/silcos/silcos-servicios.png)
+
+La sección "Sobre nosotros" brindará información detallada sobre la agencia, su historia, su 
+equipo y su enfoque en el servicio al cliente. Esto ayudará a los visitantes a conocer mejor 
+a Silva & Cosmeli y generar confianza en su profesionalismo y compromiso.
+
+![portada](/img-brand/silcos/silcos-contacto.png)

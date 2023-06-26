@@ -1,17 +1,29 @@
 ---
 title: "Marshall"
 description: "Diseño y Desarrollo de landingpage promocional para producto marshall."
-categories:  [diseno_web , desarrollo, branding]
-date: 2021-11-13
+categories: [diseno_web , desarrollo]
+date: 2022-04-05
 lang: "en"
 preview_image_url: "/img-card/card-marshall.png"
 favorite: false
-tooling: [xd, ps, ai]
+tooling: [xd, php, wp]
 project: "Diseño y Desarrollo Web"
-context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
- la búsqueda y compra de repuestos automotrices de calidad, garantizando una 
- experiencia de usuario satisfactoria y una aún mejor atención al cliente."
-brand_logo_url: "/brand_logo/bemarka_logo.png"
+context: "El proyecto de Diseño y Desarrollo de la landing page promocional para el 
+producto Marshall es una oportunidad emocionante para destacar las características 
+únicas y el atractivo de este icónico producto de audio."
+brand_logo_url: "/brand_logo/marshall_logo.png"
 client: "Caso de estudio"
+link_to_project: "https://github.com/palyzambrano/marshall"
 ---
  
+Marshall es un proyecto Diseñado y desarrollado para la asignatura de Administracion de contenido,
+en esta landing page promocional, se destacaron las principales características del producto Marshall, 
+como su calidad de sonido excepcional, su diseño icónico y su versatilidad para adaptarse a 
+diferentes necesidades y estilos de vida. 
+
+Además, se resaltan las ventajas y beneficios específicos del producto Marshall, como su durabilidad, 
+conectividad inalámbrica y controles intuitivos. Asimismo, la landing page fue diseñana completamente 
+responsive, adaptándose a diferentes dispositivos y tamaños de pantalla para brindar una experiencia 
+de usuario óptima, se incorporaron formularios de contacto y llamados a la acción claros y llamativos.
+
+![portada](/img-brand/marshall/landing-marshall.png)

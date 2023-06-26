@@ -2,7 +2,7 @@
 title: "Rust Argentina"
 description: "Diseño de sitio web para la comunidad de programacion en Lenguaje Rust"
 categories: [diseno_web]
-date: 2020-11-13
+date: 2021-05-10
 lang: "es"
 preview_image_url: "/img-card/card-rust.png"
 favorite: false
@@ -13,9 +13,30 @@ interés por aprender y enseñar la práctica de Rust como lenguaje de programac
 de esto surge en ellos la necesidad de crear un sitio web que les permita tener más alcance 
 y más visibilidad para que más personas puedan acceder a tener la posibilidad de pertenecer 
 a la comunidad."
-brand_logo_url: "/brand_logo/lebon_logo.png"
+brand_logo_url: "/brand_logo/rust_logo.png"
 client: "Comunidad de Rust en Argentina"
+link_to_project: "https://www.behance.net/gallery/152325983/Rust-Argentina-Redesign-Website"
 ---
 
+![portada](/img-brand/rust/portada-rust.png)
 
+Los objetivos principales para el sitio web eran comunicar a que se dedican, fomentar su 
+crecimiento, mostrar sus proyectos y facilitar recursos para que nuevas personas puedan 
+aprender el lenguaje.
 
+El diseño general del sitio web se basará en una estética moderna y minimalista, con colores 
+que reflejen la identidad de Rust y elementos visuales relacionados con la programación. La 
+interfaz será intuitiva y de fácil navegación, permitiendo a los usuarios acceder rápidamente 
+a las diferentes secciones y recursos disponibles.
+
+La sección dedicada a la documentación de Rust es fundamental en el sitio web. Aquí se 
+proporcionán recursos, como guías de inicio rápido, tutoriales, ejemplos de código y referencias,
+para ayudar a los programadores a familiarizarse con el lenguaje y mejorar sus habilidades 
+de programación en Rust.
+
+![portada](/img-brand/rust/mobile-rust.png)
+
+La adaptabilidad y la responsividad serán fundamentales en el diseño web, asegurándonos de 
+que el sitio sea accesible y se vea bien en diferentes dispositivos y tamaños de pantalla. 
+Esto garantizará que los usuarios puedan acceder y participar en la comunidad de programación 
+de Rust desde cualquier lugar y en cualquier momento.

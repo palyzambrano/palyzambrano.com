@@ -2,7 +2,7 @@
 title: "Koffee Organics"
 description: "Diseño de sitio web e-commerce para koffee organics"
 categories: [diseno_web]
-date: 2021-11-13
+date: 2022-12-15
 lang: "en"
 preview_image_url: "/img-card/card-kof.png"
 favorite: true
@@ -15,40 +15,20 @@ de servicio digital que considere los factores que inciden en la elaboración de
 un proyecto según los requerimientos del mercado, cliente y/o usuario."
 brand_logo_url: "/brand_logo/koffee_logo.png"
 client: "Ornella Lazen"
-
+link_to_project: "https://www.behance.net/gallery/159289445/Koffee-Organics-Web-Design"
 ---
 
-![portada](/img-home/slider-hero.png)
+![portada](/img-brand/koffee/portada-koffee.png)
 
-Koffe es un Emprendimiento de Productos Orgánicos para el cuidado de la piel 
-que inició en el año 2017 impulsado por el compromiso de su creadora por el 
+Koffe es un Emprendimiento de Productos Orgánicos impulsado por el compromiso de su creadora por el 
 cuidado y respeto del medio ambiente.
 
-Primera Etapa
+El emprendedor siente la necesidad de tener un sitio web que le 
+permita expandir su negocio e incrementar sus ventas.
 
-Se realizó una instancia de acercamiento con el emprendedor para conocer sus 
-referentes en el mercado, su competencia, los problemas y  las necesidades a 
-las que se enfrenta para poder ofrecer una solución acorde a sus requerimientos.
+![portada](/img-brand/koffee/stick.png)
 
-Se analizó la competencia y los referentes del cliente para poder conocer 
-qué es lo que espera lograr, los factores que analizamos fueron :  sus sitios 
-web, la forma en que se comunican con sus usuarios, cuales son sus plataformas 
-de venta, su identidad y el público al que se dirigen.
-
-[ Resultados ]
-
-Contexto: El emprendedor siente la necesidad de tener un sitio web que le 
-permita expandir su negocio e incrementar sus ventas, pero la mayoría de los 
-presupuestos que le han entregado no se ajustan a su modelo de negocio y le 
-ofrecen más herramientas de las que realmente cree necesitar.
-
-
-Problema:  Algunos de los problemas con los que se encuentra regularmente es 
-la poca confianza de la gente para realizar compras a través de redes sociales, 
-los tiempos de respuesta son muy lentos y las opciones de pago son más limitadas.
-
-
-Objetivo: El objetivo es desarrollar una plataforma digital que se ajuste a 
+El objetivo es desarrollar una plataforma digital que se ajuste a 
 las necesidades del cliente,  que le permita a su creadora trabajar desde su 
 casa para poder enfocarse en la producción y así automatizar el proceso de 
 compra para que de esta forma pueda tener un mayor índice de ventas,  realizar 
@@ -57,10 +37,9 @@ usuarios conocer la procedencia de los productos que ofrece, les enseñe a
 utilizarlos y que además sus  usuarios puedan adquirir los productos desde 
 cualquier parte del país con distintos medios de pago.
 
+![portada](/img-brand/koffee/carrito-koffee.png)
 
 Al ser la primera vez que el cliente se va a mostrar en una plataforma digital 
 diferente a instagram se decidió  comenzar con un sitio web e-commerce que pueda 
-cubrir las necesidades básicas de la marca, utilizando herramientas que nos 
-ayuden a medir a corto plazo que el servicio que le ofrecemos esté funcionando 
-correctamente y obteniendo buenos resultados. 
+cubrir las necesidades básicas de la marca.
 

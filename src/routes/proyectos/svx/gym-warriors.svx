@@ -1,19 +1,35 @@
 ---
 title: "Gym Warriors"
 description: "Diseño de sitio web a modo de catálogo de servicios y precios."
-categories: [diseno_web, desarrollo, branding]
-date: 2022-10-20
+categories: [diseno_web, desarrollo]
+date: 2022-11-26
 lang: "es"
 preview_image_url: "/img-card/card-gw.png"
 favorite: false
-tooling: [xd, ps, ai]
+tooling: [xd, ps, ai, svelte, tailwind]
 project: "Diseño y Desarrollo Web"
 context: "Gym Warriors es un proyecto de diseño y desarrollo web que busca ayudar 
 a las personas en su búsqueda de un estilo de vida saludable y activo,donde los 
 usuarios pueden recibir orientación acerca de los programas de entrenamiento y 
 nutricion en Gym Warriors."
-brand_logo_url: "/brand_logo/bemarka_logo.png"
+brand_logo_url: "/brand_logo/gym_logo.png"
 client: "Erik Rubilar"
+link_to_project: "https://gymwarriors.cl"
 ---
 
-hh
+El equipo de warriors necesitaba encontrar la forma de mostrar sus planes y servicios 
+a posibles clientes para agilizar el proceso de inscripción que se veía afectado por 
+los tiempos de respuesta de whatsapp lo que en consecuencia dificulta concretar las 
+suscripciones de los clientes.
+
+ ![portada](/img-brand/gym/portada-gym.png)
+
+La Solución fue crear un sitio web que además de mostrar los planes detallados que 
+ellos tienen disponibles, también permita a los clientes hacer un pequeño recorrido 
+por las instalaciones y conocer al equipo que está detrás de este proyecto.
+
+el principal foco de este proyecto fue que tenia que ser mobile first, dado a que 
+la mayoria de los usuarios buscaban informacion como primera instancia en instagram 
+y de ahí eran trasladados al sitio web.
+
+  ![portada](/img-brand/gym/flujo-gym.png)
