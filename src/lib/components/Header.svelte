@@ -10,6 +10,6 @@
     <a href="/">Home</a>
     <a href="/proyectos">Proyectos</a>
     <a href="/servicios">Servicios</a>
-    <a href="/servicios">Acerca</a>
+    <a href="/acerca">Acerca</a>
   </nav>
 </header>

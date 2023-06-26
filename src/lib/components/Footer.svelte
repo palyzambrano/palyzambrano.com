@@ -6,41 +6,45 @@
   const currentYear = new Date().getFullYear();
 </script>
 
-<footer>
-  <section class="flex flex-col text-center text-violet mb-10">
+<footer class="bg-[#D1CDFF]">
+  <section class="flex flex-col text-center  py-10">
     <h5 class="text-lg font-normal">Gracias por venir</h5>
     <span class="text-base font-extralight"
       >También puedes visitarme por acá</span
     >
     <div class="flex justify-center space-x-4 my-4 content-center">
       <a
-        class="rounded-full border-violet border-2 w-14 h-14 flex"
+        class="rounded-full border-black border w-14 h-14 flex"
         href="https://www.behance.net/palyzambrano"
+        target="_blank"
       >
-        <Behance class="m-auto fill-violet" />
+        <Behance class="m-auto " />
       </a>
       <a
-        class="rounded-full border-violet border-2 w-14 h-14 flex"
+        class="rounded-full border-black border w-14 h-14 flex"
         href="https://github.com/palyzambrano"
+        target="_blank"
       >
-        <Github class="m-auto fill-violet" />
+        <Github class="m-auto" />
       </a>
       <a
-        class="rounded-full border-violet border-2 w-14 h-14 flex"
+        class="rounded-full border-black border w-14 h-14 flex"
         href="https://www.linkedin.com/in/palyzambrano"
+        target="_blank"
       >
-        <Linkedin class="m-auto fill-violet" />
+        <Linkedin class="m-auto " />
       </a>
       <a
-        class="rounded-full border-violet border-2 w-14 h-14 flex"
+        class="rounded-full border-black border w-14 h-14 flex"
         href="https://www.instagram.com/palyzambrano"
+        target="_blank"
       >
-        <Instagram class="m-auto fill-violet" />
+        <Instagram class="m-auto" />
       </a>
     </div>
   </section>
 
-  <div class="bg-violet text-white p-2">
-    <p class="text-sm">{currentYear}</p>
+  <div class="text-black p-2 bg-[#ABA3FF]">
+    <p class="text-sm text-center">{currentYear} Diseñado y Desarrollado por Paulina Zambrano </p>
   </div>
 </footer>
