@@ -13,46 +13,49 @@
 
   const BRAND_SLIDES = [
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-bemarka.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-lebon.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-gym.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-koffee.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-rust.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-bemarka.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-lebon.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-gym.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-koffee.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-rust.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-bemarka.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-lebon.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-gym.png'
     },
     {
-      src: '/brand_logo/basquiart_logo.png'
+      src: '/img-home/home-koffee.png'
+    },
+    {
+      src: '/img-home/home-rust.png'
     }
   ];
 
@@ -83,15 +86,41 @@
   <meta name="twitter:creator" content="@PalyZambrano" />
   <meta name="twitter:image:src" content={avatarUrl} />
 </svelte:head>
+
+
 <!--Slider Hero-->
-<section>
-  <figure class="">
-    <img class="w-full" src="" alt="" />
-  </figure>
+<section class="w-screen">
+  <div class="max-w-screen-xl mx-auto flex md:flex-row flex-col flex-col-reverse justify-center items-center my-20"> 
+    <div class="md:w-4/6 mx-4">
+      <h3 class="text-xl uppercase mt-10 text-center md:text-left">Destaca entre la multitud</h3>
+      <h1 class="text-3xl md:text-5xl uppercase font-medium mb-8 text-center md:text-left">Te ayudo a transformar tus ideas y llevarlas al mundo digital </h1>
+      <Button on:click={() => goto('/servicios')}>Contáctame </Button>
+    </div>
+    <figure class="mt-10">
+      <img class="w-4/5 md:w-2/7 m-auto" src="/img-home/hero.png" alt="" />
+    </figure>
+  </div>
+</section>
+<section class="bg-[#FDDCAF] h-10 flex justify-center items-center my-30 border-b-2 border-t-2 border-black overflow-hidden -rotate-2">
+  <h5 class="text-xl px-8 uppercase font-semibold">
+    bienvenido a mi universo
+  </h5>
+  <h5 class="text-xl px-8 uppercase font-semibold">
+    bienvenido a mi universo
+  </h5>
+  <h5 class="text-xl px-8 uppercase font-semibold">
+    bienvenido a mi universo
+  </h5>
+  <h5 class="text-xl px-8 uppercase font-semibold">
+    bienvenido a mi universo
+  </h5>
+  <h5 class="text-xl px-8 uppercase font-semibold">
+    bienvenido a mi universo
+  </h5>
 </section>
 
 <!--About-->
-<section class=" w-screen">
+<section class="w-screen">
   <div
     class="flex flex-col md:flex-row md:justify-center max-w-screen-xl z-10 mt-20 mx-4 md:ml-16"
   >
@@ -99,7 +128,7 @@
       <img alt="foto de paly en la playa" src="/img-home/fotopaly.png" />
     </figure>
     <div class="md:w-1/2 text-left space-y-6 md:mt-[80px] md:ml-16">
-      <h2 class="text-4xl font-semibold uppercase">Hola, soy Paly!</h2>
+      <h2 class="text-3xl md:text-4xl font-semibold uppercase">Hola, soy Paly!</h2>
       <p class="w-full md:w-3/4 text-xl">
         Me alegra que estés aquí, cree este espacio para contarte quien soy y
         que conozcas mi trabajo
@@ -119,7 +148,7 @@
     <h2 class="text-3xl font-semibold uppercase text-center w-[300px] mx-auto py-8">Confiaron en mí</h2>
   </div>
   <InfiniteCarousel slides={BRAND_SLIDES} let:slide>
-    <div class="border border-red-200">
+    <div>
       <img
         alt="logo de basquiart"
         src={slide.src}
@@ -132,7 +161,7 @@
 
 <!--Proyectos Favoritos-->
 <section class="max-w-screen-xl mx-auto my-20">
-  <h2 class="text-4xl font-normal uppercase text-center w-[350px] m-auto">
+  <h2 class="text-3xl md:text-4xl font-normal uppercase text-center w-[350px] m-auto">
     Algunos de mis proyectos <strong>favoritos</strong>
   </h2>
   <p class=" w-full md:w-[600px] m-auto text-xl text-center my-8">
@@ -151,14 +180,14 @@
   class="flex flex-col md:flex-row justify-evenly items-center w-full bg-[#F1F0FE] py-16 px-16"
 >
   <!--CTA Form-->
-  <div class="flex flex-col justify-items-center md:w-1/2">
-    <h2 class="text-4xl font-semibold uppercase w-3/4  text-center md:text-left">
+  <div class="flex flex-col justify-items-center md:w-1/2 mx-auto">
+    <h2 class="text-3xl md:text-4xl font-semibold uppercase w-full md:w-3/4  text-center md:text-left">
       Dale a tu proyecto el valor que se merece
     </h2>
-    <p class="text-xl w-3/5  my-4 text-center md:text-left">
+    <p class="text-xl w-full md:w-3/5  my-4 text-center md:text-left">
       Te ayudo a potenciar tu desarrollo en el mundo digital.
     </p>
-    <Button class="w-max">Necesitas ayuda?</Button>
+    <Button class="md:w-max">Necesitas ayuda?</Button>
   </div>
   <!--Ilustraciones-->
   <div

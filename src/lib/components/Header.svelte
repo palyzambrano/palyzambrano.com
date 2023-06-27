@@ -7,7 +7,7 @@
 >
   <a href="/">
     <figure>
-      <img alt="Paly Logo" src="/paly.png" height="50" width="50" />
+      <img alt="Paly Logo" src="/paly.png" height="65" width="65" />
     </figure>
   </a>
   <nav>
