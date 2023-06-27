@@ -86,7 +86,7 @@
 <!--Slider Hero-->
 <section>
   <figure class="">
-    <img class="w-full" src="/img-home/slider-hero.png" alt="" />
+    <img class="w-full" src="" alt="" />
   </figure>
 </section>
 
