@@ -14,7 +14,7 @@
 </script>
 
 <article
-  class="bg-[#FAF7EF] flex flex-col w-[380px] h-[560px] text-left justify-between border border-zinc-900 rounded-2xl mt-6"
+  class="bg-[#FAF7EF] flex flex-col w-[360px] md:w-[380px] h-[560px] text-left justify-between border border-zinc-900 rounded-2xl mt-6"
 >
   <div class="flex justify-end pt-4 pr-4">
     <Share>V</Share>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div>
-    <figure class="h-[340px] overflow-hidden rounded-2xl">
+    <figure class="h-[320px] overflow-hidden rounded-2xl">
       <img
         class="object-cover"
         src={item.preview_image_url}

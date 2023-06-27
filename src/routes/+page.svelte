@@ -90,31 +90,35 @@
 
 <!--Slider Hero-->
 <section class="w-screen">
-  <div class="max-w-screen-xl mx-auto flex md:flex-row flex-col flex-col-reverse justify-center items-center my-20"> 
-    <div class="md:w-4/6 mx-4">
+  <div class="max-w-screen-xl mx-auto flex md:flex-row flex-col-reverse justify-center items-center my-20 w-full"> 
+    <div class="md:w-4/6 mx-4  justify-items-center">
       <h3 class="text-xl uppercase mt-10 text-center md:text-left">Destaca entre la multitud</h3>
       <h1 class="text-3xl md:text-5xl uppercase font-medium mb-8 text-center md:text-left">Te ayudo a transformar tus ideas y llevarlas al mundo digital </h1>
-      <Button on:click={() => goto('/servicios')}>Contáctame </Button>
+      <div class="flex justify-center md:justify-start">
+        <Button on:click={() => goto('/servicios')}>Contáctame </Button>
+      </div>
     </div>
     <figure class="mt-10">
       <img class="w-4/5 md:w-2/7 m-auto" src="/img-home/hero.png" alt="" />
     </figure>
   </div>
 </section>
+
+<!--barra naranja-->
 <section class="bg-[#FDDCAF] h-10 flex justify-center items-center my-30 border-b-2 border-t-2 border-black overflow-hidden -rotate-2">
   <h5 class="text-xl px-8 uppercase font-semibold">
     bienvenido a mi universo
   </h5>
-  <h5 class="text-xl px-8 uppercase font-semibold">
+  <h5 class="text-xl px-8 uppercase font-semibold hidden md:inline-block">
     bienvenido a mi universo
   </h5>
-  <h5 class="text-xl px-8 uppercase font-semibold">
+  <h5 class="text-xl px-8 uppercase font-semibold hidden md:inline-block ">
     bienvenido a mi universo
   </h5>
-  <h5 class="text-xl px-8 uppercase font-semibold">
+  <h5 class="text-xl px-8 uppercase font-semibold hidden md:inline-block">
     bienvenido a mi universo
   </h5>
-  <h5 class="text-xl px-8 uppercase font-semibold">
+  <h5 class="text-xl px-8 uppercase font-semibold hidden md:inline-block">
     bienvenido a mi universo
   </h5>
 </section>
@@ -124,10 +128,10 @@
   <div
     class="flex flex-col md:flex-row md:justify-center max-w-screen-xl z-10 mt-20 mx-4 md:ml-16"
   >
-    <figure class="md:w-[550px] md:h-[550px] md:ml-[100px]">
-      <img alt="foto de paly en la playa" src="/img-home/fotopaly.png" />
+    <figure class="md:w-1/2 md:ml-[100px]">
+      <img class="w-4/5 mx-auto mb-10" alt="foto de paly en la playa" src="/img-home/fotopaly.png" />
     </figure>
-    <div class="md:w-1/2 text-left space-y-6 md:mt-[80px] md:ml-16">
+    <div class="md:w-1/2 text-left space-y-6 md:mt-[80px] ml-4 md:ml-16">
       <h2 class="text-3xl md:text-4xl font-semibold uppercase">Hola, soy Paly!</h2>
       <p class="w-full md:w-3/4 text-xl">
         Me alegra que estés aquí, cree este espacio para contarte quien soy y
@@ -143,7 +147,7 @@
 </section>
 
 <!--Marcas-->
-<section class="bg-[#FFF5E8] my-8">
+<section class="bg-[#FFF5E8] my-12">
   <div>
     <h2 class="text-3xl font-semibold uppercase text-center w-[300px] mx-auto py-8">Confiaron en mí</h2>
   </div>
@@ -161,24 +165,23 @@
 
 <!--Proyectos Favoritos-->
 <section class="max-w-screen-xl mx-auto my-20">
-  <h2 class="text-3xl md:text-4xl font-normal uppercase text-center w-[350px] m-auto">
+  <h2 class="text-3xl md:text-4xl font-normal uppercase text-center w-[280px] md:w-[350px] m-auto">
     Algunos de mis proyectos <strong>favoritos</strong>
   </h2>
-  <p class=" w-full md:w-[600px] m-auto text-xl text-center my-8">
+  <p class="md:w-[600px] w-10/12 m-6 md:mx-auto text-xl text-center my-8">
     La magia del diseño está presente en cada proyecto que emprendo. creemos
     juntos la solución web perfecta para ti.
   </p>
-  <div class="flex flex-wrap justify-between">
+  <div class="flex flex-wrap justify-center md:justify-evenly">
     {#each data.items as item}
-      <ProjectEntry {item} />
+      <ProjectEntry {item}/>
     {/each}
   </div>
 </section>
 
 <!--Servicios-->
 <section
-  class="flex flex-col md:flex-row justify-evenly items-center w-full bg-[#F1F0FE] py-16 px-16"
->
+  class="flex flex-col md:flex-row justify-evenly items-center w-full bg-[#F1F0FE] py-20 px-8 md:px-28">
   <!--CTA Form-->
   <div class="flex flex-col justify-items-center md:w-1/2 mx-auto">
     <h2 class="text-3xl md:text-4xl font-semibold uppercase w-full md:w-3/4  text-center md:text-left">
