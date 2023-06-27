@@ -98,13 +98,13 @@
     <figure class="md:w-[550px] md:h-[550px] md:ml-[100px]">
       <img alt="foto de paly en la playa" src="/img-home/fotopaly.png" />
     </figure>
-    <div class="md:w-1/2 text-left space-y-6 md:mt-[120px] md:ml-16">
-      <h2 class="text-2xl">Hola, soy Paly!</h2>
-      <p class="w-full md:w-3/4">
+    <div class="md:w-1/2 text-left space-y-6 md:mt-[80px] md:ml-16">
+      <h2 class="text-4xl font-semibold uppercase">Hola, soy Paly!</h2>
+      <p class="w-full md:w-3/4 text-xl">
         Me alegra que estés aquí, cree este espacio para contarte quien soy y
         que conozcas mi trabajo
       </p>
-      <p class="w-full md:w-3/4">
+      <p class="w-full md:w-3/4 text-xl">
         Explora mi portafolio y descubre como podemos hacer crecer tu
         emprendimiento, estoy aquí para hacer brillar tu presencia en línea.
       </p>
@@ -116,7 +116,7 @@
 <!--Marcas-->
 <section class="bg-[#FFF5E8] my-8">
   <div>
-    <h2 class="text-2xl text-center w-[300px] mx-auto py-8">Confiaron en mí</h2>
+    <h2 class="text-3xl font-semibold uppercase text-center w-[300px] mx-auto py-8">Confiaron en mí</h2>
   </div>
   <InfiniteCarousel slides={BRAND_SLIDES} let:slide>
     <div class="border border-red-200">
@@ -132,10 +132,10 @@
 
 <!--Proyectos Favoritos-->
 <section class="max-w-screen-xl mx-auto my-20">
-  <h2 class="text-2xl text-center w-[300px] m-auto">
+  <h2 class="text-4xl font-normal uppercase text-center w-[350px] m-auto">
     Algunos de mis proyectos <strong>favoritos</strong>
   </h2>
-  <p class=" w-full md:w-[600px] m-auto text-center mt-4">
+  <p class=" w-full md:w-[600px] m-auto text-xl text-center my-8">
     La magia del diseño está presente en cada proyecto que emprendo. creemos
     juntos la solución web perfecta para ti.
   </p>
@@ -152,11 +152,11 @@
 >
   <!--CTA Form-->
   <div class="flex flex-col justify-items-center md:w-1/2">
-    <h2 class="text-2xl text-center md:text-left">
+    <h2 class="text-4xl font-semibold uppercase w-3/4  text-center md:text-left">
       Dale a tu proyecto el valor que se merece
     </h2>
-    <p class="my-4 text-center md:text-left">
-      Te ayudo a potenciar tu desarrollo en el mundo digital
+    <p class="text-xl w-3/5  my-4 text-center md:text-left">
+      Te ayudo a potenciar tu desarrollo en el mundo digital.
     </p>
     <Button class="w-max">Necesitas ayuda?</Button>
   </div>
@@ -171,7 +171,7 @@
           src="/img-home/colaboracion.png"
         />
       </figure>
-      <h3 class="w-[120px] text-center mx-auto mt-4">
+      <h3 class="w-[120px] text-l font-semibold uppercase text-center mx-auto mt-4">
         Creamos en colaboración
       </h3>
     </article>
@@ -182,7 +182,7 @@
           src="/img-home/responsive.png"
         />
       </figure>
-      <h3 class="w-[120px] text-center mx-auto mt-4">Diseño web Responsivo</h3>
+      <h3 class="w-[120px] text-l font-semibold uppercase text-center mx-auto mt-4">Diseño web Responsivo</h3>
     </article>
     <article>
       <figure class=" w-[140px] mt-8 m-auto md:w-[120px]">
@@ -191,7 +191,7 @@
           src="/img-home/personalizado.png"
         />
       </figure>
-      <h3 class="w-[120px] text-center mx-auto mt-4">
+      <h3 class="w-[120px] text-l font-semibold uppercase text-center mx-auto mt-4">
         Sin plantillas y a tu medida
       </h3>
     </article>

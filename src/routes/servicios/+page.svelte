@@ -5,26 +5,26 @@
 <!--servicios-->
 <section class="max-w-screen-xl mx-auto my-20 ">
     <div>
-        <h2 class="text-4xl mb-12 text-center">Servicios</h2>
-        <p class="text-center w-[400px] m-auto">Quiero ayudarte a cumplir tus objetivos e impulsar tu crecimiento digital </p>
+        <h2 class="text-4xl font-semibold uppercase mb-6 text-center">Servicios</h2>
+        <p class="text-center w-[400px] m-auto mb-10 text-xl">Quiero ayudarte a cumplir tus objetivos e impulsar tu crecimiento digital </p>
     </div>
     <div class="flex flex-col md:flex-row ">
-        <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4 bg-[#FFF5E8]">
-            <figure class="m-4 md:m-8 w-[120px]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4">
+            <figure class="m-4 md:m-8 w-[160px]">
                 <img src="/img-servicios/design.png" alt="">
             </figure>
             <div class="m-6 md:m-8">
-                <h3>Diseño de interfaz</h3>
-                <p class="mt-4">puedo crear el diseño para tus interfaces de software o dispositivos</p>
+                <h3 class="text-2xl">Diseño de interfaz</h3>
+                <p class="mt-4 text-xl">puedo crear el diseño para tus interfaces de software o dispositivos</p>
             </div>
         </article>
-        <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4 bg-[#FFF5E8]">
-            <figure class="m-6 md:m-8 w-[120px]">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4">
+            <figure class="m-6 md:m-8 w-[160px]">
                 <img src="/img-servicios/desarrollo.png" alt="">
             </figure>
             <div class="m-8">
-                <h3>Diseño de interfaz</h3>
-                <p class="mt-4">puedo crear el diseño para tus interfaces de software o dispositivos</p>
+                <h3 class="text-2xl">Diseño de interfaz</h3>
+                <p class="mt-4 text-xl">puedo crear el diseño para tus interfaces de software o dispositivos</p>
             </div>
         </article>
     </div>
