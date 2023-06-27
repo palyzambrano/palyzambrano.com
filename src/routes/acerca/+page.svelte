@@ -7,7 +7,7 @@
         <img class="w-11/12 mx-auto" alt="foto de paly en la playa" src="/img-acerca/sobre-mi.png" />
       </figure>
       <div class="md:w-1/2 text-left space-y-6  md:ml-16 md:pl-10">
-        <h2 class="text-2xl ">Sobre mi</h2>
+        <h2 class="text-4xl font-semibold uppercase ">Sobre mi</h2>
         <p class="w-full md:w-3/4">
             "¡Hola! mi nombre es Paulina Zambrano, pero puedes decirme Paly, soy  una apasionada 
             diseñadora y desarrolladora web con un amor inmenso por el arte, la moda y la danza, 
@@ -30,27 +30,36 @@
       </div>
     </div>
   </section>
-  <section class="bg-[#FDDCAF] h-14 flex justify-center items-center">
-    <h5 class="text-2xl px-8 uppercase">
+  <section class="bg-[#FDDCAF] h-14 flex justify-center items-center mt-10 border-b-2 border-t-2 border-black overflow-hidden">
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      intuición
+    </h5>
+    <h5 class="text-2xl px-8 uppercase font-semibold">
       Creatividad
     </h5>
-    <h5 class="text-2xl px-8 uppercase">
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      color
+    </h5>
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      Diseño
+    </h5>
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      Imaginación
+    </h5>
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      desarrollo
+    </h5>
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      intuición
+    </h5>
+    <h5 class="text-2xl px-8 uppercase font-semibold">
       Creatividad
     </h5>
-    <h5 class="text-2xl px-8 uppercase">
-      Creatividad
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      color
     </h5>
-    <h5 class="text-2xl px-8 uppercase">
-      Creatividad
-    </h5>
-    <h5 class="text-2xl px-8 uppercase">
-      Creatividad
-    </h5>
-    <h5 class="text-2xl px-8 uppercase">
-      Creatividad
-    </h5>
-    <h5 class="text-2xl px-8 uppercase">
-      Creatividad
+    <h5 class="text-2xl px-8 uppercase font-semibold">
+      Diseño
     </h5>
   </section>
   <section class=" w-screen">
@@ -58,7 +67,7 @@
       class="flex flex-col md:flex-row items-end max-w-screen-xl z-10 mx-4 md:ml-16"
     >
       <div class="md:w-1/2 text-left space-y-6  md:mt-[120px] md:ml-16">
-        <h2 class="text-2xl ">Mi Universo</h2>
+        <h2 class="text-4xl font-semibold uppercase">Mi Universo</h2>
         <p class="w-full md:w-3/4 pb-28  ">
             Mis otras pasiones creativas como la danza y la moda también ocupan un lugar especial 
             en mi corazón. La forma en que la moda puede transmitir identidad y personalidad me 
@@ -75,8 +84,8 @@
   </section>
   <section class="bg-[#F1F0FE] py-10 mx-auto">
     <div>
-        <h2 class="text-2xl text-center mt-10">Referentes e inspiración </h2>
-        <p class="w-full md:w-2/5 m-auto text-center">
+        <h2 class="text-4xl font-semibold uppercase  text-center mt-10">Referentes e inspiración </h2>
+        <p class="w-full md:w-2/5 m-auto text-center mt-4">
             Mis referentes artísticos me inspiran a pensar más allá de lo convencional y creo 
             que mi espíritu soñador se lo debo a ellos y su increíble capacidad de fusionar la
             realidad con lo fantástico de forma tan cohesiva. 
@@ -89,7 +98,7 @@
                 <img class="object-cover h-[340px] w-full" src="/img-acerca/moonrise.jpg" alt="">
             </figure>
             <span>Pelicula Favorita</span>
-            <h4 class="text-right">Moonrise Kingdom</h4>
+            <h4 class="text-right text-xl font-semibold">Moonrise Kingdom</h4>
             <h5 class="text-right">Wes Anderson</h5>
         </article>
         <!--Libro-->
@@ -98,7 +107,7 @@
                 <img class="object-cover h-[340px] w-full"  src="/img-acerca/pilares.png" alt="">
             </figure>
             <span>Libro Favorito</span>
-            <h4 class="text-right">Pilares de la tierra</h4>
+            <h4 class="text-right text-xl font-semibold">Pilares de la tierra</h4>
             <h5 class="text-right">Ken Follett</h5>
         </article>
         <!--Artista-->
@@ -107,8 +116,8 @@
                 <img class="object-cover h-[340px] w-full" src="/img-acerca/remedios-varo.jpg" alt="">
             </figure>
             <span>Obra Favorita</span>
-            <h4 class="text-right">Remedios Varo</h4>
-            <h5 class="text-right">ícono - 1945</h5>
+            <h4 class="text-right text-xl font-semibold">Ícono - 1945</h4>
+            <h5 class="text-right">Remedios Varo</h5>
         </article>
         <!--Canción-->
         <article class="p-4 my-6 mx-auto bg-white w-10/12 md:w-72">
@@ -116,7 +125,7 @@
                 <img class="object-cover h-[340px] w-full" src="/img-acerca/alt-j.jpg" alt="">
             </figure>
             <span>Canción Favorita</span>
-            <h4 class="text-right">Nara</h4>
+            <h4 class="text-right text-xl font-semibold">Nara</h4>
             <h5 class="text-right">Alt- j</h5>
         </article>
     </div>

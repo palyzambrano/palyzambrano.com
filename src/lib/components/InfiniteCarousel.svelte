@@ -4,7 +4,7 @@
   };
 
   export const HEIGHT: number = 100;
-  export const WIDTH: number = 250;
+  export const WIDTH: number = 160;
 </script>
 
 <script lang="ts">
@@ -44,7 +44,7 @@
     content: '';
     height: 100px;
     position: absolute;
-    width: 200px;
+    width: 160px;
     z-index: 2;
   }
 
@@ -67,6 +67,6 @@
 
   .infinite-carousel .infinite-carousel-slide {
     height: 100px;
-    width: 250px;
+    width: 200px;
   }
 </style>
