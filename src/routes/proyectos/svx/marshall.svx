@@ -6,7 +6,7 @@ date: 2022-04-05
 lang: "en"
 preview_image_url: "/img-card/card-marshall.png"
 favorite: false
-tooling: [xd, php, wp]
+tooling: [xd, wp]
 project: "Diseño y Desarrollo Web"
 context: "El proyecto de Diseño y Desarrollo de la landing page promocional para el 
 producto Marshall es una oportunidad emocionante para destacar las características 

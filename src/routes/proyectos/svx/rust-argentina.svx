@@ -6,7 +6,7 @@ date: 2021-05-10
 lang: "es"
 preview_image_url: "/img-card/card-rust.png"
 favorite: false
-tooling: [xd, ps, ai]
+tooling: [xd, ai]
 project: "Diseño Web"
 context: "La comunidad de Rust Argentina es un grupo de jóvenes y adultos que comparten el 
 interés por aprender y enseñar la práctica de Rust como lenguaje de programación a partir 

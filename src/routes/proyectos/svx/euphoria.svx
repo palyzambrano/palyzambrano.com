@@ -6,7 +6,7 @@ date: 2021-05-30
 lang: "en"
 preview_image_url: "/img-card/card-euphoria.png"
 favorite: false
-tooling: [xd, ps, ai]
+tooling: [xd, ai]
 project: "Diseño - Caso de estudio"
 context: "El proyecto consiste en idear una solución digital para un festival de musica 
 que tiene como exponentes principales a: The Fugees, 2Pac y Juice Wrld, considerando a 

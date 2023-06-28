@@ -6,7 +6,7 @@ date: 2022-12-15
 lang: "en"
 preview_image_url: "/img-card/card-kof.png"
 favorite: true
-tooling: [xd, ps, ai]
+tooling: [xd, ai]
 project: "Diseño Web"
 context: "Este Proyecto fue creado para la asignatura de Emprendimientos y Servicios web 
 de la Carrera de Desarrollo y Diseño Web del Instituto Profesional Duoc UC, en 

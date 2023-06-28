@@ -6,7 +6,7 @@ date: 2022-06-26
 lang: "es"
 preview_image_url: "/img-card/card-gradient.png"
 favorite: false
-tooling: [xd, ps, ai, js, wp, php, html, css]
+tooling: [xd, ai, js, wp]
 project: "Diseño y Desarrollo Web"
 context: "Nuestro objetivo principal es brindarte una experiencia de compra en línea 
 excepcional, combinando la comodidad de la tecnología con la emoción de descubrir 
