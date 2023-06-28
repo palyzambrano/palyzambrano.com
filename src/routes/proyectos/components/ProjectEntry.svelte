@@ -1,17 +1,11 @@
 <script lang="ts">
-  import Arrow from '~icons/custom/arrow';
-
   import Button from '$lib/components/Button.svelte';
-  import { humanDate } from '$lib/utils/date';
   import Share from '$lib/components/Share.svelte';
   import { goto } from '$app/navigation';
-  import { page } from '$app/stores';
 
   export let item: PalyzambranoDotCom.ProjectItem;
 
   let date = new Date(item.date);
-  let dateString =
-    date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
 </script>
 
 <article
@@ -21,7 +15,7 @@
     <Share
       title={item.title}
       text={item.description}
-      url="{$page.url.hostname}/proyectos/{item.slug}">V</Share
+      url="/proyectos/{item.slug}">V</Share
     >
   </div>
   <div class="-mt-16">

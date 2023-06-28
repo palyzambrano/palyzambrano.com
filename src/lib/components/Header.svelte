@@ -55,6 +55,7 @@
       <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/"
             class:active-nav-item={$page.url.pathname === '/'}
@@ -64,6 +65,7 @@
         </li>
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/proyectos"
             class:active-nav-item={$page.url.pathname.startsWith('/proyectos')}
@@ -72,6 +74,7 @@
         </li>
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/servicios"
             class:active-nav-item={$page.url.pathname.startsWith('/servicios')}
@@ -80,6 +83,7 @@
         </li>
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/acerca"
             class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
