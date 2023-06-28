@@ -20,7 +20,7 @@
     <Share>V</Share>
   </div>
   <div class="-mt-16">
-    <div class=" ml-6  w-4/5">
+    <div class=" ml-6 w-4/5">
       <span class=" mt-8">
         {item.project}
       </span>

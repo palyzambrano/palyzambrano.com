@@ -33,13 +33,18 @@
   <meta name="twitter:image:src" content={avatarUrl} />
 </svelte:head>
 
-<div class="max-w-screen-xl mx-auto my-20 ">
+<div class="max-w-screen-xl mx-auto my-20">
   <div>
-    <h2 class="text-4xl font-semibold uppercase mb-8 text-center">Mis Proyectos</h2>
-    <p class="text-center text-xl md:w-2/5 w-10/12 md:m-auto mx-auto">Explora mi portafolio  y descubre como podemos hacer crecer tu emprendimiento, estoy aquí para hacer brillar tu presencia en línea.</p>
+    <h2 class="text-4xl font-semibold uppercase mb-8 text-center">
+      Mis Proyectos
+    </h2>
+    <p class="text-center text-xl md:w-2/5 w-10/12 md:m-auto mx-auto">
+      Explora mi portafolio y descubre como podemos hacer crecer tu
+      emprendimiento, estoy aquí para hacer brillar tu presencia en línea.
+    </p>
   </div>
-  
-  <section class="flex flex-wrap justify-center md:justify-evenly mt-16 ">
+
+  <section class="flex flex-wrap justify-center md:justify-evenly mt-16">
     {#each data.items as item}
       <ProjectEntry {item} />
     {/each}

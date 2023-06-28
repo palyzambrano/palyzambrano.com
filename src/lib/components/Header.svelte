@@ -11,10 +11,28 @@
     </figure>
   </a>
   <nav>
-    <a class="nav-item" href="/" class:active-nav-item={$page.url.pathname === "/"}>Home</a>
-    <a class="nav-item" href="/proyectos" class:active-nav-item={$page.url.pathname.startsWith("/proyectos")}>Proyectos</a>
-    <a class="nav-item" href="/servicios" class:active-nav-item={$page.url.pathname.startsWith("/servicios")}>Servicios</a>
-    <a class="nav-item" href="/acerca" class:active-nav-item={$page.url.pathname.startsWith("/acerca")}>Acerca</a>
+    <a
+      class="nav-item"
+      href="/"
+      class:active-nav-item={$page.url.pathname === '/'}>Home</a
+    >
+    <a
+      class="nav-item"
+      href="/proyectos"
+      class:active-nav-item={$page.url.pathname.startsWith('/proyectos')}
+      >Proyectos</a
+    >
+    <a
+      class="nav-item"
+      href="/servicios"
+      class:active-nav-item={$page.url.pathname.startsWith('/servicios')}
+      >Servicios</a
+    >
+    <a
+      class="nav-item"
+      href="/acerca"
+      class:active-nav-item={$page.url.pathname.startsWith('/acerca')}>Acerca</a
+    >
   </nav>
 </header>
 
