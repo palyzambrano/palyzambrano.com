@@ -6,6 +6,7 @@
     WIDTH
   } from '$lib/components/InfiniteCarousel.svelte';
   import ProjectEntry from './proyectos/components/ProjectEntry.svelte';
+  import LinkContact from '$lib/components/LinkContact.svelte';
 
   export let data: {
     items: PalyzambranoDotCom.ProjectItem[];
@@ -212,7 +213,7 @@
     <p class="text-xl w-full md:w-3/5 my-4 text-center md:text-left">
       Te ayudo a potenciar tu desarrollo en el mundo digital.
     </p>
-    <Button class="md:w-max">Necesitas ayuda?</Button>
+    <LinkContact href="https://docs.google.com/forms/d/1YJI4qnREWEOpVjoO8pcn8W5rAG-AeMlc54Y5OkDFvho/prefill" class="w-max">Necesitas ayuda?</LinkContact>
   </div>
   <!--Ilustraciones-->
   <div
