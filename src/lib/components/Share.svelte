@@ -28,9 +28,4 @@
     border-radius: 30px;
     transition: all 0.25s;
   }
-  .button:hover::before {
-    left: 0px;
-    top: 0px;
-    transition: all 0.25s;
-  }
-</style>
+</style> 

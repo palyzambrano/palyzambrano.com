@@ -7,7 +7,7 @@
         <img class="w-11/12 mx-auto" alt="foto de paly en la playa" src="/img-acerca/sobre-mi.png" />
       </figure>
       <div class="md:w-1/2 text-left space-y-6  md:ml-16 md:pl-10">
-        <h2 class="text-4xl font-semibold uppercase ">Sobre mi</h2>
+        <h2 class="text-4xl font-semibold uppercase mt-20 md:mt-0">Sobre mi</h2>
         <p class="w-full md:w-3/4">
             "¡Hola! mi nombre es Paulina Zambrano, pero puedes decirme Paly, soy  una apasionada 
             diseñadora y desarrolladora web con un amor inmenso por el arte, la moda y la danza, 
@@ -34,31 +34,31 @@
     <h5 class="text-2xl px-8 uppercase font-semibold">
       intuición
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       Creatividad
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:ext-2xl text-xl px-8 uppercase font-semibold">
       color
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       Diseño
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       Imaginación
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       desarrollo
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       intuición
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       Creatividad
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       color
     </h5>
-    <h5 class="text-2xl px-8 uppercase font-semibold">
+    <h5 class="md:text-2xl text-xl px-8 uppercase font-semibold">
       Diseño
     </h5>
   </section>
@@ -67,7 +67,7 @@
       class="flex flex-col md:flex-row items-end max-w-screen-xl z-10 mx-4 md:ml-16"
     >
       <div class="md:w-1/2 text-left space-y-6  md:mt-[120px] md:ml-16">
-        <h2 class="text-4xl font-semibold uppercase">Mi Universo</h2>
+        <h2 class="text-4xl font-semibold uppercase mt-20 md:mt-4">Mi Universo</h2>
         <p class="w-full md:w-3/4 pb-28  ">
             Mis otras pasiones creativas como la danza y la moda también ocupan un lugar especial 
             en mi corazón. La forma en que la moda puede transmitir identidad y personalidad me 
@@ -85,7 +85,7 @@
   <section class="bg-[#F1F0FE] py-10 mx-auto">
     <div>
         <h2 class="text-4xl font-semibold uppercase  text-center mt-10">Referentes e inspiración </h2>
-        <p class="w-full md:w-2/5 m-auto text-center mt-4">
+        <p class="w-11/12 md:w-2/5  m-auto text-center mt-4 ">
             Mis referentes artísticos me inspiran a pensar más allá de lo convencional y creo 
             que mi espíritu soñador se lo debo a ellos y su increíble capacidad de fusionar la
             realidad con lo fantástico de forma tan cohesiva. 
