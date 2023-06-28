@@ -6,7 +6,7 @@ date: 2021-11-13
 lang: "en"
 preview_image_url: "/img-card/card-silcos.png"
 favorite: false
-tooling: [xd, ps, ai]
+tooling: [xd, wp]
 project: "Diseño y Desarrollo Web"
 context: "Diseño y desarrollo web del portafolio para la agencia inmobiliaria Silva & Cosmeli
 tiene como objetivo crear una plataforma en línea profesional y atractiva para mostrar los 

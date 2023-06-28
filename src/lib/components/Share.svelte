@@ -28,4 +28,4 @@
     border-radius: 30px;
     transition: all 0.25s;
   }
-</style> 
+</style>

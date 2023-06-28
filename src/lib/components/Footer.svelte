@@ -7,7 +7,7 @@
 </script>
 
 <footer class="bg-[#D1CDFF]">
-  <section class="flex flex-col text-center  py-10">
+  <section class="flex flex-col text-center py-10">
     <h5 class="text-lg font-normal">Gracias por venir</h5>
     <span class="text-base font-extralight"
       >También puedes visitarme por acá</span
@@ -45,6 +45,8 @@
   </section>
 
   <div class="text-black p-2 bg-[#ABA3FF]">
-    <p class="text-sm text-center">{currentYear} Diseñado y Desarrollado por Paulina Zambrano </p>
+    <p class="text-sm text-center">
+      {currentYear} Diseñado y Desarrollado por Paulina Zambrano
+    </p>
   </div>
 </footer>

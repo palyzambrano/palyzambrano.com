@@ -6,7 +6,7 @@ date: 2022-02-14
 lang: "es"
 preview_image_url: "/img-card/card-lebon.png"
 favorite: true
-tooling: [xd, ps, ai, js]
+tooling: [xd, ai, js]
 project: "Diseño y Desarrollo Web"
 context: "Le Bon Dessert nace en el año 2019 con la ilusión de hacer tangible
 un proyecto independiente lleno de amor y dulzura, acompañada de un

@@ -1,12 +1,12 @@
 <script lang="ts" context="module">
   import h2 from '$lib/components/custom/h2.svelte';
   import p from '$lib/components/custom/p.svelte';
-  import ul from '$lib/components/custom/ul.svelte';
 
-  export { h2, p, ul };
+  export { h2, p };
 </script>
 
 <script>
+  import Tooling from './Tooling.svelte';
   import { humanDate } from '$lib/utils/date';
 
   export let title;
@@ -24,12 +24,14 @@
 
   function translateCategories(cats) {
     const traducciones = {
-      diseno_web: "Diseño Web"
-    }
+      diseno_web: 'Diseño Web'
+    };
 
-    return cats.map((elemento) => {
-      return traducciones[elemento];
-    }).join(' ');
+    return cats
+      .map((elemento) => {
+        return traducciones[elemento];
+      })
+      .join(' ');
   }
 </script>
 
@@ -41,9 +43,9 @@
   </div>
   <div class="flex content-center my-4">
     <figure class="w-[80px] my-auto">
-      <img src={brand_logo_url} alt="">
+      <img src={brand_logo_url} alt="" />
     </figure>
-    <div  class="my-6 ml-8 font-light text-gray-600 text-sm">
+    <div class="my-6 ml-8 font-light text-gray-600 text-sm">
       <p>Cliente: {client}</p>
       <p>Servicios: {translateCategories(categories)}</p>
       <p>Fecha: <time datetime={date.toString()}>{formattedDate}</time></p>
@@ -51,6 +53,7 @@
   </div>
   <div>
     <h4>Herramientas</h4>
+      <Tooling tools={tooling} />
   </div>
 </header>
 
@@ -59,10 +62,16 @@
 </div>
 
 <footer class="my-10">
-   <a class="border border-zinc-900 rounded-2xl flex flex-row m-auto w-[80%] md:w-1/4 items-center" href="{link_to_project}" target="_blank">
+  <a
+    class="border border-zinc-900 rounded-2xl flex flex-row m-auto w-[80%] md:w-1/4 items-center"
+    href={link_to_project}
+    target="_blank"
+  >
     <figure class="w-[50px] m-4">
-      <img src="/img-home/ver-mas.png" alt="">
+      <img src="/img-home/ver-mas.png" alt="" />
     </figure>
-    <p class="m-4 font-semibold md:text-xl uppercase font-title">Ver más de este proyecto</p>
-   </a>
+    <p class="m-4 font-semibold md:text-xl uppercase font-title">
+      Ver más de este proyecto
+    </p>
+  </a>
 </footer>

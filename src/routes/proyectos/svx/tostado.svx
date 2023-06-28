@@ -6,7 +6,7 @@ date: 2023-06-28
 lang: "en"
 preview_image_url: "/img-card/card-tostado.png"
 favorite: false
-tooling: [xd, ps, ai]
+tooling: [xd, wp]
 project: "Diseño y Desarrollo Web"
 context: "Para los amantes del café, este sitio será un espacio virtual dedicado a 
 proporcionar información y recursos para aquellos que disfrutan y aprecian esta 

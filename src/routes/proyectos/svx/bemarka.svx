@@ -6,7 +6,7 @@ date: 2021-12-17
 lang: "en"
 preview_image_url: "/img-card/card-bmk.png"
 favorite: true
-tooling: [xd, ps, ai, svelte, html, tailwind]
+tooling: [xd, ps, ai, js]
 project: "Diseño y Desarrollo Web"
 context: "Repuestos Bemarka busca proporcionar una plataforma integral para facilitar
  la búsqueda y compra de repuestos automotrices de calidad, garantizando una 

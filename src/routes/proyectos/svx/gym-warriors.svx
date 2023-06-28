@@ -6,7 +6,7 @@ date: 2022-11-26
 lang: "es"
 preview_image_url: "/img-card/card-gw.png"
 favorite: false
-tooling: [xd, ps, ai, svelte, tailwind]
+tooling: [xd, ps, ai, js]
 project: "Diseño y Desarrollo Web"
 context: "Gym Warriors es un proyecto de diseño y desarrollo web que busca ayudar 
 a las personas en su búsqueda de un estilo de vida saludable y activo,donde los 
