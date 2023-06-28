@@ -1,6 +1,7 @@
 <script lang="ts">
   import Button from '$lib/components/Button.svelte';
   import Share from '$lib/components/Share.svelte';
+  import Enviar from '~icons/custom/share';
   import { goto } from '$app/navigation';
 
   export let item: PalyzambranoDotCom.ProjectItem;
@@ -15,7 +16,7 @@
     <Share
       title={item.title}
       text={item.description}
-      url="/proyectos/{item.slug}">V</Share
+      url="/proyectos/{item.slug}"> <Enviar class="m-auto"></Enviar> </Share
     >
   </div>
   <div class="-mt-16">
