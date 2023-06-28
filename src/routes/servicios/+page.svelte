@@ -1,6 +1,6 @@
 <script>
   import Button from '$lib/components/Button.svelte';
-    import LinkContact from '$lib/components/LinkContact.svelte';
+  import LinkContact from '$lib/components/LinkContact.svelte';
 </script>
 
 <!--servicios-->
@@ -55,7 +55,10 @@
       puedes escribirme
     </p>
     <div class="flex justify-center md:justify-start">
-      <LinkContact href="https://docs.google.com/forms/d/1YJI4qnREWEOpVjoO8pcn8W5rAG-AeMlc54Y5OkDFvho/prefill" class="w-max">Contáctame</LinkContact>
+      <LinkContact
+        href="https://docs.google.com/forms/d/1YJI4qnREWEOpVjoO8pcn8W5rAG-AeMlc54Y5OkDFvho/prefill"
+        class="w-max">Contáctame</LinkContact
+      >
     </div>
   </div>
   <figure class="mt-6">

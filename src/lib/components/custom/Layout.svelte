@@ -53,7 +53,7 @@
   </div>
   <div>
     <h4>Herramientas</h4>
-      <Tooling tools={tooling} />
+    <Tooling tools={tooling} />
   </div>
 </header>
 

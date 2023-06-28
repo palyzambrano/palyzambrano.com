@@ -1,4 +1,23 @@
-<button class="button">
+<script lang="ts">
+  export let title: string;
+  export let text: string;
+  export let url: string;
+
+  async function handleClick() {
+    try {
+      await navigator.share({
+        title,
+        text,
+        url
+      });
+    } catch (err) {
+      console.error('Fallo al compartir');
+      console.error(err);
+    }
+  }
+</script>
+
+<button type="button" class="button" on:click={handleClick}>
   <slot />
 </button>
 
