@@ -6,11 +6,11 @@
 <section class="max-w-screen-xl mx-auto my-20 ">
     <div>
         <h2 class="text-4xl font-semibold uppercase mb-6 text-center">Servicios</h2>
-        <p class="text-center w-[400px] m-auto mb-10 text-xl">Quiero ayudarte a cumplir tus objetivos e impulsar tu crecimiento digital </p>
+        <p class="text-center w-10/12 md:w-[400px] m-auto mb-10 text-xl">Quiero ayudarte a cumplir tus objetivos e impulsar tu crecimiento digital </p>
     </div>
     <div class="flex flex-col md:flex-row ">
         <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4 md:w-1/2">
-            <figure class="m-4 md:m-8 w-[160px]">
+            <figure class="m-4 md:m-8 w-[100px] md:w-[160px]">
                 <img src="/img-servicios/design.png" alt="">
             </figure>
             <div class="m-6 md:m-8">
@@ -19,7 +19,7 @@
             </div>
         </article>
         <article class="border border-zinc-900 rounded-2xl flex flex-col md:flex-row m-4 md:w-1/2">
-            <figure class="m-6 md:m-8 w-[200px]">
+            <figure class="m-6 md:m-8 w-[100px] md:w-[200px]">
                 <img src="/img-servicios/desarrollo.png" alt="">
             </figure>
             <div class="m-8">
@@ -36,7 +36,9 @@
         <h2 class="text-4xl font-semibold uppercase text-center md:text-left">¿Te interesa
             trabajar conmigo?</h2>
         <p class="my-4 text-xl text-center md:text-left md:w-4/5"> Si quieres algo personalizado o no tienes claridad de lo que necesitas puedes escribirme  </p>
-        <Button class="w-max">Contáctame</Button>
+        <div class="flex justify-center md:justify-start">
+            <Button class="w-max">Contáctame</Button>
+        </div>
     </div>
     <figure class="mt-6">
         <img src="/img-servicios/desktop.png" alt="">
@@ -50,7 +52,7 @@
         <h2 class="text-4xl font-semibold uppercase mb-12 text-center">conoce mi proceso</h2>
     </div>
     <div class="flex flex-col md:flex-row ">
-        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-1/4">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-11/12 md:w-1/4">
             <figure class="m-4 md:mt-8 md:ml-8  w-[80px]">
                 <img src="/img-servicios/investigacion.png" alt="">
             </figure>
@@ -59,7 +61,7 @@
                 <p class="mt-4">Analizamos el proyecto en conjunto y definimos los objetivos.</p>
             </div>
         </article>
-        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-1/4">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-11/12 md:w-1/4">
             <figure class="m-4 md:mt-8 md:ml-8 w-[80px]">
                 <img src="/img-servicios/designer.png" alt="">
             </figure>
@@ -68,7 +70,7 @@
                 <p class="mt-4">Diseño una maqueta para tu sitio y ajustamos detalles </p>
             </div>
         </article>
-        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-1/4">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-11/12 md:w-1/4">
             <figure class="m-4 md:mt-8 md:ml-8 w-[80px]">
                 <img src="/img-servicios/implementacion.png" alt="">
             </figure>
@@ -77,7 +79,7 @@
                 <p class="mt-4">Una vez aprobado el diseño desarrollo tu sitio para darle funcionalidad. </p>
             </div>
         </article>
-        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-1/4">
+        <article class="border border-zinc-900 rounded-2xl flex flex-col m-4 bg-[#FFF5E8] w-11/12 md:w-1/4 ">
             <figure class="m-4 md:mt-8 md:ml-8 w-[80px]">
                 <img src="/img-servicios/ultrevision.png" alt="">
             </figure>
