@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
 
-  let isHamburgerMenuOpen = true;
+  let isHamburgerMenuOpen = false;
 </script>
 
 <header
@@ -39,25 +39,33 @@
   </nav>
   <!-- Termina: Menu -->
   <!-- Empieza: Menu Hamburguesa -->
-  <button on:click={() => isHamburgerMenuOpen = true} class="md:hidden bg-white">
+  <button
+    on:click={() => (isHamburgerMenuOpen = true)}
+    class="md:hidden bg-white"
+  >
     Menu
   </button>
   {#if isHamburgerMenuOpen}
-    <div class="md:hidden bg-white fixed top-0 left-0 flex flex-col h-screen w-screen z-10">
+    <div
+      class="md:hidden bg-white fixed top-0 left-0 flex flex-col h-screen w-screen z-10"
+    >
       <div class="p-4">
-        <button on:click={() => isHamburgerMenuOpen = false}>cerrar</button>
+        <button on:click={() => (isHamburgerMenuOpen = false)}>cerrar</button>
       </div>
       <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
         <li class="text-center w-full">
           <a
-          class="nav-item nav-item-mobile"
-          href="/"
-          class:active-nav-item={$page.url.pathname === '/'}>
+            on:click={() => (isHamburgerMenuOpen = false)}
+            class="nav-item nav-item-mobile"
+            href="/"
+            class:active-nav-item={$page.url.pathname === '/'}
+          >
             Home
           </a>
         </li>
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/proyectos"
             class:active-nav-item={$page.url.pathname.startsWith('/proyectos')}
@@ -66,6 +74,7 @@
         </li>
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/servicios"
             class:active-nav-item={$page.url.pathname.startsWith('/servicios')}
@@ -74,9 +83,11 @@
         </li>
         <li class="text-center w-full">
           <a
+            on:click={() => (isHamburgerMenuOpen = false)}
             class="nav-item nav-item-mobile"
             href="/acerca"
-            class:active-nav-item={$page.url.pathname.startsWith('/acerca')}>Acerca</a
+            class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
+            >Acerca</a
           >
         </li>
       </ul>

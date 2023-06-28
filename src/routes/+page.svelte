@@ -213,7 +213,10 @@
     <p class="text-xl w-full md:w-3/5 my-4 text-center md:text-left">
       Te ayudo a potenciar tu desarrollo en el mundo digital.
     </p>
-    <LinkContact href="https://docs.google.com/forms/d/1YJI4qnREWEOpVjoO8pcn8W5rAG-AeMlc54Y5OkDFvho/prefill" class="w-max">Necesitas ayuda?</LinkContact>
+    <LinkContact
+      href="https://docs.google.com/forms/d/1YJI4qnREWEOpVjoO8pcn8W5rAG-AeMlc54Y5OkDFvho/prefill"
+      class="w-max">Necesitas ayuda?</LinkContact
+    >
   </div>
   <!--Ilustraciones-->
   <div

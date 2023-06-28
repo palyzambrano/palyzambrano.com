@@ -1,23 +1,23 @@
 <script lang="ts">
-  import Arrow from '~icons/custom/arrow';
-
   import Button from '$lib/components/Button.svelte';
-  import { humanDate } from '$lib/utils/date';
   import Share from '$lib/components/Share.svelte';
+  import Enviar from '~icons/custom/share';
   import { goto } from '$app/navigation';
 
   export let item: PalyzambranoDotCom.ProjectItem;
 
   let date = new Date(item.date);
-  let dateString =
-    date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
 </script>
 
 <article
   class="bg-[#FAF7EF] flex flex-col w-[360px] md:w-[380px] h-[560px] text-left justify-between border border-zinc-900 rounded-2xl mt-6"
 >
   <div class="flex justify-end pt-4 pr-4">
-    <Share>V</Share>
+    <Share
+      title={item.title}
+      text={item.description}
+      url="/proyectos/{item.slug}"> <Enviar class="m-auto"></Enviar> </Share
+    >
   </div>
   <div class="-mt-16">
     <div class=" ml-6 w-4/5">
