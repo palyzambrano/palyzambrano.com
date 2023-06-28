@@ -45,8 +45,7 @@
   {#if isHamburgerMenuOpen}
     <div class="md:hidden bg-white fixed top-0 left-0 flex flex-col h-screen w-screen z-10">
       <div class="p-4">
-        La barra
-        <button on:click={() => isHamburgerMenuOpen = false}>SARLANGA</button>
+        <button on:click={() => isHamburgerMenuOpen = false}>cerrar</button>
       </div>
       <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
         <li class="text-center w-full">

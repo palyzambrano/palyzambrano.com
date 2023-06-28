@@ -9,7 +9,7 @@
 
 <style>
   .button {
-    padding: 0 30px;
+    padding: 0px 30px;
     height: 40px;
     border-radius: 20px;
     background-color: #d1cdff;
@@ -19,6 +19,7 @@
     cursor: pointer;
     position: relative;
     z-index: 2;
+    padding-top: 8px;
   }
 
   .button:before {
