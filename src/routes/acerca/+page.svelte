@@ -1,3 +1,8 @@
+<script>
+    import { p } from "$lib/components/custom/Layout.svelte";
+import P from "$lib/components/custom/p.svelte";
+
+</script>
 <section class=" w-screen">
   <div
     class="flex flex-col md:flex-row md:justify-center max-w-screen-xl z-10 mt-20 mx-4 md:ml-16 pb-10"
@@ -6,7 +11,7 @@
       <img
         class="w-11/12 mx-auto"
         alt="foto de paly en la playa"
-        src="/img-acerca/sobre-mi.png"
+        src="/img-acerca/me.gif"
       />
     </figure>
     <div class="md:w-1/2 text-left space-y-6 md:ml-16 md:pl-10">
@@ -53,18 +58,27 @@
     class="flex flex-col md:flex-row items-end max-w-screen-xl z-10 mx-4 md:ml-16"
   >
     <div class="md:w-1/2 text-left space-y-6 md:mt-[120px] md:ml-16">
-      <h2 class="text-4xl font-semibold uppercase mt-20 md:mt-4">
-        Mi Universo
+      <h2 class="text-3xl font-semibold uppercase mt-20 md:mt-4">
+        Educación
       </h2>
-      <p class="w-full md:w-3/4 pb-28">
-        Mis otras pasiones creativas como la danza y la moda también ocupan un
-        lugar especial en mi corazón. La forma en que la moda puede transmitir
-        identidad y personalidad me fascina. Busco incorporar esa misma esencia
-        en mis diseños web, creando interfaces que no solo sean visualmente
-        atractivas, sino que también reflejen la individualidad de cada marca y
-        su mensaje, así como en la danza encuentro la importancia del
-        equilibrio, la fluidez y la armonía, cualidades que intento transmitir
-        en cada aspecto de mi trabajo.
+      <p class="w-full md:w-3/4 text-xl">
+        <strong> 2021 - 2023</strong> Desarrollo y Diseño Web, Duoc UC, Chile.
+      </p>
+      <p class="w-full md:w-3/4 text-xl">
+        <strong>2020 </strong> Certificación Desarrollo Web CoderHouse, Argentina.
+      </p>
+      <p class="w-full md:w-3/4 text-xl">
+        <strong>2020 </strong>  Certificación Diseño UX-UI, CoderHouse, Argentina.
+      </p>
+      <p class="w-full md:w-3/4 pb-8 text-xl">
+        <strong>2014 - 2019  </strong> Lic. Artes Visuales, Universidad Nacional de Artes, Argentina.
+      </p>
+      <h2 class="text-3xl font-semibold uppercase">
+        Experiencia laboral
+      </h2>
+      <p class="w-full md:w-3/4 pb-28 text-xl">
+        <strong> Marzo 2023 - Septiembre 2023 </strong><br>
+        Web Setup Designer - Get Justo
       </p>
     </div>
     <figure>
