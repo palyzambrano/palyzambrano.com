@@ -9,7 +9,8 @@
       ps: '/img-tools/ps.png',
       ai: '/img-tools/ai.png',
       wp: '/img-tools/wp.png',
-      js: '/img-tools/js.png'
+      js: '/img-tools/js.png',
+      fig: '/img-tools/fig.png'
     };
 
     return URLS[kw] || null;
