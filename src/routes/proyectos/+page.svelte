@@ -33,20 +33,23 @@
   <meta name="twitter:image:src" content={avatarUrl} />
 </svelte:head>
 
-<div class="max-w-screen-xl mx-auto my-20">
-  <div>
-    <h2 class="text-4xl font-semibold uppercase mb-8 text-center">
-      Mis Proyectos
-    </h2>
-    <p class="text-center text-xl md:w-2/5 w-10/12 md:m-auto mx-auto">
-      Explora mi portafolio y descubre como podemos hacer crecer tu
-      emprendimiento, estoy aquí para hacer brillar tu presencia en línea.
+<section class="h-96 flex">
+  <div class="flex flex-col m-auto w-2/3 md:w-2/5">
+    <h3>Procesos</h3>
+    <p>
+      Cada proyecto nace de la observación y la exploración. Mi proceso busca
+      traducir ideas en formas, colores y experiencias digitales que transmitan
+      identidad y energía, cuidando el detalle, el equilibrio y la conexión
+      emocional en cada creación.
     </p>
   </div>
+</section>
 
+<!--
   <section class="flex flex-wrap justify-center md:justify-evenly mt-16">
     {#each data.items as item}
       <ProjectEntry {item} />
     {/each}
   </section>
-</div>
+
+-->
