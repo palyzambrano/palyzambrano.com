@@ -1,7 +1,7 @@
 /** @type {import('./$types').RequestHandler} */
 export async function GET(obj) {
   const isFavorite = JSON.parse(obj.url.searchParams.get('isFavorite'));
-  const modules = import.meta.glob('../../proyectos/svx/*.svx');
+  const modules = import.meta.glob('../../procesos/svx/*.svx');
   const promises = [];
 
   for (const [path, resolver] of Object.entries(modules)) {

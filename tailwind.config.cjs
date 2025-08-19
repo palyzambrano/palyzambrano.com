@@ -15,8 +15,8 @@ module.exports = {
         rojito: '#F54F41'
       },
       fontFamily: {
-        sans: ['Comme', 'sans-serif'],
-        title: ['Oswald', 'sans-serif']
+        sans: ['Google Sans Code', 'serif'],
+        title: ['Nata Sans', 'sans-serif']
       }
     }
   },

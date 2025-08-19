@@ -1,11 +1,36 @@
-<section class="h-96 flex">
-  <div class="flex flex-col m-auto w-2/3 md:w-1/2">
+<script lang="ts">
+  import CardProcesos from '$lib/components/CardProcesos.svelte';
+
+  export let data: {
+    items: PalyzambranoDotCom.ProjectItem[];
+  };
+
+  let title = 'Paly Zambrano | Proyectos';
+  let description = '';
+  let avatarUrl = '';
+</script>
+
+<section class="h-80 flex">
+  <div class="flex flex-col mx-auto md:mt-44 w-2/3 md:w-1/2">
     <h3>Procesos</h3>
     <p>
-      Cada proyecto nace de la observación y la exploración. Mi proceso busca
-      traducir ideas en formas, colores y experiencias digitales que transmitan
-      identidad y energía, cuidando el detalle, el equilibrio y la conexión
-      emocional en cada creación.
+      Aquí se revela el trayecto invisible: Un recorrido por las ideas que se
+      transforman en formas, colores y experiencias digitales.
     </p>
   </div>
 </section>
+<section class="w-2/3 mx-auto my-3">
+  <ul class="flex flex-wrap justify-between">
+    {#each data.items as item}
+      <li>
+        <CardProcesos {item} />
+      </li>
+    {/each}
+  </ul>
+</section>
+
+<style lang="postcss">
+  li {
+    @apply w-1/2 py-6;
+  }
+</style>
