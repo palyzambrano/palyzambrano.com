@@ -5,7 +5,7 @@
 </script>
 
 <header
-  class="fixed w-full flex py-4 px-28 items-center justify-between top-0 z-50 bg-[#e6e6e6]/60"
+  class="fixed w-full flex py-4 px-28 items-center justify-between top-0 z-50 bg-[#e6e6e6]/10"
 >
   <!-- Menu izquierda -->
   <nav class="hidden md:inline-block">
