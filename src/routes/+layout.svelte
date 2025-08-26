@@ -3,9 +3,10 @@
   import Footer from '$lib/components/Footer.svelte';
 
   import '../app.css';
+  import Button from '$lib/components/Button.svelte';
 </script>
 
-<div class="bg-[#FEFDFB] text-body relative">
+<div>
   <Header />
   <main>
     <slot />

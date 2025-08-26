@@ -12,7 +12,7 @@
 
 <section class="h-80 flex">
   <div class="flex flex-col mx-auto md:mt-44 w-2/3 md:w-1/2">
-    <h3>Procesos</h3>
+    <h3 class="text-lg">Procesos</h3>
     <p>
       Aquí se revela el trayecto invisible: Un recorrido por las ideas que se
       transforman en formas, colores y experiencias digitales.
