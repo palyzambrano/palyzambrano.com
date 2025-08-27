@@ -3,9 +3,9 @@
 </script>
 
 <section class="h-80 flex">
-  <div class="flex flex-col m-auto md:mt-44 w-2/3 md:w-2/5">
+  <div class="flex flex-col m-auto md:mt-44 w-3/4 md:w-1/2">
     <h3 class="text-lg">Galeria</h3>
-    <p>
+    <p class="text-sm md:text-base">
       Como en toda gran muestra, aquí no hay piezas aisladas, sino un relato
       visual en constante movimiento.
     </p>

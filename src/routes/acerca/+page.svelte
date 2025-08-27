@@ -5,8 +5,8 @@
   import Linkedin from '~icons/custom/linkedin';
 </script>
 
-<section class="flex flex-col m-auto mt-44 w-2/3 md:w-1/2">
-  <div class="">
+<section class="flex flex-col m-auto mt-44 w-3/4 md:w-1/2">
+  <div class=" text-sm md:text-base">
     <h3 class="text-lg">Acerca</h3>
     <div class="my-2">
       <p>
@@ -25,7 +25,7 @@
       </p>
     </div>
     <img
-      class="w-5/6 h-96 object-cover my-20 0 mx-auto"
+      class="w-full md:w-5/6 h-52 md:h-96 object-cover my-10 md:my-20 mx-auto"
       src="/hero.jpg"
       alt=""
     />
@@ -40,12 +40,20 @@
       </p>
     </div>
     <div class="flex flex-row justify-between items-end">
-      <img class="w-2/6 h-96 object-cover mb-20 mt-4" src="/hero.jpg" alt="" />
-      <img class="w-3/6 h-52 object-cover" src="/hero.jpg" alt="" />
+      <img
+        class="w-1/2 md:w-2/6 md:h-96 h-48 object-cover p-2 mb-20 mt-4"
+        src="/hero.jpg"
+        alt=""
+      />
+      <img
+        class="w-1/2 md:w-3/6 md:h-52 h-48 object-cover p-2"
+        src="/hero.jpg"
+        alt=""
+      />
     </div>
   </div>
 </section>
-<section class="flex flex-col text-center pt-4">
+<section class="flex flex-col text-center mt-20">
   <h5 class="text-lg font-normal">Gracias por venir</h5>
   <span class="text-base font-extralight">También puedes visitarme por acá</span
   >

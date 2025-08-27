@@ -29,8 +29,7 @@
     <a
       class="nav-item"
       href="/acerca"
-      class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
-      >Sobre mi</a
+      class:active-nav-item={$page.url.pathname.startsWith('/acerca')}>Acerca</a
     >
   </nav>
   <!-- Termina: Menu derecha -->
@@ -73,7 +72,7 @@
             class="nav-item nav-item-mobile"
             href="/acerca"
             class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
-            >Sobre mi</a
+            >Acerca</a
           >
         </li>
       </ul>
