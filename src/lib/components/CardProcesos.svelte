@@ -1,17 +1,18 @@
 <script lang="ts">
   export let item: PalyzambranoDotCom.ProjectItem;
+  console.log(item);
 </script>
 
-<a href="*">
+<a href="procesos/{item.slug}">
   <article class="flex px-16">
     <img
       class="w-16 h-16 object-cover"
-      src="/procesos/colomba/col-procesos.png"
-      alt=""
+      src={item.preview_image_url}
+      alt="foto cliente"
     />
     <div class="flex flex-col justify-between pl-4">
       <h4 class="pt-1 uppercase">{item.title}</h4>
-      <span>12/12/2024</span>
+      <span>item date</span>
     </div>
   </article>
 </a>

@@ -35,43 +35,20 @@
   }
 </script>
 
-<header class="w-2/3 mx-auto mt-16">
+<header class="md:w-2/3 md:mx-auto mx-10 mt-16 text-sm md:text-base">
   <div>
     <span class="pt-4 text-sm text-gray-800">{project}</span>
     <h1 class="text-2xl pb-4">{title}</h1>
     <p class="text-gray-600 font-light">{context}</p>
   </div>
-  <div class="flex content-center my-4">
-    <figure class="w-[80px] my-auto">
-      <img src={brand_logo_url} alt="" />
-    </figure>
-    <div class="my-6 ml-8 font-light text-gray-600 text-sm">
-      <p>Cliente: {client}</p>
-      <p>Servicios: {translateCategories(categories)}</p>
-      <p>Fecha: <time datetime={date.toString()}>{formattedDate}</time></p>
-    </div>
-  </div>
+</header>
+
+<div
+  class="md:w-2/3 mx-10 md:mx-auto font-light text-gray-600 text-sm md:text-base"
+>
+  <slot />
   <div>
     <h4>Herramientas</h4>
     <Tooling tools={tooling} />
   </div>
-</header>
-
-<div class="w-2/3 mx-auto font-light text-gray-600">
-  <slot />
 </div>
-
-<footer class="my-10">
-  <a
-    class="border border-zinc-900 rounded-2xl flex flex-row m-auto w-[80%] md:w-1/4 items-center"
-    href={link_to_project}
-    target="_blank"
-  >
-    <figure class="w-[50px] m-4">
-      <img src="/img-home/ver-mas.png" alt="" />
-    </figure>
-    <p class="m-4 font-semibold md:text-xl uppercase font-title">
-      Ver más de este proyecto
-    </p>
-  </a>
-</footer>

@@ -4,81 +4,85 @@
   let isHamburgerMenuOpen = false;
 </script>
 
-<header
-  class="fixed w-full flex py-4 px-28 items-center justify-between top-0 z-50 bg-slate-50"
->
-  <a href="/galeria">
-    <figure>
-      <img alt="Paly Logo" src="/paly.png" height="65" width="65" />
-    </figure>
-  </a>
-  <!-- Empieza: Menu derecha-->
-  <nav class="hidden md:inline-block">
-    <a
-      class="nav-item"
-      href="/galeria"
-      class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-      >Galería</a
-    >
-    <a
-      class="nav-item"
-      href="/procesos"
-      class:active-nav-item={$page.url.pathname.startsWith('/procesos')}
-      >Procesos</a
-    >
-    <a
-      class="nav-item"
-      href="/acerca"
-      class:active-nav-item={$page.url.pathname.startsWith('/acerca')}>Acerca</a
-    >
-  </nav>
-  <!-- Termina: Menu derecha -->
-  <!-- Empieza: Menu Hamburguesa -->
-  <button
-    on:click={() => (isHamburgerMenuOpen = true)}
-    class="md:hidden bg-white"
+<header class="px-8 md:px-16">
+  <div
+    class="w-full flex py-4 items-center justify-between border-b border-gray-600"
   >
-    Menu
-  </button>
-  {#if isHamburgerMenuOpen}
-    <div
-      class="md:hidden bg-white fixed top-0 left-0 flex flex-col h-screen w-screen z-10"
+    <a href="/galeria">
+      <figure>
+        <img alt="Paly Logo" src="/paly.png" height="65" width="65" />
+      </figure>
+    </a>
+    <!-- Empieza: Menu derecha-->
+    <nav class="hidden md:inline-block">
+      <a
+        class="nav-item"
+        href="/galeria"
+        class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
+        >Galería</a
+      >
+      <a
+        class="nav-item"
+        href="/procesos"
+        class:active-nav-item={$page.url.pathname.startsWith('/procesos')}
+        >Procesos</a
+      >
+      <a
+        class="nav-item"
+        href="/acerca"
+        class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
+        >Acerca</a
+      >
+    </nav>
+
+    <!-- Termina: Menu derecha -->
+    <!-- Empieza: Menu Hamburguesa -->
+    <button
+      on:click={() => (isHamburgerMenuOpen = true)}
+      class="md:hidden bg-white"
     >
-      <div class="p-4">
-        <button on:click={() => (isHamburgerMenuOpen = false)}>x</button>
+      Menu
+    </button>
+    {#if isHamburgerMenuOpen}
+      <div
+        class="md:hidden bg-white fixed top-0 left-0 flex flex-col h-screen w-screen z-10"
+      >
+        <div class="p-4">
+          <button on:click={() => (isHamburgerMenuOpen = false)}>x</button>
+        </div>
+        <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
+          <li class="text-center w-full">
+            <a
+              on:click={() => (isHamburgerMenuOpen = false)}
+              class="nav-item nav-item-mobile"
+              href="/galeria"
+              class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
+              >Galería</a
+            >
+          </li>
+          <li class="text-center w-full">
+            <a
+              on:click={() => (isHamburgerMenuOpen = false)}
+              class="nav-item nav-item-mobile"
+              href="/procesos"
+              class:active-nav-item={$page.url.pathname.startsWith('/procesos')}
+              >Procesos</a
+            >
+          </li>
+          <li class="text-center w-full">
+            <a
+              on:click={() => (isHamburgerMenuOpen = false)}
+              class="nav-item nav-item-mobile"
+              href="/acerca"
+              class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
+              >Acerca</a
+            >
+          </li>
+        </ul>
       </div>
-      <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
-        <li class="text-center w-full">
-          <a
-            on:click={() => (isHamburgerMenuOpen = false)}
-            class="nav-item nav-item-mobile"
-            href="/galeria"
-            class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-            >Galería</a
-          >
-        </li>
-        <li class="text-center w-full">
-          <a
-            on:click={() => (isHamburgerMenuOpen = false)}
-            class="nav-item nav-item-mobile"
-            href="/procesos"
-            class:active-nav-item={$page.url.pathname.startsWith('/procesos')}
-            >Procesos</a
-          >
-        </li>
-        <li class="text-center w-full">
-          <a
-            on:click={() => (isHamburgerMenuOpen = false)}
-            class="nav-item nav-item-mobile"
-            href="/acerca"
-            class:active-nav-item={$page.url.pathname.startsWith('/acerca')}
-            >Acerca</a
-          >
-        </li>
-      </ul>
-    </div>
-  {/if}
-  <!-- Termina: Menu Hamburguesa -->
+    {/if}
+    <!-- Termina: Menu Hamburguesa -->
+  </div>
 </header>
 
 <style>
@@ -97,6 +101,7 @@
     color: #121212;
     z-index: 2;
   }
+
   .active-nav-item::before {
     background-color: transparent;
     content: '';

@@ -1,0 +1,71 @@
+---
+title: "Colomba"
+description: "Rebranding"
+categories: [diseno_web]
+date: 2024-07-12
+lang: "en"
+preview_image_url: "/procesos/colomba/col-procesos.png"
+favorite: false
+tooling: [ps, ai]
+project: "Rebranding"
+context: "Pastelería Colomba es una marca dedicada a la repostería artesanal, donde cada
+ postre es una obra cuidada en sabor y presentación. El objetivo de este proyecto es desarrollar 
+ una identidad visual elegante y atemporal que transmita la calidad, dedicación y estilo único 
+ de sus creaciones, posicionando a Colomba como un referente en pastelería de alto nivel.
+."
+link_to_project: ""
+---
+
+
+La marca llevaba muchos años utilizando como su logo el dibujo de una batidora, la clienta amaba 
+su batidora porque era  la imagen que la había acompañado desde que comenzó haciendo tortas en la 
+cocina de la casa de sus papás, pero también entendía que era momento de soltar, su negocio estaba 
+creciendo y la imagen que la había acompañado tanto tiempo se estaba convirtiendo en un problema. 
+La pastelería no solo es un espacio donde se va por algo rico, también imparten talleres y cursos 
+de cocina para niños y adultos. 
+ 
+![portada](/img-brand/)
+
+Comenzamos con las reuniones para entender qué era lo que se esperaba de la nueva identidad y poco 
+a poco fuimos entendiendo que la identidad de Colomba ya existía conceptualmente pero había que 
+hacerlo tangible y poco a poco fueron apareciendo todos lo elementos que la componen.
+
+Junto a Constanza, Dueña de esta pastelería creamos un moodboard en colaboración con sus referencias 
+y aterrizamos todas esas ideas que vivían en nuestra imaginación.
+
+
+![portada](/img-brand/) 
+
+Una vez que ya teníamos nuestro moodboard comenzamos a definir algunos elementos, Colomba's Cake se 
+transformó en Colomba, porque era la forma en que todos los clientes la llamaban, “Pasemos donde Colomba”,
+ “esas tortas las consigues en Colomba” “Colomba tiene unas galletas riquísimas” “La torta la encargué en 
+ Colomba”, así que nos sumamos y decidimos hacer la modificación del nombre, sobre todo porque era la forma 
+ como los clientes habían adoptado la marca.
+
+Comenzamos a bocetar los primeros diseños del Logotipo y buscar la tipografía que más representara la marca, 
+buscábamos algo clásico y al mismo tiempo elegante, atemporal, y que transmitiera la calidez y la calidad 
+artesanal, pero sobre todo el cuidado con el que se elaboraba cada producto. 
+
+![portada](/img-brand/) 
+
+Luego de la primera versión sentíamos que algo faltaba, volví atrás y revisé el moodboard de referencias, noté 
+el golden Ticket de Willy Wonka con ese firulete juguetón que da la impresión de que las letras estuvieran en 
+movimiento, así que decidí agregar una rosca en la letra C para probar si causaba el mismo efecto, resultó ser 
+que resaltaba esa esencia creativa y fresca, el nuevo logo dice, soy elegante pero también divertido. invita a 
+probar y disfrutar del mundo de Colomba. 
+
+![portada](/img-brand/) 
+
+Colomba había ganado recientemente un financiamiento para remodelar su pastelería así que teníamos un lienzo en
+ blanco para implementar toda la nueva identidad, seleccionamos los colores cuidadosamente para poder aplicarlos 
+ y comenzar a pintar las paredes del local. El rosa en todas sus variedades había acompañado a la marca muchas 
+ veces, pero teníamos que definir cuál era el tono correcto y quienes serían sus acompañantes. 
+
+![portada](/img-brand/) 
+
+Continuamos con las variaciones del logo para sus distintas aplicaciones, como el uniforme, y la papelería, dibujé 
+algunos elementos representativos de la pastelería para convertirlos en un patrón de papel manteca para envolturas 
+y presentación de los platos. 
+
+Estábamos próximos a Navidad, así que también diseñé una línea de papelería y pinté la vitrina del local con 
+esta temática .

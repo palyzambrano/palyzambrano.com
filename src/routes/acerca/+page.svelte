@@ -5,7 +5,7 @@
   import Linkedin from '~icons/custom/linkedin';
 </script>
 
-<section class="flex flex-col m-auto mt-44 w-3/4 md:w-1/2">
+<section class="flex flex-col m-auto mt-20 w-3/4 md:w-1/2">
   <div class=" text-sm md:text-base">
     <h3 class="text-lg">Acerca</h3>
     <div class="my-2">

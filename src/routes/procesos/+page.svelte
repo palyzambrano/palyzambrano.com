@@ -10,8 +10,8 @@
   let avatarUrl = '';
 </script>
 
-<section class="h-80 flex">
-  <div class="flex flex-col mx-auto md:mt-44 w-3/4 md:w-1/2">
+<section class="h-52 flex">
+  <div class="flex flex-col m-auto md:mt-20 w-3/4 md:w-1/2">
     <h3 class="text-lg">Procesos</h3>
     <p class="text-sm md:text-base">
       Aquí se revela el trayecto invisible: Un recorrido por las ideas que se
