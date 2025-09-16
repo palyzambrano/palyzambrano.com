@@ -35,7 +35,7 @@
   }
 </script>
 
-<header class="md:w-2/3 md:mx-auto mx-10 mt-16 text-sm md:text-base">
+<header class="md:w-3/6 md:mx-auto mx-10 mt-16 text-sm md:text-base">
   <div>
     <span class="pt-4 text-sm text-gray-800">{project}</span>
     <h1 class="text-2xl pb-4">{title}</h1>
@@ -44,7 +44,7 @@
 </header>
 
 <div
-  class="md:w-2/3 mx-10 md:mx-auto font-light text-gray-600 text-sm md:text-base"
+  class="md:w-3/6 mx-10 md:mx-auto font-light text-gray-600 text-sm md:text-base"
 >
   <slot />
   <div>
