@@ -4,15 +4,14 @@ description: "Rebranding"
 categories: [diseno_web]
 date: 2024-07-12
 lang: "en"
-preview_image_url: "/procesos/colomba/col-procesos.png"
+preview_image_url: "/img-brand/colomba/col-procesos.png"
 favorite: false
 tooling: [ps, ai]
 project: "Rebranding"
 context: "Pastelería Colomba es una marca dedicada a la repostería artesanal, donde cada
  postre es una obra cuidada en sabor y presentación. El objetivo de este proyecto es desarrollar 
  una identidad visual elegante y atemporal que transmita la calidad, dedicación y estilo único 
- de sus creaciones, posicionando a Colomba como un referente en pastelería de alto nivel.
-."
+ de sus creaciones, posicionando a Colomba como un referente en pastelería de alto nivel."
 link_to_project: ""
 ---
 
@@ -69,3 +68,9 @@ y presentación de los platos.
 
 Estábamos próximos a Navidad, así que también diseñé una línea de papelería y pinté la vitrina del local con 
 esta temática .
+
+![portada](/img-brand/colomba/navidad.png) 
+[Video vitrina en Instragram](https://www.instagram.com/p/DCsVYkMsaCn/)
+
+![portada](/img-brand/colomba/vitrina.png) 
+[Video en Instagram](https://www.instagram.com/p/DDX0tVzPAOQ/)

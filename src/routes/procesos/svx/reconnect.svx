@@ -1,0 +1,28 @@
+---
+title: "Reconnect Colomba"
+description: "Branding Evento"
+categories: [diseno_web]
+date: 2024-07-12
+lang: "en"
+preview_image_url: "/procesos/colomba/col-procesos.png"
+favorite: false
+tooling: [ps, ai]
+project: "Branding Evento"
+context: "Pastelería Colomba es una marca dedicada a la repostería artesanal, donde cada
+ postre es una obra cuidada en sabor y presentación. El objetivo de este proyecto es desarrollar 
+ una identidad visual elegante y atemporal que transmita la calidad, dedicación y estilo único 
+ de sus creaciones, posicionando a Colomba como un referente en pastelería de alto nivel."
+link_to_project: ""
+---
+
+La pastelería no solo es un espacio donde se va por algo rico, también imparten talleres y cursos 
+de cocina para niños y adultos. 
+ 
+![portada](/img-brand/colomba/antesco.png)
+
+Comenzamos con las reuniones para entender qué era lo que se esperaba de la nueva identidad y poco 
+a poco fuimos entendiendo que la identidad de Colomba ya existía conceptualmente pero había que 
+hacerlo tangible y poco a poco fueron apareciendo todos lo elementos que la componen.
+
+![portada](/img-brand/colomba/vitrina.png) 
+[Video en Instagram](https://www.instagram.com/p/DDX0tVzPAOQ/)

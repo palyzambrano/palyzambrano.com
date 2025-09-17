@@ -2,6 +2,6 @@
   export let data;
 </script>
 
-<article>
+<article class="proceso">
   <svelte:component this={data.content} />
 </article>

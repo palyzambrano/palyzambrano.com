@@ -4,7 +4,7 @@ description: "App Web, gestión de clases y sesiones de entrenamiento."
 categories: [diseno_web]
 date: 2024-07-12
 lang: "en"
-preview_image_url: "/img-card/card-endurance.png"
+preview_image_url: "/img-brand/endurance/endurance_logo.png"
 favorite: false
 tooling: [fig, ps, ai]
 project: "Diseño UX/UI - Desarrollo Web"
