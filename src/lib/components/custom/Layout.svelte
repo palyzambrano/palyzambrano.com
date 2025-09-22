@@ -38,13 +38,13 @@
 <header class="md:w-3/6 md:mx-auto mx-10 mt-16 text-sm md:text-base">
   <div>
     <span class="pt-4 text-sm text-gray-800">{project}</span>
-    <h1 class="text-2xl pb-4">{title}</h1>
+    <h1 class="text-2xl pb-4 uppercase tracking-wide">{title}</h1>
     <p class="text-gray-600 font-light">{context}</p>
   </div>
 </header>
 
 <div
-  class="md:w-3/6 mx-10 md:mx-auto font-light text-gray-600 text-sm md:text-base"
+  class="md:w-3/6 mx-10 md:mx-auto font-light text-gray-600 text-sm md:text-base tracking-wide"
 >
   <slot />
   <div>

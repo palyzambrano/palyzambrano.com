@@ -12,7 +12,7 @@
 
 <section class="h-52 flex">
   <div class="flex flex-col m-auto md:mt-20 w-3/4 md:w-1/2">
-    <h3 class="text-lg">Procesos</h3>
+    <h3 class="text-xl uppercase font-semibold">Procesos</h3>
     <p class="text-sm md:text-base">
       Aquí se revela el trayecto invisible: Un recorrido por las ideas que se
       transforman en formas, colores y experiencias digitales.

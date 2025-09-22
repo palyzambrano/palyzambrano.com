@@ -16,7 +16,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Google Sans Code', 'serif'],
-        title: ['Nata Sans', 'sans-serif']
+        article: ['Inria Serif', 'serif'],
+        title: ['Google Sans Code', 'Oswald', 'sans-serif']
       }
     }
   },
