@@ -6,8 +6,8 @@
   import Button from '$lib/components/Button.svelte';
 </script>
 
-<Header />
-<main class="text-gray-600">
+<Header/>
+<main class="text-gray-600 bg-neutral-50">
   <slot />
 </main>
 <Footer />

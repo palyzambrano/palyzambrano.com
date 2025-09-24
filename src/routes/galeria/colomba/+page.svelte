@@ -1,4 +1,4 @@
-<section class="w-3/4 mx-auto mt-20 space-y-4 font-article">
+<section class="w-3/4 mx-auto pt-20 space-y-4 font-article">
   <div class="text-center pb-10">
     <h3 class="text-2xl uppercase text-pink-400 font-article">
       Sabor y estética
@@ -11,6 +11,7 @@
       cada postre es una obra cuidada en sabor y presentación.
     </p>
   </div>
+
   <div class="flex flex-col md:flex-row font-light text-">
     <div class="md:w-1/2 md:pr-10">
       <p class="py-2">

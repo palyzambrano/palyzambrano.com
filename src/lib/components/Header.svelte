@@ -4,7 +4,7 @@
   let isHamburgerMenuOpen = false;
 </script>
 
-<header class="px-8 md:px-16">
+<header class="px-8 md:px-16 bg-neutral-50">
   <div
     class="w-full flex py-4 items-center justify-between border-b border-gray-600"
   >
@@ -39,13 +39,13 @@
     <!-- Empieza: Menu Hamburguesa -->
     <button
       on:click={() => (isHamburgerMenuOpen = true)}
-      class="md:hidden bg-white"
+      class="md:hidden bg-neutral-50"
     >
       Menu
     </button>
     {#if isHamburgerMenuOpen}
       <div
-        class="md:hidden bg-white fixed top-0 left-0 flex flex-col h-screen w-screen z-10"
+        class="md:hidden bg-neutral-50 fixed top-0 left-0 flex flex-col h-screen w-screen z-10"
       >
         <div class="p-4">
           <button on:click={() => (isHamburgerMenuOpen = false)}>x</button>
