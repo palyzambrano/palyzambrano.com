@@ -6,26 +6,28 @@
     <h3 class="text-4xl uppercase text-pink-400 pb-4 font-article">
       en perfecta armonía
     </h3>
-    <p class="md:text-2xl text-xl font-light md:w-3/4 m-auto">
+    <p class="md:text-2xl text-xl font-light md:w-3/4 m-auto text-yellow-900">
       Pastelería Colomba es una marca dedicada a la repostería artesanal, donde
       cada postre es una obra cuidada en sabor y presentación.
     </p>
   </div>
 
-  <div class="flex flex-col md:flex-row font-light text-">
+  <div class="flex flex-col md:flex-row font-light text-yellow-900">
     <div class="md:w-1/2 md:pr-10">
       <p class="py-2">
-        <span class="font-bold"> Pastelería Colomba </span>es un espacio
-        dedicado a la creación de postres, tortas y productos de repostería
-        artesanal. Cada elaboración combina recetas tradicionales con un acabado
-        visual impecable, ofreciendo una experiencia de sabor y presentación de
-        alto nivel.
+        <span class="font-bold text-yellow-900"> Pastelería Colomba </span>es un
+        espacio dedicado a la creación de postres, tortas y productos de
+        repostería artesanal. Cada elaboración combina recetas tradicionales con
+        un acabado visual impecable, ofreciendo una experiencia de sabor y
+        presentación de alto nivel.
       </p>
       <p class="py-2">
         La identidad de la marca busca ser clásica, elegante y atemporal,
         transmitiendo la calidad artesanal y el cuidado en cada detalle. Colomba
         proyecta confianza, delicadeza y un toque sofisticado, diferenciándose
-        de otras pastelerías a través de una <span class="font-bold">
+        de otras pastelerías a través de una <span
+          class="font-bold text-yellow-900"
+        >
           propuesta visual coherente y refinada.</span
         >
       </p>

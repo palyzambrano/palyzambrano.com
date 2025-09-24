@@ -12,6 +12,8 @@
   }
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* google-sans-code-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
