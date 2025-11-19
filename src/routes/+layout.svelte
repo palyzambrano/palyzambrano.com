@@ -16,7 +16,7 @@
 </script>
 
 <Header />
-<main class="text-gray-600 bg-neutral-50 dark:bg-gray-800 dark:text-neutral-50">
+<main class="text-gray-950 bg-neutral-50 dark:bg-gray-800 dark:text-neutral-50">
   <slot />
 </main>
 <Footer />
