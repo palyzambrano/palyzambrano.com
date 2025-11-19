@@ -139,6 +139,17 @@
         text: 'Ver video de vitrina en Instagram',
         url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
       }
+    ],
+    brandAssets: [
+      { url: '/brand/colomba/coluno.png', caption: 'Logo principal' },
+      { url: '/brand/colomba/coltres.png', caption: 'Tipografía' },
+      {
+        url: '/brand/colomba/colcuatro.png',
+        caption: 'Tarjetas de presentación'
+      },
+      { url: '/brand/colomba/colcinco.png', caption: 'Patrón de papel' },
+      { url: '/brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
+      { url: '/brand/colomba/colseis.png', caption: 'Tarjeta agradecimientos' }
     ]
   };
 </script>
@@ -289,30 +300,26 @@
       </div>
     </div>
   </section>
-  <!-- Grid de imágenes -->
-  <section class="px-6 md:px-16 pb-24 py-24 space-y-4">
-    <img class="w-full" src="/brand/colomba/coluno.png" alt="logo principal" />
-    <img class="w-full" src="/brand/colomba/coltres.png" alt="tipografía" />
-    <img
-      class="w-full"
-      src="/brand/colomba/colcuatro.png"
-      alt="tarjetas de presentación"
-    />
-    <img
-      class="w-full"
-      src="/brand/colomba/colcinco.png"
-      alt="patron de papel"
-    />
-    <img
-      class="w-full"
-      src="/brand/colomba/cinta.png"
-      alt="cinta cierra cajas"
-    />
-    <img
-      class="w-full"
-      src="/brand/colomba/colseis.png"
-      alt="tarjeta agradecimientos"
-    />
+
+  <!-- Sistema de Identidad - Grid masonry -->
+  <section class="bg-white text-zinc-900 py-32">
+    <div class="max-w-6xl mx-auto px-6 md:px-16">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
+        Sistema de Identidad Visual
+      </h2>
+
+      <div class="space-y-6">
+        {#each project.brandAssets as asset}
+          <div class="group">
+            <img
+              src={asset.url}
+              alt={asset.caption}
+              class="w-full h-auto mb-4 transition-transform group-hover:scale-[1.02]"
+            />
+          </div>
+        {/each}
+      </div>
+    </div>
   </section>
 
   <!-- Grid de imágenes secundarias -->
@@ -356,9 +363,6 @@
   <!-- Stack Tecnológico -->
   <section class="px-6 md:px-16 pb-24 text-white py-24">
     <div class="max-w-6xl mx-auto px-6 md:px-16 py-14 bg-zinc-900">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-500 mb-16">
-        {project.technologies.title}
-      </h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
         {#each project.technologies.stack as tech}
           <div>
@@ -381,7 +385,7 @@
     <div class="max-w-4xl mx-auto text-center">
       <blockquote class="mb-8">
         <p
-          class="text-2xl md:text-3xl font-light italic leading-relaxed text-zinc-700 mb-8"
+          class="text-xl md:text-2xl font-light italic leading-relaxed text-zinc-700 mb-8"
         >
           "{project.testimonial.quote}"
         </p>
