@@ -1,441 +1,196 @@
 <script>
   const project = {
-    title: 'COLOMBA',
-    subtitle: 'Rebranding de Pastelería Artesanal',
+    title: 'Proyecto Compacto',
+    category: 'Diseño Web',
     year: '2024',
-    type: 'Rebranding',
-    curator: 'Pastelería Colomba',
-    exhibition: 'Llay Llay , valparaíso - Chile',
     description:
-      'Pastelería Colomba es una marca dedicada a la repostería artesanal, donde cada postre es una obra cuidada en sabor y presentación. El objetivo de este proyecto fue desarrollar una identidad visual elegante y atemporal que transmita la calidad, dedicación y estilo único de sus creaciones, posicionando a Colomba como un referente en pastelería de alto nivel.',
-    statement:
-      'La marca llevaba muchos años utilizando como su logo el dibujo de una batidora. La clienta amaba su batidora porque era la imagen que la había acompañado desde que comenzó haciendo tortas en la casa de sus papás, pero también entendía que era momento de soltar. Su negocio estaba creciendo y la imagen que la había acompañado tanto tiempo se estaba convirtiendo en un problema.',
+      'Este es un proyecto más pequeño que no requiere tanta narrativa. Perfecto para trabajos rápidos, experimentos, o proyectos personales que quieres mostrar de forma concisa y directa.',
 
-    challenge: {
-      title: 'El Desafío',
-      content:
-        'La pastelería no solo es un espacio donde se va por algo rico, también imparten talleres y cursos de cocina para niños y adultos. Necesitábamos crear una identidad que reflejara esta evolución, manteniendo la calidez artesanal pero proyectando profesionalismo y elegancia.'
-    },
-
-    solution: {
-      title: 'La Solución',
-      content:
-        'Junto a Constanza, dueña de esta pastelería, creamos un moodboard en colaboración con sus referencias y aterrizamos todas esas ideas que vivían en nuestra imaginación. La identidad de Colomba ya existía conceptualmente, pero había que hacerlo tangible.',
-      highlights: [
-        "Cambio de nombre: Colomba's Cake → Colomba",
-        'Logotipo con rosca juguetona en la C',
-        'Paleta de colores definida con rosas elegantes',
-        'Sistema de patrones para papel manteca',
-        'Implementación completa en local renovado'
-      ]
-    },
-
-    process: [
-      {
-        phase: '01',
-        title: 'Investigación y Moodboard',
-        description:
-          'Comenzamos con reuniones para entender qué se esperaba de la nueva identidad. Creamos un moodboard colaborativo con referencias que aterrizaran todas las ideas que vivían en nuestra imaginación.',
-        image: '/img-brand/colomba/moodcolomba.png'
-      },
-      {
-        phase: '02',
-        title: 'Definición de Nombre',
-        description:
-          "Colomba's Cake se transformó en Colomba, porque era la forma en que todos los clientes la llamaban. 'Pasemos donde Colomba', 'esas tortas las consigues en Colomba'. Era la forma como los clientes habían adoptado la marca naturalmente.",
-        image: '/img-brand/colomba/antesco.png'
-      },
-      {
-        phase: '03',
-        title: 'Diseño del Logotipo',
-        description:
-          'Buscábamos algo clásico y al mismo tiempo elegante, atemporal, que transmitiera la calidez y la calidad artesanal. Bocetamos varios diseños buscando la tipografía perfecta que representara la marca.',
-        image: '/img-brand/colomba/propuesta1.png'
-      },
-      {
-        phase: '04',
-        title: 'Refinamiento - La Rosca',
-        description:
-          'Algo faltaba en la primera versión. Revisando el moodboard, noté el Golden Ticket de Willy Wonka con ese firulete juguetón. Agregué una rosca en la letra C que resaltó esa esencia creativa y fresca. El logo dice: soy elegante pero también divertido.',
-        image: '/img-brand/colomba/propuesta2.png'
-      },
-      {
-        phase: '05',
-        title: 'Paleta de Color',
-        description:
-          'Colomba había ganado un financiamiento para remodelar su pastelería. Seleccionamos los colores cuidadosamente para aplicarlos en las paredes del local. El rosa había acompañado a la marca muchas veces, pero teníamos que definir cuál era el tono correcto.',
-        image: '/img-brand/colomba/colorcolomba.png'
-      }
+    // Info básica
+    info: [
+      { label: 'Cliente', value: 'Nombre del Cliente' },
+      { label: 'Duración', value: '2 semanas' },
+      { label: 'Rol', value: 'Diseño y Desarrollo' }
     ],
 
-    technologies: {
-      title: 'Herramientas',
-      stack: [
-        { category: 'Diseño', items: ['Adobe Illustrator', 'Photoshop'] },
-        {
-          category: 'Aplicaciones',
-          items: ['Papelería', 'Uniformes', 'Señalética']
-        },
-        { category: 'Elementos', items: ['Logotipo', 'Patrones', 'Packaging'] },
-        {
-          category: 'Implementación',
-          items: ['Pintura de Local', 'Vitrina', 'Identidad Visual']
-        }
-      ]
-    },
-
-    testimonial: {
-      quote:
-        'La nueva identidad capturó perfectamente la evolución de Colomba. Pasamos de una imagen casera a una marca profesional que refleja la calidad de nuestros productos y la experiencia que ofrecemos en talleres y cursos.',
-      author: 'Constanza',
-      role: 'Founder, Pastelería Colomba'
-    },
-
+    // Imágenes del proyecto (2-4 imágenes)
     images: [
       {
-        url: '/img-brand/colomba/col-procesos.png',
-        caption: 'Fachada de pastelería Colomba'
+        url: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
+        caption: 'Vista principal del proyecto'
       },
       {
-        url: '/img-brand/colomba/navidad.png',
-        caption: 'Línea de papelería navideña y vitrina temática'
+        url: 'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80',
+        caption: 'Detalle de la implementación'
       },
       {
-        url: '/img-brand/colomba/vitrina.png',
-        caption: 'Implementación de vitrina con nueva identidad'
-      },
-      {
-        url: '/brand/colomba/colcuatro.png',
-        caption: 'Implementación de vitrina con nueva identidad'
-      },
-      {
-        url: '/brand/colomba/colcinco.png',
-        caption: 'Implementación de vitrina con nueva identidad'
+        url: 'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=800&q=80',
+        caption: 'Versión responsive'
       }
     ],
 
-    credits: [
-      { role: 'Dirección Creativa', name: 'Paly Zambrano' },
-      { role: 'Cliente', name: 'Constanza - Pastelería Colomba' },
-      { role: 'Diseño de Marca', name: 'Paly Zambrano' }
+    // Highlights del proyecto (3-5 puntos)
+    highlights: [
+      'Diseño minimalista y funcional',
+      'Desarrollo en tiempo récord',
+      'Optimizado para móviles',
+      'Integración con herramientas existentes'
     ],
 
-    nextProject: {
-      title: 'Próximo Proyecto',
-      name: 'Siguiente proyecto',
-      link: '#'
-    },
+    // Stack (opcional)
+    stack: ['Figma', 'HTML/CSS', 'JavaScript', 'Tailwind'],
 
-    instagramLinks: [
-      {
-        text: 'Ver video de Navidad en Instagram',
-        url: 'https://www.instagram.com/p/DCsVYkMsaCn/'
-      },
-      {
-        text: 'Ver video de vitrina en Instagram',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
-      },
-      {
-        text: 'Ver video de vitrina en Instagram',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
-      }
-    ],
-    brandAssets: [
-      { url: '/brand/colomba/coluno.png', caption: 'Logo principal' },
-      { url: '/brand/colomba/coltres.png', caption: 'Tipografía' },
-      {
-        url: '/brand/colomba/colcuatro.png',
-        caption: 'Tarjetas de presentación'
-      },
-      { url: '/brand/colomba/colcinco.png', caption: 'Patrón de papel' },
-      { url: '/brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
-      { url: '/brand/colomba/colseis.png', caption: 'Tarjeta agradecimientos' }
+    // Links externos (opcional)
+    links: [
+      { text: 'Ver proyecto', url: '#' },
+      { text: 'GitHub', url: '#' }
     ]
   };
 </script>
 
 <article class="min-h-screen bg-white">
-  <!-- Hero minimalista con mucho espacio en blanco -->
-  <section class="px-6 md:px-16 pt-32 pb-14">
-    <div class="max-w-6xl mx-auto">
-      <div class="mb-16">
-        <p class="text-s tracking-[0.4em] uppercase text-zinc-400 mb-16">
-          {project.type} · {project.year}
-        </p>
-        <h1
-          class="text-6xl md:text-8xl font-light tracking-tight mb-2 leading-none"
-        >
-          {project.title}
-        </h1>
-        <p class="md:col-span-5 text-lg text-zinc-600 leading-relaxed">
-          {project.subtitle}
-        </p>
+  <!-- Hero Compacto -->
+  <section class="px-6 md:px-12 pt-24 pb-16">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-wrap items-baseline gap-4 mb-8">
+        <span class="text-xs tracking-[0.3em] uppercase text-zinc-400">
+          {project.category}
+        </span>
+        <span class="text-xs text-zinc-300">·</span>
+        <span class="text-xs tracking-[0.3em] uppercase text-zinc-400">
+          {project.year}
+        </span>
       </div>
 
-      <div class="grid md:grid-cols-12 gap-12">
-        <div
-          class="md:col-span-6 md:col-start-7 space-y-4 text-sm text-zinc-500"
-        >
-          <div class="flex">
-            <span class="w-32 uppercase tracking-wider">Cliente</span>
-            <span class="text-zinc-800 pl-4">{project.curator}</span>
-          </div>
-          <div class="flex">
-            <span class="w-32 uppercase tracking-wider">Ubicación</span>
-            <span class="text-zinc-800 pl-4">{project.exhibition}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Imagen principal con caption -->
-  <section class="mb-24">
-    <img
-      src={project.images[0].url}
-      alt={project.images[0].caption}
-      class="w-full h-[80vh] object-cover object-top"
-    />
-    <div class="px-6 md:px-16 pt-4">
-      <p class="text-xs text-zinc-400 max-w-6xl mx-auto">
-        {project.images[0].caption}
-      </p>
-    </div>
-  </section>
-
-  <!-- Descripción y statement -->
-  <section class="px-6 md:px-16 pb-24">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-12 gap-16">
-      <div class="md:col-span-5">
-        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-          Contexto
-        </h2>
-        <p class="text-base leading-relaxed text-zinc-700">
-          {project.description}
-        </p>
-      </div>
-
-      <div class="md:col-span-6 md:col-start-7 bg-zinc-50 p-8">
-        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-          El Punto de Partida
-        </h2>
-        <p class="text-base leading-relaxed text-zinc-700 italic">
-          {project.statement}
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Desafío -->
-  <section class="px-6 md:px-16 pb-24">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-12">
-        {project.challenge.title}
-      </h2>
-      <p
-        class="text-xl md:text-xl font-light leading-relaxed text-zinc-800 max-w-4xl"
+      <h1
+        class="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight"
       >
-        {project.challenge.content}
+        {project.title}
+      </h1>
+
+      <p class="text-lg md:text-xl text-zinc-600 leading-relaxed max-w-3xl">
+        {project.description}
       </p>
     </div>
   </section>
 
-  <!-- Solución con highlights -->
-  <section class="px-6 md:px-16 pb-24 bg-zinc-50 py-24">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-12 gap-16">
-      <div class="md:col-span-7">
-        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-          {project.solution.title}
-        </h2>
-        <p class="text-lg leading-relaxed text-zinc-700 mb-8">
-          {project.solution.content}
-        </p>
-      </div>
+  <!-- Info rápida en línea -->
+  <section class="px-6 md:px-12 pb-12 border-b border-zinc-200">
+    <div class="max-w-5xl mx-auto flex flex-wrap gap-x-12 gap-y-4">
+      {#each project.info as item}
+        <div class="flex gap-4 items-baseline">
+          <span class="text-xs uppercase tracking-wider text-zinc-400">
+            {item.label}
+          </span>
+          <span class="text-sm text-zinc-800">{item.value}</span>
+        </div>
+      {/each}
+    </div>
+  </section>
 
-      <div class="md:col-span-4 md:col-start-9">
-        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-          Elementos Clave
-        </h3>
+  <!-- Imagen principal grande -->
+  <section class="py-12">
+    <div class="px-6 md:px-12">
+      <div class="max-w-5xl mx-auto">
+        <img
+          src={project.images[0].url}
+          alt={project.images[0].caption}
+          class="w-full h-auto"
+        />
+        {#if project.images[0].caption}
+          <p class="text-xs text-zinc-400 mt-4">{project.images[0].caption}</p>
+        {/if}
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights + Stack en dos columnas -->
+  <section class="px-6 md:px-12 py-16 bg-zinc-50">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+      <!-- Highlights -->
+      <div>
+        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          Highlights
+        </h2>
         <ul class="space-y-3">
-          {#each project.solution.highlights as highlight}
-            <li class="text-sm text-zinc-600 flex items-start">
+          {#each project.highlights as highlight}
+            <li class="text-sm text-zinc-700 flex items-start">
               <span class="text-zinc-400 mr-3">—</span>
               {highlight}
             </li>
           {/each}
         </ul>
       </div>
-    </div>
-  </section>
 
-  <!-- Proceso con imágenes -->
-  <section class="px-6 md:px-16 pb-24 pt-24">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
-        Proceso
-      </h2>
-      <div class="space-y-24">
-        {#each project.process as step, i}
-          <div class="grid md:grid-cols-12 gap-12 items-center">
-            <div class="md:col-span-6">
-              <span class="text-6xl font-light text-zinc-300 block mb-4"
-                >{step.phase}</span
+      <!-- Stack -->
+      {#if project.stack && project.stack.length > 0}
+        <div>
+          <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+            Stack
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            {#each project.stack as tech}
+              <span
+                class="px-3 py-1 bg-white border border-zinc-200 text-xs text-zinc-700"
               >
-              <h3 class="text-3xl font-light mb-6 text-zinc-800">
-                {step.title}
-              </h3>
-              <p class="text-base text-zinc-600 leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-            <div class="md:col-span-6">
+                {tech}
+              </span>
+            {/each}
+          </div>
+        </div>
+      {/if}
+    </div>
+  </section>
+
+  <!-- Grid de imágenes secundarias (si hay más de 1) -->
+  {#if project.images.length > 1}
+    <section class="px-6 md:px-12 py-16">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+          {#each project.images.slice(1) as image}
+            <div>
               <img
-                src={step.image}
-                alt={step.title}
-                class="w-full h-full object-cover"
+                src={image.url}
+                alt={image.caption}
+                class="w-full h-auto mb-4"
               />
+              {#if image.caption}
+                <p class="text-xs text-zinc-400">{image.caption}</p>
+              {/if}
             </div>
-          </div>
-        {/each}
+          {/each}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  {/if}
 
-  <!-- Sistema de Identidad - Grid masonry -->
-  <section class="bg-white text-zinc-900 py-32">
-    <div class="max-w-6xl mx-auto px-6 md:px-16">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
-        Sistema de Identidad Visual
-      </h2>
-
-      <div class="space-y-6">
-        {#each project.brandAssets as asset}
-          <div class="group">
-            <img
-              src={asset.url}
-              alt={asset.caption}
-              class="w-full h-auto mb-4 transition-transform group-hover:scale-[1.02]"
-            />
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <!-- Grid de imágenes secundarias -->
-  <section class="px-6 md:px-16 pb-24 bg-zinc-50 py-24">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-12">
-        Implementaciónes
-      </h2>
-      <div class="grid md:grid-cols-2 gap-8 mb-12">
-        {#each project.images.slice(1) as image}
-          <div>
-            <img
-              src={image.url}
-              alt={image.caption}
-              class="w-full object-cover mb-4"
-            />
-            <p class="text-xs text-zinc-400">{image.caption}</p>
-          </div>
-        {/each}
-      </div>
-
-      <!-- Links Relacionados -->
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-12">
-        Links Relacionados
-      </h2>
-      <div class="flex flex-col md:flex-row gap-4 mt-8">
-        {#each project.instagramLinks as link}
+  <!-- Links externos (si hay) -->
+  {#if project.links && project.links.length > 0}
+    <section class="px-6 md:px-12 py-16 border-t border-zinc-200">
+      <div class="max-w-5xl mx-auto flex flex-wrap gap-4">
+        {#each project.links as link}
           <a
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block border border-zinc-300 px-6 py-3 text-xs tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white hover:border-zinc-900 transition-colors duration-300"
+            class="inline-block border border-zinc-300 px-6 py-3 text-xs tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white hover:border-zinc-900 transition-colors"
           >
             {link.text} →
           </a>
         {/each}
       </div>
-    </div>
-  </section>
+    </section>
+  {/if}
 
-  <!-- Stack Tecnológico -->
-  <section class="px-6 md:px-16 pb-24 text-white py-24">
-    <div class="max-w-6xl mx-auto px-6 md:px-16 py-14 bg-zinc-900">
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
-        {#each project.technologies.stack as tech}
-          <div>
-            <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-500 mb-6">
-              {tech.category}
-            </h3>
-            <ul class="space-y-3">
-              {#each tech.items as item}
-                <li class="text-base text-zinc-300">{item}</li>
-              {/each}
-            </ul>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonial -->
-  <section class="px-6 md:px-16 pb-24 pt-24">
-    <div class="max-w-4xl mx-auto text-center">
-      <blockquote class="mb-8">
-        <p
-          class="text-xl md:text-2xl font-light italic leading-relaxed text-zinc-700 mb-8"
-        >
-          "{project.testimonial.quote}"
-        </p>
-      </blockquote>
-      <div>
-        <p class="text-base font-medium text-zinc-800">
-          {project.testimonial.author}
-        </p>
-        <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Créditos -->
-  <section class="px-6 md:px-16 pb-24 border-t border-zinc-200 pt-16">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        Créditos
-      </h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        {#each project.credits as credit}
-          <div>
-            <p class="text-xs uppercase tracking-wider text-zinc-400 mb-2">
-              {credit.role}
-            </p>
-            <p class="text-base text-zinc-800">{credit.name}</p>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <!-- Próximo Proyecto -->
-  <section class="px-6 md:px-16 pb-32 pt-16 border-t border-zinc-200">
-    <div class="max-w-6xl mx-auto">
-      <a href={project.nextProject.link} class="group block">
-        <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-4">
-          {project.nextProject.title}
-        </p>
-        <div class="flex items-center justify-between">
-          <h3
-            class="text-xl md:text-2xl font-light text-zinc-800 group-hover:text-zinc-600 transition-colors"
-          >
-            {project.nextProject.name}
-          </h3>
-          <span
-            class="text-3xl text-zinc-400 group-hover:translate-x-2 transition-transform"
-            >→</span
-          >
-        </div>
+  <!-- Footer simple -->
+  <section class="px-6 md:px-12 py-16 bg-zinc-50">
+    <div class="max-w-5xl mx-auto">
+      <a
+        href="#"
+        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
+      >
+        <span class="group-hover:-translate-x-1 transition-transform">←</span>
+        Volver a proyectos
       </a>
     </div>
   </section>
