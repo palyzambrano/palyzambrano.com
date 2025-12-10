@@ -17,15 +17,15 @@
     <nav class="hidden md:inline-block">
       <a
         class="nav-item"
-        href="/galeria"
-        class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-        >Galería</a
+        href="/webdesign"
+        class:active-nav-item={$page.url.pathname.startsWith('/webdesign')}
+        >Diseño web</a
       >
       <a
         class="nav-item"
-        href="/procesos"
-        class:active-nav-item={$page.url.pathname.startsWith('/procesos')}
-        >Procesos</a
+        href="/galeria"
+        class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
+        >Galería</a
       >
       <a
         class="nav-item"
@@ -51,6 +51,15 @@
           <button on:click={() => (isHamburgerMenuOpen = false)}>x</button>
         </div>
         <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
+          <li class="text-center w-full">
+            <a
+              on:click={() => (isHamburgerMenuOpen = false)}
+              class="nav-item nav-item-mobile"
+              href="/webdesign"
+              class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
+              >Diseño Web</a
+            >
+          </li>
           <li class="text-center w-full">
             <a
               on:click={() => (isHamburgerMenuOpen = false)}

@@ -105,11 +105,11 @@
         caption: 'Implementación de vitrina con nueva identidad'
       },
       {
-        url: '/brand/colomba/colcuatro.png',
+        url: '/img-brand/colomba/colcuatro.png',
         caption: 'Implementación de vitrina con nueva identidad'
       },
       {
-        url: '/brand/colomba/colcinco.png',
+        url: '/img-brand/colomba/colcinco.png',
         caption: 'Implementación de vitrina con nueva identidad'
       }
     ],
@@ -141,15 +141,18 @@
       }
     ],
     brandAssets: [
-      { url: '/brand/colomba/coluno.png', caption: 'Logo principal' },
-      { url: '/brand/colomba/coltres.png', caption: 'Tipografía' },
+      { url: '/img-brand/colomba/coluno.png', caption: 'Logo principal' },
+      { url: '/img-brand/colomba/coltres.png', caption: 'Tipografía' },
       {
-        url: '/brand/colomba/colcuatro.png',
+        url: '/img-brand/colomba/colcuatro.png',
         caption: 'Tarjetas de presentación'
       },
-      { url: '/brand/colomba/colcinco.png', caption: 'Patrón de papel' },
-      { url: '/brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
-      { url: '/brand/colomba/colseis.png', caption: 'Tarjeta agradecimientos' }
+      { url: '/img-brand/colomba/colcinco.png', caption: 'Patrón de papel' },
+      { url: '/img-brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
+      {
+        url: '/img-brand/colomba/colseis.png',
+        caption: 'Tarjeta agradecimientos'
+      }
     ]
   };
 </script>
