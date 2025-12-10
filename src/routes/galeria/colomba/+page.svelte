@@ -64,7 +64,7 @@
         title: 'Paleta de Color',
         description:
           'Colomba había ganado un financiamiento para remodelar su pastelería. Seleccionamos los colores cuidadosamente para aplicarlos en las paredes del local. El rosa había acompañado a la marca muchas veces, pero teníamos que definir cuál era el tono correcto.',
-        image: '/img-brand/colomba/colorcolomba.png'
+        image: '/img-brand/colomba/colpaleta.png'
       }
     ],
 
@@ -79,7 +79,7 @@
         { category: 'Elementos', items: ['Logotipo', 'Patrones', 'Packaging'] },
         {
           category: 'Implementación',
-          items: ['Pintura de Local', 'Vitrina', 'Identidad Visual']
+          items: ['Remodelación de Local', 'Vitrina', 'Identidad Visual']
         }
       ]
     },
@@ -111,19 +111,17 @@
       {
         url: '/img-brand/colomba/colcinco.png',
         caption: 'Implementación de vitrina con nueva identidad'
+      },
+      {
+        url: '/img-brand/colomba/colcinco.png',
+        caption: 'papel manteca'
       }
-    ],
-
-    credits: [
-      { role: 'Dirección Creativa', name: 'Paly Zambrano' },
-      { role: 'Cliente', name: 'Constanza - Pastelería Colomba' },
-      { role: 'Diseño de Marca', name: 'Paly Zambrano' }
     ],
 
     nextProject: {
       title: 'Próximo Proyecto',
       name: 'Siguiente proyecto',
-      link: '#'
+      link: '/galeria/maica'
     },
 
     instagramLinks: [
@@ -162,7 +160,7 @@
   <section class="px-6 md:px-16 pt-32 pb-14">
     <div class="max-w-6xl mx-auto">
       <div class="mb-16">
-        <p class="text-s tracking-[0.4em] uppercase text-zinc-400 mb-16">
+        <p class="text-sm tracking-[0.4em] uppercase text-zinc-400 mb-12">
           {project.type} · {project.year}
         </p>
         <h1
@@ -365,7 +363,7 @@
 
   <!-- Stack Tecnológico -->
   <section class="px-6 md:px-16 pb-24 text-white py-24">
-    <div class="max-w-6xl mx-auto px-6 md:px-16 py-14 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6 md:px-16 py-14 bg-zinc-50">
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
         {#each project.technologies.stack as tech}
           <div>
@@ -374,7 +372,7 @@
             </h3>
             <ul class="space-y-3">
               {#each tech.items as item}
-                <li class="text-base text-zinc-300">{item}</li>
+                <li class="text-base text-zinc-700">{item}</li>
               {/each}
             </ul>
           </div>
@@ -398,25 +396,6 @@
           {project.testimonial.author}
         </p>
         <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Créditos -->
-  <section class="px-6 md:px-16 pb-24 border-t border-zinc-200 pt-16">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        Créditos
-      </h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        {#each project.credits as credit}
-          <div>
-            <p class="text-xs uppercase tracking-wider text-zinc-400 mb-2">
-              {credit.role}
-            </p>
-            <p class="text-base text-zinc-800">{credit.name}</p>
-          </div>
-        {/each}
       </div>
     </div>
   </section>

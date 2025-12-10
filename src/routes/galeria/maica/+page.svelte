@@ -33,36 +33,22 @@
         phase: '01',
         title: 'Investigación y Moodboard',
         description:
-          'Comenzamos con reuniones para entender qué se esperaba de la nueva identidad. Creamos un moodboard colaborativo con referencias que aterrizaran todas las ideas que vivían en nuestra imaginación.',
-        image: '/img-brand/colomba/moodcolomba.png'
+          'El proceso comenzó con una fase de exploración visual y conceptual donde se analizaron referentes del mundo de la moda, el lujo accesible y marcas con estética femenina y sofisticada. Se revisaron elementos inspirados en la idea de un armario icónico —elegante, curado y con fuerte identidad— así como detalles estéticos que aportan una dirección clara: feminidad, distinción y carácter.',
+        image: '/img-brand/maica/maica-celeste.jpg'
       },
       {
         phase: '02',
-        title: 'Definición de Nombre',
+        title: 'Bocetaje y exploración tipográfica',
         description:
-          "Colomba's Cake se transformó en Colomba, porque era la forma en que todos los clientes la llamaban. 'Pasemos donde Colomba', 'esas tortas las consigues en Colomba'. Era la forma como los clientes habían adoptado la marca naturalmente.",
-        image: '/img-brand/colomba/antesco.png'
+          'La etapa creativa inició con una amplia exploración tipográfica y bocetaje, donde se desarrollaron distintas propuestas basadas en serif y semi-serif elegantes que transmitieran feminidad y distinción. Se experimentó con variaciones de peso, serifas personalizadas y terminaciones suaves para encontrar una estructura que representara el carácter de Maica. Una vez seleccionada la tipografía más adecuada, se procedió a un proceso minucioso de refinamiento, ajustando espaciados, curvas, proporciones y ritmo visual entre letras. Este trabajo detallado permitió construir un logotipo equilibrado, sofisticado y coherente con los pilares visuales de la marca.',
+        image: '/img-brand/maica/maica-celeste.jpg'
       },
       {
         phase: '03',
-        title: 'Diseño del Logotipo',
-        description:
-          'Buscábamos algo clásico y al mismo tiempo elegante, atemporal, que transmitiera la calidez y la calidad artesanal. Bocetamos varios diseños buscando la tipografía perfecta que representara la marca.',
-        image: '/img-brand/colomba/propuesta1.png'
-      },
-      {
-        phase: '04',
-        title: 'Refinamiento - La Rosca',
-        description:
-          'Algo faltaba en la primera versión. Revisando el moodboard, noté el Golden Ticket de Willy Wonka con ese firulete juguetón. Agregué una rosca en la letra C que resaltó esa esencia creativa y fresca. El logo dice: soy elegante pero también divertido.',
-        image: '/img-brand/colomba/propuesta2.png'
-      },
-      {
-        phase: '05',
         title: 'Paleta de Color',
         description:
-          'Colomba había ganado un financiamiento para remodelar su pastelería. Seleccionamos los colores cuidadosamente para aplicarlos en las paredes del local. El rosa había acompañado a la marca muchas veces, pero teníamos que definir cuál era el tono correcto.',
-        image: '/img-brand/colomba/colorcolomba.png'
+          'Se incorporaron tonos celestes para transmitir frescura, calma y una elegancia sutil que refleja la esencia de Maica. El celeste es versátil y accesible para un público amplio, aportando modernidad y una estética atemporal. Además, conecta con el concepto “El hogar de tu esencia”, ya que evoca tranquilidad y confianza. Su combinación con tonos más oscuros o metálicos —como beige o gris profundo— permite añadir un toque de exclusividad y equilibrio a la identidad visual.',
+        image: '/img-brand/maica/maica-celeste.jpg'
       }
     ],
 
@@ -91,8 +77,8 @@
 
     images: [
       {
-        url: '/img-brand/colomba/col-procesos.png',
-        caption: 'Fachada de pastelería Colomba'
+        url: '/img-brand/maica/portadamai.png',
+        caption: 'Maica'
       },
       {
         url: '/img-brand/colomba/navidad.png',
@@ -277,7 +263,7 @@
           <img
             src={step.image}
             alt={step.title}
-            class="px-8 md:px-16 w-full object-cover mb-8"
+            class="px-8 md:px-40 w-full object-cover mb-8"
           />
         </div>
       {:else}
