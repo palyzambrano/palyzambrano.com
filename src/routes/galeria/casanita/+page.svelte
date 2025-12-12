@@ -34,35 +34,35 @@
         title: 'Investigación y Moodboard',
         description:
           'Comenzamos con reuniones para entender qué se esperaba de la nueva identidad. Creamos un moodboard colaborativo con referencias que aterrizaran todas las ideas que vivían en nuestra imaginación.',
-        image: '/img-brand/colomba/moodcolomba.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '02',
         title: 'Definición de Nombre',
         description:
           "Colomba's Cake se transformó en Colomba, porque era la forma en que todos los clientes la llamaban. 'Pasemos donde Colomba', 'esas tortas las consigues en Colomba'. Era la forma como los clientes habían adoptado la marca naturalmente.",
-        image: '/img-brand/colomba/antesco.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '03',
         title: 'Diseño del Logotipo',
         description:
           'Buscábamos algo clásico y al mismo tiempo elegante, atemporal, que transmitiera la calidez y la calidad artesanal. Bocetamos varios diseños buscando la tipografía perfecta que representara la marca.',
-        image: '/img-brand/colomba/propuesta1.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '04',
         title: 'Refinamiento - La Rosca',
         description:
           'Algo faltaba en la primera versión. Revisando el moodboard, noté el Golden Ticket de Willy Wonka con ese firulete juguetón. Agregué una rosca en la letra C que resaltó esa esencia creativa y fresca. El logo dice: soy elegante pero también divertido.',
-        image: '/img-brand/colomba/propuesta2.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '05',
         title: 'Paleta de Color',
         description:
           'Colomba había ganado un financiamiento para remodelar su pastelería. Seleccionamos los colores cuidadosamente para aplicarlos en las paredes del local. El rosa había acompañado a la marca muchas veces, pero teníamos que definir cuál era el tono correcto.',
-        image: '/img-brand/colomba/colorcolomba.png'
+        image: '/img-brand/test.jpg'
       }
     ],
 
@@ -91,29 +91,29 @@
 
     images: [
       {
-        url: '/img-brand/colomba/col-procesos.png',
+        url: '/img-brand/test.jpg',
         caption: 'Fachada de pastelería Colomba'
       },
       {
-        url: '/img-brand/colomba/navidad.png',
+        url: '/img-brand/test.jpg',
         caption: 'Línea de papelería navideña y vitrina temática'
       },
       {
-        url: '/img-brand/colomba/vitrina.png',
+        url: '/img-brand/test.jpg',
         caption: 'Implementación de vitrina con nueva identidad'
       }
     ],
 
     brandAssets: [
-      { url: '/brand/colomba/coluno.png', caption: 'Logo principal' },
-      { url: '/brand/colomba/coltres.png', caption: 'Tipografía' },
+      { url: '/img-brand/test.jpg', caption: 'Logo principal' },
+      { url: '/img-brand/test.jpg', caption: 'Tipografía' },
       {
-        url: '/brand/colomba/colcuatro.png',
+        url: '/img-brand/test.jpg',
         caption: 'Tarjetas de presentación'
       },
-      { url: '/brand/colomba/colcinco.png', caption: 'Patrón de papel' },
-      { url: '/brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
-      { url: '/brand/colomba/colseis.png', caption: 'Tarjeta agradecimientos' }
+      { url: '/img-brand/test.jpg', caption: 'Patrón de papel' },
+      { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
+      { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
     ],
 
     credits: [

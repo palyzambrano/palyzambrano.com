@@ -81,25 +81,25 @@
         caption: 'Maica'
       },
       {
-        url: '/img-brand/colomba/navidad.png',
+        url: '/img-brand/test.jpg',
         caption: 'Línea de papelería navideña y vitrina temática'
       },
       {
-        url: '/img-brand/colomba/vitrina.png',
+        url: '/img-brand/test.jpg',
         caption: 'Implementación de vitrina con nueva identidad'
       }
     ],
 
     brandAssets: [
-      { url: '/brand/colomba/coluno.png', caption: 'Logo principal' },
-      { url: '/brand/colomba/coltres.png', caption: 'Tipografía' },
+      { url: '/img-brand/test.jpg', caption: 'Logo principal' },
+      { url: '/img-brand/test.jpg', caption: 'Tipografía' },
       {
-        url: '/brand/colomba/colcuatro.png',
+        url: '/img-brand/test.jpg',
         caption: 'Tarjetas de presentación'
       },
-      { url: '/brand/colomba/colcinco.png', caption: 'Patrón de papel' },
-      { url: '/brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
-      { url: '/brand/colomba/colseis.png', caption: 'Tarjeta agradecimientos' }
+      { url: '/img-brand/test.jpg', caption: 'Patrón de papel' },
+      { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
+      { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
     ],
 
     credits: [

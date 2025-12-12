@@ -34,28 +34,28 @@
         title: 'Definición del nuevo concepto',
         description:
           'Identificamos que la cervecería debía transmitir una esencia viajera y libre, conectada con la experiencia de compartir cerveza entre rutas, naturaleza y amigos.Se definió un concepto central:"Cervecería para quienes disfrutan el camino".',
-        image: '/img-brand/colomba/moodcolomba.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '02',
         title: 'Rediseño de la identidad visual',
         description:
           'Se actualizaron los elementos visuales para lograr coherencia, recordación y personalidad, paleta de colores, iconografía y tipografías.',
-        image: '/img-brand/colomba/antesco.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '03',
         title: 'Creación de un estilo de publicaciones',
         description:
           'Se estableció un estilo estético coherente para todos los contenidos: Fotos cálidas con enfoque en experiencias, Ilustraciones, combinación de contenido útil, emocional y comercial, plantillas base para carruseles, promociones y comunicados',
-        image: '/img-brand/colomba/propuesta1.png'
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '04',
         title: ' Estrategia de contenido enfocada en conexión',
         description:
           'Algo faltaba en la primera versión. Revisando el moodboard, noté el Golden Ticket de Willy Wonka con ese firulete juguetón. Agregué una rosca en la letra C que resaltó esa esencia creativa y fresca. El logo dice: soy elegante pero también divertido.',
-        image: '/img-brand/colomba/propuesta2.png'
+        image: '/img-brand/test.jpg'
       }
     ],
 
@@ -87,29 +87,29 @@
 
     images: [
       {
-        url: '/img-brand/colomba/col-procesos.png',
+        url: '/img-brand/test.jpg',
         caption: 'Fachada de pastelería Colomba'
       },
       {
-        url: '/img-brand/colomba/navidad.png',
+        url: '/img-brand/test.jpg',
         caption: 'Línea de papelería navideña y vitrina temática'
       },
       {
-        url: '/img-brand/colomba/vitrina.png',
+        url: '/img-brand/test.jpg',
         caption: 'Implementación de vitrina con nueva identidad'
       }
     ],
 
     brandAssets: [
-      { url: '/brand/colomba/coluno.png', caption: 'Logo principal' },
-      { url: '/brand/colomba/coltres.png', caption: 'Tipografía' },
+      { url: '/img-brand/test.jpg', caption: 'Logo principal' },
+      { url: '/img-brand/test.jpg', caption: 'Tipografía' },
       {
-        url: '/brand/colomba/colcuatro.png',
+        url: '/img-brand/test.jpg',
         caption: 'Tarjetas de presentación'
       },
-      { url: '/brand/colomba/colcinco.png', caption: 'Patrón de papel' },
-      { url: '/brand/colomba/cinta.png', caption: 'Cinta cierra cajas' },
-      { url: '/brand/colomba/colseis.png', caption: 'Tarjeta agradecimientos' }
+      { url: '/img-brand/test.jpg', caption: 'Patrón de papel' },
+      { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
+      { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
     ],
 
     credits: [
