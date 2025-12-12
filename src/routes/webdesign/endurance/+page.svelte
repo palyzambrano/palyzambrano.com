@@ -1,119 +1,636 @@
 <script>
   // Reemplaza con tu información
   const project = {
-    title: 'FORMA Y FUNCIÓN',
-    tagline: 'Donde la estética encuentra propósito',
-    featured_text:
-      'Este proyecto representa la culminación de años explorando la intersección entre belleza y utilidad.',
+    title: 'Ecosistema Digital Completo',
+    tagline: 'App Web · Sitio Web · Social Media',
     year: '2024',
-    season: 'Otoño/Invierno',
-    mainImage:
-      'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
-    gridImages: [
-      'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=600&q=80',
-      'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=600&q=80',
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80'
+    client: 'Nombre del Cliente',
+    duration: '3 meses',
+
+    // Overview del proyecto
+    overview: {
+      description:
+        'Un ecosistema digital integral que abarca desde la aplicación web hasta la presencia en redes sociales. Cada plataforma fue diseñada para funcionar de manera independiente pero mantener una identidad visual cohesiva.',
+      challenge:
+        'Crear una experiencia consistente a través de múltiples plataformas mientras se respeta las particularidades y mejores prácticas de cada medio.'
+    },
+
+    // Roles y equipo
+    team: [
+      { role: 'Diseño UI/UX', name: 'Tu Nombre' },
+      { role: 'Desarrollo', name: 'Tu Nombre' },
+      { role: 'Social Media Design', name: 'Tu Nombre' }
     ],
-    quote:
-      'El diseño no es solo cómo se ve o cómo se siente. El diseño es cómo funciona.',
-    details: [
-      'Investigación exhaustiva de materiales sostenibles',
-      'Prototipado iterativo durante 4 meses',
-      'Colaboración con artesanos locales',
-      'Enfoque en producción ética'
+
+    // DELIVERABLE 1: App Web
+    webapp: {
+      title: 'App Web',
+      subtitle: 'Aplicación principal del ecosistema',
+      description:
+        'Una aplicación web robusta y escalable que sirve como núcleo de la experiencia digital. Diseñada para usuarios que necesitan funcionalidad completa y acceso a todas las características.',
+
+      features: [
+        {
+          name: 'Dashboard Intuitivo',
+          detail: 'Panel de control personalizado con datos en tiempo real',
+          icon: '📊'
+        },
+        {
+          name: 'Flujos Optimizados',
+          detail: 'Procesos simplificados para máxima eficiencia',
+          icon: '⚡'
+        },
+        {
+          name: 'Responsive First',
+          detail: 'Funciona perfectamente en desktop y móvil',
+          icon: '📱'
+        },
+        {
+          name: 'Dark Mode',
+          detail: 'Modo oscuro para reducir fatiga visual',
+          icon: '🌙'
+        }
+      ],
+
+      screenshots: [
+        {
+          url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
+          caption: 'Dashboard principal con métricas'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80',
+          caption: 'Vista de perfil y configuración'
+        }
+      ],
+
+      stack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL']
+    },
+
+    // DELIVERABLE 2: Sitio Web
+    website: {
+      title: 'Sitio Web',
+      subtitle: 'Landing page y presencia pública',
+      description:
+        'Un sitio web institucional diseñado para atraer nuevos usuarios, comunicar el valor de la marca y convertir visitantes en clientes. Optimizado para SEO y conversión.',
+
+      sections: [
+        {
+          name: 'Hero Impactante',
+          detail: 'Primera impresión que captura atención en 3 segundos'
+        },
+        {
+          name: 'Casos de Uso',
+          detail: 'Ejemplos reales que demuestran el valor del producto'
+        },
+        {
+          name: 'Testimoniales',
+          detail: 'Prueba social con historias de clientes reales'
+        },
+        {
+          name: 'CTA Estratégico',
+          detail: 'Llamados a la acción optimizados para conversión'
+        }
+      ],
+
+      screenshots: [
+        {
+          url: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
+          caption: 'Hero section con animaciones sutiles'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=1200&q=80',
+          caption: 'Sección de features con iconografía'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=1200&q=80',
+          caption: 'Footer con información de contacto'
+        }
+      ],
+
+      metrics: [
+        { value: '2.5s', label: 'Tiempo de carga' },
+        { value: '98/100', label: 'Lighthouse Score' },
+        { value: '45%', label: 'Tasa de conversión' }
+      ],
+
+      stack: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'Vercel']
+    },
+
+    // DELIVERABLE 3: Social Media
+    social: {
+      title: 'Social Media Templates',
+      subtitle: 'Sistema de contenido para redes sociales',
+      description:
+        'Un conjunto completo de plantillas diseñadas para mantener consistencia visual en todas las plataformas sociales. Fácil de personalizar por el equipo de marketing.',
+
+      platforms: [
+        {
+          name: 'Instagram',
+          templates: [
+            'Posts (1:1)',
+            'Stories (9:16)',
+            'Reels covers',
+            'Carruseles'
+          ]
+        },
+        {
+          name: 'LinkedIn',
+          templates: [
+            'Posts empresariales',
+            'Artículos destacados',
+            'Anuncios de productos'
+          ]
+        },
+        {
+          name: 'Twitter/X',
+          templates: [
+            'Tweets informativos',
+            'Hilos visuales',
+            'Headers de perfil'
+          ]
+        }
+      ],
+
+      categories: [
+        {
+          type: 'Anuncios',
+          description: 'Templates para comunicar lanzamientos y novedades'
+        },
+        {
+          type: 'Educativo',
+          description: 'Contenido de valor para la audiencia'
+        },
+        {
+          type: 'Testimoniales',
+          description: 'Historias de clientes y casos de éxito'
+        },
+        {
+          type: 'Tips & Tricks',
+          description: 'Consejos rápidos y accionables'
+        }
+      ],
+
+      gallery: [
+        {
+          url: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80',
+          caption: 'Template Instagram Post'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&q=80',
+          caption: 'Template Instagram Story'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=600&q=80',
+          caption: 'Template LinkedIn'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80',
+          caption: 'Template Twitter'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1611162617263-4ec3060a115e?w=600&q=80',
+          caption: 'Carrusel educativo'
+        },
+        {
+          url: 'https://images.unsplash.com/photo-1611162616492-5d6ae69e4e1e?w=600&q=80',
+          caption: 'Post de anuncio'
+        }
+      ],
+
+      deliverables: [
+        '50+ plantillas editables en Figma',
+        'Guía de uso y mejores prácticas',
+        'Banco de elementos gráficos',
+        'Paleta de colores y tipografías'
+      ]
+    },
+
+    // Sistema de diseño
+    designSystem: {
+      title: 'Sistema de Diseño Unificado',
+      description:
+        'Todo el ecosistema comparte un sistema de diseño coherente que garantiza consistencia visual y facilita la escalabilidad del proyecto.',
+
+      elements: [
+        {
+          category: 'Colores',
+          detail:
+            'Paleta primaria y secundaria con variaciones para cada plataforma'
+        },
+        {
+          category: 'Tipografía',
+          detail:
+            'Familia tipográfica escalable y legible en todas las resoluciones'
+        },
+        {
+          category: 'Iconografía',
+          detail: 'Set de íconos consistente usado en todas las plataformas'
+        },
+        {
+          category: 'Componentes',
+          detail: 'Biblioteca reutilizable de elementos UI'
+        }
+      ]
+    },
+
+    // Links
+    links: [
+      { text: 'Ver App Web', url: '#' },
+      { text: 'Visitar Sitio Web', url: '#' },
+      { text: 'Ver Templates', url: '#' }
     ]
   };
 </script>
 
-<article class="min-h-screen bg-zinc-900 text-white">
-  <!-- Header tipo revista -->
-  <header
-    class="border-b border-zinc-700 px-6 md:px-12 py-8 flex justify-between items-center"
+<article class="min-h-screen bg-white">
+  <!-- Hero Full Width -->
+  <section
+    class="relative min-h-screen flex items-center justify-center bg-zinc-900 text-white overflow-hidden"
   >
-    <div class="text-xs tracking-[0.3em] uppercase">{project.season}</div>
-    <div class="text-xs tracking-[0.3em] uppercase">{project.year}</div>
-  </header>
-
-  <!-- Hero con título grande -->
-  <section class="px-6 md:px-12 py-24">
-    <h1
-      class="text-7xl md:text-9xl font-light tracking-tighter leading-none mb-8"
-    >
-      {project.title}
-    </h1>
-    <p class="text-xl md:text-2xl text-zinc-400 max-w-2xl font-light italic">
-      {project.tagline}
-    </p>
-  </section>
-
-  <!-- Imagen principal con texto superpuesto -->
-  <section class="px-6 md:px-12 mb-24">
-    <div class="relative h-[70vh]">
-      <img
-        src={project.mainImage}
-        alt={project.title}
-        class="w-full h-full object-cover"
+    <div class="absolute inset-0 opacity-10">
+      <div
+        class="absolute top-20 left-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"
       />
       <div
-        class="absolute bottom-0 left-0 right-0 p-12 bg-gradient-to-t from-black/80 to-transparent"
-      >
-        <p class="text-2xl md:text-3xl font-light max-w-3xl leading-relaxed">
-          {project.featured_text}
-        </p>
-      </div>
+        class="absolute bottom-20 right-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl"
+      />
     </div>
-  </section>
 
-  <!-- Layout tipo revista - Texto y grid de imágenes -->
-  <section class="px-6 md:px-12 pb-24">
-    <div class="grid md:grid-cols-2 gap-16 mb-24">
-      <!-- Columna de texto -->
-      <div class="space-y-12">
+    <div class="relative z-10 px-8 md:px-16 text-center max-w-5xl">
+      <p class="text-xs tracking-[0.4em] uppercase text-zinc-400 mb-8">
+        {project.year} · {project.client}
+      </p>
+      <h1
+        class="text-6xl md:text-8xl font-light tracking-tight mb-8 leading-tight"
+      >
+        {project.title}
+      </h1>
+      <p class="text-2xl md:text-3xl font-light text-zinc-300 mb-16">
+        {project.tagline}
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-8 text-sm">
         <div>
-          <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-500 mb-6">
-            Proceso
-          </h2>
-          <ul class="space-y-4">
-            {#each project.details as detail}
-              <li
-                class="text-lg text-zinc-300 leading-relaxed flex items-start"
-              >
-                <span class="text-zinc-600 mr-4">—</span>
-                {detail}
-              </li>
-            {/each}
-          </ul>
+          <p class="text-zinc-500 uppercase tracking-wider mb-2">Duración</p>
+          <p class="text-white">{project.duration}</p>
         </div>
-
-        <blockquote class="border-l-2 border-white pl-8 py-4">
-          <p class="text-2xl font-light italic leading-relaxed text-zinc-200">
-            {project.quote}
-          </p>
-        </blockquote>
-      </div>
-
-      <!-- Grid de imágenes -->
-      <div class="space-y-6">
-        {#each project.gridImages as image, i}
-          <div class="relative" style="margin-left: {i * 10}%">
-            <img
-              src={image}
-              alt="Detail {i + 1}"
-              class="w-full h-auto object-cover"
-            />
+        {#each project.team as member}
+          <div>
+            <p class="text-zinc-500 uppercase tracking-wider mb-2">
+              {member.role}
+            </p>
+            <p class="text-white">{member.name}</p>
           </div>
         {/each}
       </div>
     </div>
   </section>
 
-  <!-- Footer minimalista -->
-  <footer class="border-t border-zinc-700 px-6 md:px-12 py-12">
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-      <p class="text-xs tracking-[0.3em] uppercase text-zinc-500">
-        Siguiente Proyecto
-      </p>
-      <button class="text-xl hover:text-zinc-400 transition-colors">→</button>
+  <!-- Overview -->
+  <section class="py-32 px-8 md:px-16">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+      <div>
+        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          El Proyecto
+        </h2>
+        <p class="text-xl md:text-2xl font-light leading-relaxed text-zinc-700">
+          {project.overview.description}
+        </p>
+      </div>
+      <div class="bg-zinc-50 p-10">
+        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          El Desafío
+        </h2>
+        <p class="text-base leading-relaxed text-zinc-700">
+          {project.overview.challenge}
+        </p>
+      </div>
     </div>
-  </footer>
+  </section>
+
+  <!-- Separador con número -->
+  <div class="border-t border-zinc-200 py-4">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <span class="text-xs tracking-[0.3em] uppercase text-zinc-400"
+        >01 de 03</span
+      >
+    </div>
+  </div>
+
+  <!-- DELIVERABLE 1: APP WEB -->
+  <section class="py-32 px-8 md:px-16 bg-gradient-to-b from-white to-zinc-50">
+    <div class="max-w-6xl mx-auto">
+      <!-- Header -->
+      <div class="mb-20">
+        <div class="flex items-baseline gap-4 mb-6">
+          <span class="text-7xl font-light text-zinc-200">01</span>
+          <div>
+            <h2 class="text-4xl md:text-5xl font-light mb-2 text-zinc-800">
+              {project.webapp.title}
+            </h2>
+            <p class="text-xl text-zinc-500">{project.webapp.subtitle}</p>
+          </div>
+        </div>
+        <p class="text-lg leading-relaxed text-zinc-600 max-w-3xl">
+          {project.webapp.description}
+        </p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="grid md:grid-cols-2 gap-8 mb-20">
+        {#each project.webapp.features as feature}
+          <div class="bg-white p-8 border border-zinc-200">
+            <span class="text-4xl mb-4 block">{feature.icon}</span>
+            <h3 class="text-xl font-light mb-3 text-zinc-800">
+              {feature.name}
+            </h3>
+            <p class="text-sm text-zinc-600">{feature.detail}</p>
+          </div>
+        {/each}
+      </div>
+
+      <!-- Screenshots -->
+      <div class="space-y-8">
+        {#each project.webapp.screenshots as screenshot}
+          <div>
+            <img
+              src={screenshot.url}
+              alt={screenshot.caption}
+              class="w-full h-auto shadow-2xl mb-4"
+            />
+            <p class="text-sm text-zinc-500">{screenshot.caption}</p>
+          </div>
+        {/each}
+      </div>
+
+      <!-- Stack -->
+      <div class="mt-16 pt-16 border-t border-zinc-200">
+        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          Stack Técnico
+        </h3>
+        <div class="flex flex-wrap gap-3">
+          {#each project.webapp.stack as tech}
+            <span class="px-4 py-2 bg-zinc-900 text-white text-sm">
+              {tech}
+            </span>
+          {/each}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Separador con número -->
+  <div class="border-t border-zinc-200 py-4">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <span class="text-xs tracking-[0.3em] uppercase text-zinc-400"
+        >02 de 03</span
+      >
+    </div>
+  </div>
+
+  <!-- DELIVERABLE 2: SITIO WEB -->
+  <section class="py-32 px-8 md:px-16">
+    <div class="max-w-6xl mx-auto">
+      <!-- Header -->
+      <div class="mb-20">
+        <div class="flex items-baseline gap-4 mb-6">
+          <span class="text-7xl font-light text-zinc-200">02</span>
+          <div>
+            <h2 class="text-4xl md:text-5xl font-light mb-2 text-zinc-800">
+              {project.website.title}
+            </h2>
+            <p class="text-xl text-zinc-500">{project.website.subtitle}</p>
+          </div>
+        </div>
+        <p class="text-lg leading-relaxed text-zinc-600 max-w-3xl">
+          {project.website.description}
+        </p>
+      </div>
+
+      <!-- Secciones del sitio -->
+      <div class="grid md:grid-cols-2 gap-6 mb-20">
+        {#each project.website.sections as section}
+          <div class="border-l-4 border-zinc-300 pl-6 py-4">
+            <h3 class="text-lg font-light mb-2 text-zinc-800">
+              {section.name}
+            </h3>
+            <p class="text-sm text-zinc-600">{section.detail}</p>
+          </div>
+        {/each}
+      </div>
+
+      <!-- Screenshots alternados -->
+      <div class="space-y-20 mb-20">
+        {#each project.website.screenshots as screenshot, i}
+          <div class="grid md:grid-cols-12 gap-8 items-center">
+            {#if i % 2 === 0}
+              <div class="md:col-span-8">
+                <img
+                  src={screenshot.url}
+                  alt={screenshot.caption}
+                  class="w-full h-auto shadow-xl"
+                />
+              </div>
+              <div class="md:col-span-4">
+                <p class="text-base text-zinc-600">{screenshot.caption}</p>
+              </div>
+            {:else}
+              <div class="md:col-span-4 order-2 md:order-1">
+                <p class="text-base text-zinc-600">{screenshot.caption}</p>
+              </div>
+              <div class="md:col-span-8 order-1 md:order-2">
+                <img
+                  src={screenshot.url}
+                  alt={screenshot.caption}
+                  class="w-full h-auto shadow-xl"
+                />
+              </div>
+            {/if}
+          </div>
+        {/each}
+      </div>
+
+      <!-- Métricas -->
+      <div class="bg-zinc-50 p-12 grid md:grid-cols-3 gap-12">
+        {#each project.website.metrics as metric}
+          <div class="text-center">
+            <p class="text-5xl font-light mb-3 text-zinc-800">{metric.value}</p>
+            <p class="text-sm uppercase tracking-wider text-zinc-500">
+              {metric.label}
+            </p>
+          </div>
+        {/each}
+      </div>
+
+      <!-- Stack -->
+      <div class="mt-16 pt-16 border-t border-zinc-200">
+        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          Stack Técnico
+        </h3>
+        <div class="flex flex-wrap gap-3">
+          {#each project.website.stack as tech}
+            <span class="px-4 py-2 bg-zinc-900 text-white text-sm">
+              {tech}
+            </span>
+          {/each}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Separador con número -->
+  <div class="border-t border-zinc-200 py-4">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <span class="text-xs tracking-[0.3em] uppercase text-zinc-400"
+        >03 de 03</span
+      >
+    </div>
+  </div>
+
+  <!-- DELIVERABLE 3: SOCIAL MEDIA -->
+  <section class="py-32 px-8 md:px-16 bg-gradient-to-b from-white to-zinc-50">
+    <div class="max-w-6xl mx-auto">
+      <!-- Header -->
+      <div class="mb-20">
+        <div class="flex items-baseline gap-4 mb-6">
+          <span class="text-7xl font-light text-zinc-200">03</span>
+          <div>
+            <h2 class="text-4xl md:text-5xl font-light mb-2 text-zinc-800">
+              {project.social.title}
+            </h2>
+            <p class="text-xl text-zinc-500">{project.social.subtitle}</p>
+          </div>
+        </div>
+        <p class="text-lg leading-relaxed text-zinc-600 max-w-3xl">
+          {project.social.description}
+        </p>
+      </div>
+
+      <!-- Plataformas y templates -->
+      <div class="grid md:grid-cols-3 gap-8 mb-20">
+        {#each project.social.platforms as platform}
+          <div class="bg-white p-8 border border-zinc-200">
+            <h3 class="text-xl font-light mb-6 text-zinc-800">
+              {platform.name}
+            </h3>
+            <ul class="space-y-2">
+              {#each platform.templates as template}
+                <li class="text-sm text-zinc-600 flex items-start">
+                  <span class="text-zinc-400 mr-2">•</span>
+                  {template}
+                </li>
+              {/each}
+            </ul>
+          </div>
+        {/each}
+      </div>
+
+      <!-- Categorías de contenido -->
+      <div class="mb-20">
+        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+          Categorías de Contenido
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6">
+          {#each project.social.categories as category}
+            <div class="border-l-4 border-zinc-300 pl-6 py-4">
+              <h4 class="text-lg font-light mb-2 text-zinc-800">
+                {category.type}
+              </h4>
+              <p class="text-sm text-zinc-600">{category.description}</p>
+            </div>
+          {/each}
+        </div>
+      </div>
+
+      <!-- Galería de templates -->
+      <div class="grid md:grid-cols-3 gap-6 mb-20">
+        {#each project.social.gallery as template}
+          <div class="group">
+            <div class="overflow-hidden mb-4">
+              <img
+                src={template.url}
+                alt={template.caption}
+                class="w-full h-auto transition-transform group-hover:scale-105"
+              />
+            </div>
+            <p class="text-xs text-zinc-500">{template.caption}</p>
+          </div>
+        {/each}
+      </div>
+
+      <!-- Entregables -->
+      <div class="bg-white p-10 border border-zinc-200">
+        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          Entregables
+        </h3>
+        <ul class="space-y-3">
+          {#each project.social.deliverables as item}
+            <li class="text-base text-zinc-700 flex items-start">
+              <span class="text-zinc-400 mr-3">✓</span>
+              {item}
+            </li>
+          {/each}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sistema de Diseño -->
+  <section class="py-32 px-8 md:px-16 bg-zinc-900 text-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-8 text-center">
+        {project.designSystem.title}
+      </h2>
+      <p
+        class="text-lg text-zinc-300 leading-relaxed text-center mb-16 max-w-3xl mx-auto"
+      >
+        {project.designSystem.description}
+      </p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {#each project.designSystem.elements as element}
+          <div class="text-center">
+            <h3 class="text-lg font-light mb-3 text-white">
+              {element.category}
+            </h3>
+            <p class="text-sm text-zinc-400">{element.detail}</p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Links/CTA -->
+  <section class="py-24 px-8 md:px-16 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+        Explorar Proyecto
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        {#each project.links as link}
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
+          >
+            {link.text} →
+          </a>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="px-8 md:px-16 py-16 bg-zinc-50 border-t border-zinc-200">
+    <div class="max-w-6xl mx-auto">
+      <a
+        href="#"
+        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
+      >
+        <span class="group-hover:-translate-x-1 transition-transform">←</span>
+        Volver a proyectos
+      </a>
+    </div>
+  </section>
 </article>

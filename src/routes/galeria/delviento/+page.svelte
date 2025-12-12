@@ -28,37 +28,6 @@
       ]
     },
 
-    process: [
-      {
-        phase: '01',
-        title: 'Definición del nuevo concepto',
-        description:
-          'Identificamos que la cervecería debía transmitir una esencia viajera y libre, conectada con la experiencia de compartir cerveza entre rutas, naturaleza y amigos.Se definió un concepto central:"Cervecería para quienes disfrutan el camino".',
-        image: '/img-brand/test.jpg'
-      },
-      {
-        phase: '02',
-        title: 'Rediseño de la identidad visual',
-        description:
-          'Se actualizaron los elementos visuales para lograr coherencia, recordación y personalidad, paleta de colores, iconografía y tipografías.',
-        image: '/img-brand/test.jpg'
-      },
-      {
-        phase: '03',
-        title: 'Creación de un estilo de publicaciones',
-        description:
-          'Se estableció un estilo estético coherente para todos los contenidos: Fotos cálidas con enfoque en experiencias, Ilustraciones, combinación de contenido útil, emocional y comercial, plantillas base para carruseles, promociones y comunicados',
-        image: '/img-brand/test.jpg'
-      },
-      {
-        phase: '04',
-        title: ' Estrategia de contenido enfocada en conexión',
-        description:
-          'Algo faltaba en la primera versión. Revisando el moodboard, noté el Golden Ticket de Willy Wonka con ese firulete juguetón. Agregué una rosca en la letra C que resaltó esa esencia creativa y fresca. El logo dice: soy elegante pero también divertido.',
-        image: '/img-brand/test.jpg'
-      }
-    ],
-
     technologies: {
       title: 'Herramientas',
       stack: [
@@ -242,64 +211,6 @@
         {project.statement}
       </p>
     </div>
-  </section>
-
-  <!-- Proceso: Layout de revista con imágenes grandes -->
-  <section class="py-32">
-    <div class="px-8 md:px-16 mb-24">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400">Proceso</h2>
-    </div>
-
-    {#each project.process as step, i}
-      {#if i % 2 === 0}
-        <!-- Layout: Imagen full width arriba, texto abajo en dos columnas -->
-        <div class="mb-32">
-          <div class="px-8 md:px-16 grid md:grid-cols-12 gap-12">
-            <div class="md:col-span-2">
-              <span class="text-7xl font-light text-zinc-200">{step.phase}</span
-              >
-            </div>
-            <div class="md:col-span-4">
-              <h3 class="text-2xl font-light mb-4 text-zinc-800">
-                {step.title}
-              </h3>
-            </div>
-            <div class="md:col-span-6">
-              <p class="text-base text-zinc-600 leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-          </div>
-          <img
-            src={step.image}
-            alt={step.title}
-            class="px-8 md:px-16 w-full object-cover mb-8"
-          />
-        </div>
-      {:else}
-        <!-- Layout: Texto a la izquierda, imagen a la derecha -->
-        <div class="px-8 md:px-16 mb-32">
-          <div class="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <span class="text-7xl font-light text-zinc-200 block mb-6"
-                >{step.phase}</span
-              >
-              <h3 class="text-2xl font-light mb-6 text-zinc-800">
-                {step.title}
-              </h3>
-              <p class="text-base text-zinc-600 leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-            <img
-              src={step.image}
-              alt={step.title}
-              class="w-full object-cover"
-            />
-          </div>
-        </div>
-      {/if}
-    {/each}
   </section>
 
   <!-- Sistema de identidad: Grid tipo Pinterest -->
