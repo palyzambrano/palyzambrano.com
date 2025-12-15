@@ -7,137 +7,87 @@
     curator: 'La casa de Anita',
     exhibition: 'Llay Llay, Valparaíso - Chile',
     description:
-      'Maica es una marca de accesorios femeninos que nace con el propósito de convertirse en un espacio donde la elegancia, la feminidad y el carácter se encuentran. Su concepto parte de una idea poderosa: “como si el armario de Blair Waldorf fuera una tienda”. Desde ahí, Maica se construye como una experiencia de estilo curado, que combina diseño propio con piezas seleccionadas, logrando un universo único de sofisticación accesible.',
+      'La Casa de Anita nace desde la memoria. Desde esos recuerdos simples que se quedan para siempre: una tarde de sol, una cuchara de helado derritiéndose lento y la sensación de estar en un lugar familiar. Inspirada en las antiguas gelaterías de barrio y en las recetas hechas en casa, la marca busca recuperar el valor de lo artesanal, lo cercano y lo auténtico. Más que una heladería, La Casa de Anita se plantea como un espacio donde cada sabor cuenta una historia y cada visita se siente como volver a casa.',
     statement:
-      'Maica se diferencia al ofrecer no solo productos, sino una curaduría aspiracional: cada pieza está pensada como parte de un armario soñado, donde todo dialoga bajo un mismo lenguaje de estilo. Esta coherencia permite proyectar a la marca como un referente de lujo accesible, capaz de trascender modas pasajeras y consolidarse como un símbolo de feminidad auténtica.',
+      'La Casa de Anita posee una identidad flexible y con proyección, capaz de crecer junto a la marca y adaptarse a distintos soportes: packaging, vitrinas, redes sociales y espacios físicos. Su fuerte base narrativa permite construir una comunidad en torno a la experiencia, posicionándola como una heladería con historia, alma y tradición, preparada para perdurar en el tiempo.',
 
     challenge: {
       title: 'El Desafío',
       content:
-        'El reto creativo era definir una marca que no se limitara a vender accesorios, sino que transmitiera un estilo de vida aspiracional. El objetivo fue diseñar una identidad que reflejara lujo, distinción y autenticidad, pero con un lenguaje cercano que permitiera conectar con mujeres reales que buscan expresarse a través de los detalles '
+        'El desafío fue transformar esa carga emocional en una identidad visual coherente y reconocible. ¿Cómo comunicar tradición sin verse obsoleto? ¿Cómo transmitir calidez, historia y cercanía en un contexto donde predominan las marcas modernas y estandarizadas? La marca necesitaba una identidad capaz de conectar desde la nostalgia, sin perder frescura ni relevancia en el presente.'
     },
 
     solution: {
       title: 'La Solución',
       content:
-        'El desarrollo de Maica se basa en la creación de una marca integral, pensada para resonar emocionalmente con las mujeres que buscan expresarse a través de su estilo personal. Para ello, se tomó un enfoque estratégico que integró tanto el diseño como la narrativa visual y conceptual de la marca.',
-      highlights: [
-        'Eslogan: “El hogar de tu esencia” no es solo una frase, es la promesa de que en Maica cada cliente puede encontrar aquello que le represente.',
-        'Identidad visual: Estilo sofisticado, femenino y versátil, con una estética que equilibra lo aspiracional con lo cercano.',
-        'Narrativa de marca: Un relato que convierte a cada accesorio en un símbolo de distinción y carácter.'
-      ]
+        'La solución fue construir un lenguaje visual inspirado en la estética de las gelaterías clásicas, con una mirada contemporánea. Se trabajó una identidad cálida y rústica, donde las tipografías con carácter, los colores suaves y los detalles artesanales refuerzan la idea de lo hecho con amor y tiempo.Cada elemento gráfico acompaña el relato de la marca, invitando a detenerse, disfrutar y reconectar con esos pequeños momentos que hacen especial lo cotidiano.'
     },
 
     process: [
       {
         phase: '01',
-        title: 'Investigación y Moodboard',
+        title: 'Escuchar la historia',
         description:
-          'Comenzamos con reuniones para entender qué se esperaba de la nueva identidad. Creamos un moodboard colaborativo con referencias que aterrizaran todas las ideas que vivían en nuestra imaginación.',
-        image: '/img-brand/test.jpg'
+          ' El punto de partida fue la historia detrás del nombre. La Casa de Anita nace como un homenaje a la abuela de la dueña, una figura ligada a los recuerdos, la cocina casera y los momentos compartidos. Comprender este origen fue clave para construir una marca auténtica, con alma y sentido.',
+        image: '/img-brand/casanita/story.png'
       },
       {
         phase: '02',
-        title: 'Definición de Nombre',
+        title: 'Traducir emociones en forma',
         description:
-          "Colomba's Cake se transformó en Colomba, porque era la forma en que todos los clientes la llamaban. 'Pasemos donde Colomba', 'esas tortas las consigues en Colomba'. Era la forma como los clientes habían adoptado la marca naturalmente.",
-        image: '/img-brand/test.jpg'
+          'A partir de la investigación, se construyó el concepto central de la marca: una heladería con historia, cercana y acogedora. Se definieron sus valores, personalidad y tono, estableciendo una base clara que guiara todas las decisiones visuales y narrativas. El siguiente paso fue transformar esas emociones en un lenguaje visual. Se trabajó con referencias de gelaterías clásicas, tipografías con carácter, colores cálidos y elementos gráficos que evocan lo artesanal y lo hecho a mano.',
+        image: '/img-brand/casanita/moodanita.png'
       },
       {
         phase: '03',
-        title: 'Diseño del Logotipo',
+        title: 'El Color - Convertir recuerdos en identidad',
         description:
-          'Buscábamos algo clásico y al mismo tiempo elegante, atemporal, que transmitiera la calidez y la calidad artesanal. Bocetamos varios diseños buscando la tipografía perfecta que representara la marca.',
-        image: '/img-brand/test.jpg'
+          'El tono frutilla evoca dulzura, calidez y cercanía. Remite a los helados preparados en casa, a las recetas heredadas y a los recuerdos de infancia ligados a la cocina de la abuela. Es un color emocional, amable y nostálgico, que refuerza la identidad familiar de la marca. El verde pistacho aporta equilibrio y frescura. Inspirado en ingredientes naturales y sabores tradicionales, transmite autenticidad, calidad y una conexión con lo artesanal. El Mantecado, su presencia suma sofisticación sin perder cercanía, reforzando el carácter clásico de la heladería.',
+        image: '/img-brand/casanita/color-anita.png'
       },
       {
         phase: '04',
-        title: 'Refinamiento - La Rosca',
+        title: 'Construir un sistema visual coherente',
         description:
-          'Algo faltaba en la primera versión. Revisando el moodboard, noté el Golden Ticket de Willy Wonka con ese firulete juguetón. Agregué una rosca en la letra C que resaltó esa esencia creativa y fresca. El logo dice: soy elegante pero también divertido.',
-        image: '/img-brand/test.jpg'
+          'Se desarrolló una identidad flexible y consistente, pensada para vivir en distintos soportes. Cada pieza —desde el logo hasta los detalles gráficos— fue diseñada para reforzar el relato de marca y generar una experiencia visual armoniosa y reconocible.',
+        image: '/img-brand/casanita/logo-portafolio.png'
       },
       {
         phase: '05',
-        title: 'Paleta de Color',
+        title: 'Conectar con la comunidad',
         description:
-          'Colomba había ganado un financiamiento para remodelar su pastelería. Seleccionamos los colores cuidadosamente para aplicarlos en las paredes del local. El rosa había acompañado a la marca muchas veces, pero teníamos que definir cuál era el tono correcto.',
-        image: '/img-brand/test.jpg'
+          'Las redes sociales de La Casa de Anita se conciben como una extensión de la experiencia de la heladería: un espacio cálido y cercano donde la marca comparte su historia, sus sabores y los pequeños momentos que la definen.',
+        image: '/img-brand/casanita/redes.png'
       }
     ],
 
-    technologies: {
-      title: 'Herramientas',
-      stack: [
-        { category: 'Diseño', items: ['Adobe Illustrator', 'Photoshop'] },
-        {
-          category: 'Aplicaciones',
-          items: ['Papelería', 'Uniformes', 'Señalética']
-        },
-        { category: 'Elementos', items: ['Logotipo', 'Patrones', 'Packaging'] },
-        {
-          category: 'Implementación',
-          items: ['Pintura de Local', 'Vitrina', 'Identidad Visual']
-        }
-      ]
-    },
-
     testimonial: {
       quote:
-        'La nueva identidad capturó perfectamente la evolución de Colomba. Pasamos de una imagen casera a una marca profesional que refleja la calidad de nuestros productos y la experiencia que ofrecemos en talleres y cursos.',
-      author: 'Constanza',
-      role: 'Founder, Pastelería Colomba'
+        'Desde el inicio sentimos que entendieron perfecto lo que queríamos transmitir con La Casa de Anita. La historia de mi abuela era muy importante para mí y supieron llevarla a la identidad de la marca con mucho cariño. Hoy la heladería se siente cálida, familiar y muy nuestra. Cada detalle refleja el amor con el que hacemos nuestros helados.”',
+      author: 'Michelle',
+      role: 'Founder, Gelateria La Casa de Anita'
     },
 
     images: [
       {
-        url: '/img-brand/test.jpg',
-        caption: 'Fachada de pastelería Colomba'
+        url: '/img-brand/casanita/cartel.png',
+        caption: 'portada'
       },
       {
         url: '/img-brand/test.jpg',
-        caption: 'Línea de papelería navideña y vitrina temática'
+        caption: 'Cartel'
       },
       {
-        url: '/img-brand/test.jpg',
-        caption: 'Implementación de vitrina con nueva identidad'
+        url: '/img-brand/casanita/vasitos.png',
+        caption: 'Vasos de café'
       }
-    ],
-
-    brandAssets: [
-      { url: '/img-brand/test.jpg', caption: 'Logo principal' },
-      { url: '/img-brand/test.jpg', caption: 'Tipografía' },
-      {
-        url: '/img-brand/test.jpg',
-        caption: 'Tarjetas de presentación'
-      },
-      { url: '/img-brand/test.jpg', caption: 'Patrón de papel' },
-      { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
-      { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
-    ],
-
-    credits: [
-      { role: 'Dirección Creativa', name: 'Paly Zambrano' },
-      { role: 'Cliente', name: 'Constanza - Pastelería Colomba' },
-      { role: 'Diseño de Marca', name: 'Paly Zambrano' }
     ],
 
     nextProject: {
       title: 'Próximo Proyecto',
       name: 'Siguiente proyecto',
       link: '#'
-    },
-
-    instagramLinks: [
-      {
-        text: 'Ver video de Navidad',
-        url: 'https://www.instagram.com/p/DCsVYkMsaCn/'
-      },
-      {
-        text: 'Ver video de vitrina',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
-      }
-    ]
+    }
   };
 </script>
 
@@ -206,7 +156,7 @@
   </section>
 
   <!-- Desafío y Solución: Grid asimétrico -->
-  <section class="grid md:grid-cols-3 gap-px bg-zinc-200 mt-14">
+  <section class="grid md:grid-cols-2 gap-px bg-zinc-200 mt-14">
     <!-- Desafío: 1 columna -->
     <div class="bg-white p-12 md:p-16">
       <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
@@ -218,21 +168,13 @@
     </div>
 
     <!-- Solución: 2 columnas -->
-    <div class="bg-white p-12 md:p-16 md:col-span-2">
+    <div class="bg-white p-12 md:p-16 md:col-span-1">
       <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
         {project.solution.title}
       </h2>
       <p class="text-base leading-relaxed text-zinc-700 mb-12">
         {project.solution.content}
       </p>
-
-      <div class="grid md:grid-cols-2 gap-6">
-        {#each project.solution.highlights as highlight}
-          <div class="border-t border-zinc-300 pt-4">
-            <p class="text-sm text-zinc-600">{highlight}</p>
-          </div>
-        {/each}
-      </div>
     </div>
   </section>
 
@@ -240,7 +182,7 @@
   <section class="py-24 px-8 md:px-16 bg-zinc-50">
     <div class="max-w-4xl border-l-4 border-zinc-300 pl-8">
       <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        El potencial icónico
+        Proyección
       </h2>
       <p class="text-lg leading-relaxed text-zinc-700 italic">
         {project.statement}
@@ -306,94 +248,15 @@
     {/each}
   </section>
 
-  <!-- Sistema de identidad: Grid tipo Pinterest -->
-  <section class="px-8 md:px-16 py-32 bg-zinc-50">
-    <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
-      Sistema de Identidad Visual
-    </h2>
-
-    <div class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-      {#each project.brandAssets as asset}
-        <div class="break-inside-avoid">
-          <img src={asset.url} alt={asset.caption} class="w-full mb-4" />
-          <p class="text-xs uppercase tracking-wider text-zinc-400 px-2">
-            {asset.caption}
-          </p>
-        </div>
-      {/each}
-    </div>
-  </section>
-
-  <!-- Implementaciones: Grid irregular -->
-  <section class="py-32 px-8 md:px-16">
-    <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
-      Implementaciones
-    </h2>
-
-    <div class="grid md:grid-cols-6 gap-4">
-      <!-- Imagen grande -->
-      <div class="md:col-span-4 md:row-span-2">
-        <img
-          src={project.images[1].url}
-          alt={project.images[1].caption}
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-      <!-- Dos imágenes pequeñas -->
-      <div class="md:col-span-2">
-        <img
-          src={project.images[2].url}
-          alt={project.images[2].caption}
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-      <div class="md:col-span-2 space-y-4">
-        <p class="text-xs text-zinc-400">
-          Línea especial de Navidad con diseño de vitrina y papelería temática
-          para la temporada.
-        </p>
-
-        <!-- Links de Instagram -->
-        <div class="space-y-3">
-          {#each project.instagramLinks as link}
-            <a
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block text-xs tracking-wider uppercase text-zinc-800 hover:text-zinc-500 transition-colors border-b border-zinc-300 pb-2"
-            >
-              {link.text} →
-            </a>
-          {/each}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Stack: Horizontal en una línea -->
-  <section class="border-y border-zinc-200 py-16 px-8 md:px-16 overflow-x-auto">
-    <div class="px-6 md:px-16 flex gap-16 min-w-max">
-      {#each project.technologies.stack as tech}
-        <div class="min-w-[200px]">
-          <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-            {tech.category}
-          </h3>
-          <ul class="space-y-2">
-            {#each tech.items as item}
-              <li class="text-sm text-zinc-700">{item}</li>
-            {/each}
-          </ul>
-        </div>
-      {/each}
-    </div>
-  </section>
-
   <!-- Testimonial: Layout dividido -->
   <section class="grid md:grid-cols-2 min-h-[60vh]">
-    <div class="bg-zinc-900 p-16 md:p-24 flex items-center justify-center">
-      <div class="w-20 h-20 border-2 border-white rounded-full" />
+    <div class="bg-[#a9a75c] p-16 md:p-24 flex items-center justify-center">
+      <video
+        src="/img-brand/casanita/video-anita.mov"
+        autoplay
+        loop
+        poster="posterimage.jpg"
+      />
     </div>
     <div class="p-16 md:p-24 flex flex-col justify-center">
       <blockquote
@@ -406,25 +269,6 @@
           {project.testimonial.author}
         </p>
         <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Créditos -->
-  <section class="px-6 md:px-16 pb-24 border-t border-zinc-200 pt-16">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        Créditos
-      </h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        {#each project.credits as credit}
-          <div>
-            <p class="text-xs uppercase tracking-wider text-zinc-400 mb-2">
-              {credit.role}
-            </p>
-            <p class="text-base text-zinc-800">{credit.name}</p>
-          </div>
-        {/each}
       </div>
     </div>
   </section>
