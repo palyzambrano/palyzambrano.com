@@ -28,6 +28,23 @@
       ]
     },
 
+    process: [
+      {
+        phase: '01',
+        title: 'Investigación y Moodboard',
+        description:
+          'Comenzamos con reuniones para entender qué se esperaba de la nueva identidad. Creamos un moodboard colaborativo con referencias que aterrizaran todas las ideas que vivían en nuestra imaginación.',
+        image: '/img-brand/colomba/moodcolomba.png'
+      },
+      {
+        phase: '02',
+        title: 'Definición de Nombre',
+        description:
+          "Colomba's Cake se transformó en Colomba, porque era la forma en que todos los clientes la llamaban. 'Pasemos donde Colomba', 'esas tortas las consigues en Colomba'. Era la forma como los clientes habían adoptado la marca naturalmente.",
+        image: '/img-brand/colomba/antesco.png'
+      }
+    ],
+
     technologies: {
       title: 'Herramientas',
       stack: [
@@ -56,29 +73,48 @@
 
     images: [
       {
-        url: '/img-brand/test.jpg',
-        caption: 'Fachada de pastelería Colomba'
+        url: '/img-brand/delviento/portada.png',
+        caption: 'Portada'
       },
       {
         url: '/img-brand/test.jpg',
-        caption: 'Línea de papelería navideña y vitrina temática'
+        caption: 'Pasaporte de actividades'
+      },
+      {
+        url: '/img-brand/delviento/postal.png',
+        caption: 'Postal para colorear'
       },
       {
         url: '/img-brand/test.jpg',
-        caption: 'Implementación de vitrina con nueva identidad'
+        caption: 'granja cerveceria'
       }
     ],
 
     brandAssets: [
-      { url: '/img-brand/test.jpg', caption: 'Logo principal' },
-      { url: '/img-brand/test.jpg', caption: 'Tipografía' },
+      { url: '/img-brand/delviento/CDV-promo.png', caption: 'promoburger' },
+      { url: '/img-brand/delviento/CDV-preg.png', caption: 'Tipografía' },
+      { url: '/img-brand/delviento/CDV-post.png', caption: 'fgb' },
       {
-        url: '/img-brand/test.jpg',
-        caption: 'Tarjetas de presentación'
+        url: '/img-brand/delviento/CDV-post-3.png',
+        caption: 'Patrón de papel'
       },
-      { url: '/img-brand/test.jpg', caption: 'Patrón de papel' },
-      { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
-      { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
+      {
+        url: '/img-brand/delviento/CDV-post-4.png',
+        caption: 'Cinta cierra cajas'
+      },
+      {
+        url: '/img-brand/delviento/CDV-post-2.png',
+        caption: 'Tarjeta agradecimientos'
+      }
+    ],
+
+    brandStory: [
+      { url: '/img-brand/delviento/story-1.png', caption: 'Menu' },
+      { url: '/img-brand/delviento/story-4.png', caption: 'beer' },
+      { url: '/img-brand/delviento/story-2.png', caption: 'horario' },
+      { url: '/img-brand/delviento/story-5.png', caption: 'liquidos' },
+      { url: '/img-brand/delviento/story-3.png', caption: 'promo' },
+      { url: '/img-brand/delviento/story-6.png', caption: 'ubicacion' }
     ],
 
     credits: [
@@ -153,7 +189,7 @@
   <section class="relative">
     <div class="absolute inset-0">
       <img
-        src={project.images[1].url}
+        src={project.images[3].url}
         alt="Background"
         class="w-full h-full object-cover opacity-10"
       />
@@ -213,19 +249,61 @@
     </div>
   </section>
 
-  <!-- Sistema de identidad: Grid tipo Pinterest -->
+  <!-- Proceso con imágenes -->
+  <section class="px-6 md:px-16 pb-24 pt-24">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
+        Proceso
+      </h2>
+      <div class="space-y-24">
+        {#each project.process as step, i}
+          <div class="grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-12">
+              <span class="text-6xl font-light text-zinc-300 block mb-4"
+                >{step.phase}</span
+              >
+              <h3 class="text-3xl font-light mb-6 text-zinc-800">
+                {step.title}
+              </h3>
+              <p class="text-base text-zinc-600 leading-relaxed">
+                {step.description}
+              </p>
+            </div>
+            <div class="md:col-span-12">
+              <img
+                src={step.image}
+                alt={step.title}
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Sistema de identidad Redes -->
   <section class="px-8 md:px-16 py-32 bg-zinc-50">
-    <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
-      Sistema de Identidad Visual
-    </h2>
+    <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">Feed</h2>
 
     <div class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
       {#each project.brandAssets as asset}
         <div class="break-inside-avoid">
           <img src={asset.url} alt={asset.caption} class="w-full mb-4" />
-          <p class="text-xs uppercase tracking-wider text-zinc-400 px-2">
-            {asset.caption}
-          </p>
+        </div>
+      {/each}
+    </div>
+  </section>
+  <!-- Sistema de identidad: Grid tipo Pinterest -->
+  <section class="px-8 md:px-16 py-32 bg-zinc-50">
+    <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
+      Historias
+    </h2>
+
+    <div class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+      {#each project.brandStory as asset}
+        <div class="break-inside-avoid">
+          <img src={asset.url} alt={asset.caption} class="w-full mb-4" />
         </div>
       {/each}
     </div>
@@ -239,21 +317,23 @@
 
     <div class="grid md:grid-cols-6 gap-4">
       <!-- Imagen grande -->
-      <div class="md:col-span-4 md:row-span-2">
+      <div class="md:col-span-3 md:row-span-2">
         <img
           src={project.images[1].url}
           alt={project.images[1].caption}
           class="w-full h-full object-cover"
         />
+        <p class="text-xs text-zinc-400">{project.images[1].caption}</p>
       </div>
 
       <!-- Dos imágenes pequeñas -->
-      <div class="md:col-span-2">
+      <div class="md:col-span-3">
         <img
           src={project.images[2].url}
           alt={project.images[2].caption}
-          class="w-full h-full object-cover"
+          class="w-full object-cover"
         />
+        <p class="text-xs text-zinc-400">{project.images[2].caption}</p>
       </div>
 
       <div class="md:col-span-2 space-y-4">

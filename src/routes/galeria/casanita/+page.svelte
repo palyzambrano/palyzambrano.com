@@ -252,7 +252,7 @@
   <section class="grid md:grid-cols-2 min-h-[60vh]">
     <div class="bg-[#a9a75c] p-16 md:p-24 flex items-center justify-center">
       <video
-        src="/img-brand/casanita/video-anita.mov"
+        src="/img-brand/casanita/video-anita.mp4"
         autoplay
         loop
         poster="posterimage.jpg"
