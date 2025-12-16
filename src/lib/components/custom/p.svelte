@@ -1,3 +1,3 @@
-<p class="py-4">
+<p class="py-4 proceso">
   <slot />
 </p>
