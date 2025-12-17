@@ -33,15 +33,15 @@
         phase: '01',
         title: 'Investigación y Moodboard',
         description:
-          'Comenzamos con reuniones para entender qué se esperaba de la nueva identidad. Creamos un moodboard colaborativo con referencias que aterrizaran todas las ideas que vivían en nuestra imaginación.',
-        image: '/img-brand/colomba/moodcolomba.png'
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ligula eu neque auctor bibendum in nec tortor. Nam posuere malesuada mi, id dignissim orci pellentesque tristique.',
+        image: '/img-brand/test.jpg'
       },
       {
         phase: '02',
-        title: 'Definición de Nombre',
+        title: 'Propuesta',
         description:
-          "Colomba's Cake se transformó en Colomba, porque era la forma en que todos los clientes la llamaban. 'Pasemos donde Colomba', 'esas tortas las consigues en Colomba'. Era la forma como los clientes habían adoptado la marca naturalmente.",
-        image: '/img-brand/colomba/antesco.png'
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ligula eu neque auctor bibendum in nec tortor. Nam posuere malesuada mi, id dignissim orci pellentesque tristique.',
+        image: '/img-brand/test.jpg'
       }
     ],
 
@@ -77,7 +77,7 @@
         caption: 'Portada'
       },
       {
-        url: '/img-brand/test.jpg',
+        url: '/img-brand/delviento/passcdv.png',
         caption: 'Pasaporte de actividades'
       },
       {
