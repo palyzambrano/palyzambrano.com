@@ -31,17 +31,24 @@
     process: [
       {
         phase: '01',
-        title: 'Investigación y Moodboard',
+        title: 'Investigación',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ligula eu neque auctor bibendum in nec tortor. Nam posuere malesuada mi, id dignissim orci pellentesque tristique.',
-        image: '/img-brand/test.jpg'
+          'La etapa de investigación permitió identificar brechas claras entre la identidad deseada de la marca y su percepción actual en redes sociales. Se detectó una identidad visual difusa, sin una narrativa consistente que reflejara el espíritu aventurero, natural y experiencial de la cervecería. Si bien el espacio ofrece un valor diferencial —como la posibilidad de interactuar con animales de la granja y visitar la fábrica en el mismo lugar— estos atributos no estaban siendo comunicados de forma clara ni estratégica. Además, el contenido resultaba limitado y poco atractivo, lo que se reflejaba en una baja interacción y una comunidad poco comprometida.',
+        image: '/img-brand/delviento/inv-cdv.png'
       },
       {
         phase: '02',
-        title: 'Propuesta',
+        title: 'Moodboard, propuesta y público objetivo',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ligula eu neque auctor bibendum in nec tortor. Nam posuere malesuada mi, id dignissim orci pellentesque tristique.',
-        image: '/img-brand/test.jpg'
+          'A partir del análisis, se definió un público objetivo compuesto por jóvenes con un estilo de vida activo y nómada: mochileros, surfistas, ciclistas, excursionistas y campistas. Se trata de personas que valoran la libertad, la autenticidad y la sostenibilidad, priorizando experiencias por sobre bienes materiales. El moodboard se construyó en torno a paisajes naturales, rutas, viajes y momentos compartidos, dando forma a una propuesta visual y conceptual que conecta con quienes buscan productos artesanales, locales y conscientes, y disfrutan compartir sus aventuras en redes sociales. La propuesta busca posicionar a la cervecería como un destino, donde no solo se consume cerveza artesanal, sino que se vive una experiencia completa, cercana y auténtica.',
+        image: '/img-brand/delviento/mood-cdv.png'
+      },
+      {
+        phase: '03',
+        title: 'Estilo fotográfico',
+        description:
+          'El estilo visual se orientó a reforzar la identidad outdoor y artesanal de la marca, utilizando una estética cálida, natural y honesta. La fotografía prioriza escenas reales, momentos espontáneos y ambientes al aire libre, destacando la experiencia por sobre el producto aislado. Se trabajó con encuadres simples, luz natural y texturas orgánicas, buscando transmitir cercanía y autenticidad. Este enfoque visual permitió construir una imagen coherente y reconocible, alineada con el estilo de vida del público objetivo y pensada para generar mayor conexión e interacción en redes sociales.',
+        image: '/img-brand/delviento/dda-cdv.png'
       }
     ],
 
@@ -66,14 +73,14 @@
 
     testimonial: {
       quote:
-        'La nueva identidad capturó perfectamente la evolución de Colomba. Pasamos de una imagen casera a una marca profesional que refleja la calidad de nuestros productos y la experiencia que ofrecemos en talleres y cursos.',
-      author: 'Constanza',
-      role: 'Founder, Pastelería Colomba'
+        'Estamos muy contentos con los cambios en la estrategia y la identidad en redes sociales. Se ha notado un aumento real de público en el local, especialmente los domingos, donde llegan familias completas a disfrutar del espacio. Confirmamos que una comunicación clara y auténtica en redes impacta directamente en la asistencia y en la comunidad que se forma alrededor de la cervecería.',
+      author: 'Pamela y Juan Luis',
+      role: 'Founders'
     },
 
     images: [
       {
-        url: '/img-brand/delviento/portada.png',
+        url: '/img-brand/delviento/portada-cdv.png',
         caption: 'Portada'
       },
       {
@@ -131,12 +138,12 @@
 
     instagramLinks: [
       {
-        text: 'Ver video de Navidad',
-        url: 'https://www.instagram.com/p/DCsVYkMsaCn/'
+        text: 'Para acompañar tus aventuras',
+        url: 'https://www.instagram.com/p/DLDGChDIoz-/'
       },
       {
-        text: 'Ver video de vitrina',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
+        text: 'Tu parada en la ruta',
+        url: 'https://www.instagram.com/p/DM5nIAKo3vE/'
       }
     ]
   };
@@ -334,14 +341,12 @@
           class="w-full object-cover"
         />
         <p class="text-xs text-zinc-400">{project.images[2].caption}</p>
+        <p class="text-xs text-zinc-400">
+          Papelería especial, actividades día de la niñez.
+        </p>
       </div>
 
       <div class="md:col-span-2 space-y-4">
-        <p class="text-xs text-zinc-400">
-          Línea especial de Navidad con diseño de vitrina y papelería temática
-          para la temporada.
-        </p>
-
         <!-- Links de Instagram -->
         <div class="space-y-3">
           {#each project.instagramLinks as link}
@@ -384,7 +389,7 @@
     </div>
     <div class="p-16 md:p-24 flex flex-col justify-center">
       <blockquote
-        class="text-xl md:text-2xl font-light leading-relaxed mb-8 text-zinc-700"
+        class="text-xl md:text-xl font-light leading-relaxed mb-8 text-zinc-700"
       >
         "{project.testimonial.quote}"
       </blockquote>
