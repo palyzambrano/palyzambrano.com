@@ -77,15 +77,19 @@
 
     images: [
       {
-        url: '/img-brand/maica/portadamai.png',
+        url: '/img-brand/maica/portada-maica.png',
         caption: 'Maica'
       },
       {
-        url: '/img-brand/test.jpg',
+        url: '/img-brand/maica/bolsa-maica.png',
         caption: 'Línea de papelería navideña y vitrina temática'
       },
       {
-        url: '/img-brand/test.jpg',
+        url: '/img-brand/maica/box-maica.png',
+        caption: 'Implementación de vitrina con nueva identidad'
+      },
+      {
+        url: '/img-brand/maica/box-maica.png',
         caption: 'Implementación de vitrina con nueva identidad'
       }
     ],
@@ -318,7 +322,7 @@
 
     <div class="grid md:grid-cols-6 gap-4">
       <!-- Imagen grande -->
-      <div class="md:col-span-4 md:row-span-2">
+      <div class="md:col-span-3 md:row-span-2">
         <img
           src={project.images[1].url}
           alt={project.images[1].caption}
@@ -327,7 +331,14 @@
       </div>
 
       <!-- Dos imágenes pequeñas -->
-      <div class="md:col-span-2">
+      <div class="md:col-span-3">
+        <img
+          src={project.images[2].url}
+          alt={project.images[2].caption}
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="md:col-span-3">
         <img
           src={project.images[2].url}
           alt={project.images[2].caption}
