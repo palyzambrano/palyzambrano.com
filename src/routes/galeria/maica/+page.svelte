@@ -41,14 +41,14 @@
         title: 'Bocetaje y exploración tipográfica',
         description:
           'La etapa creativa inició con una amplia exploración tipográfica y bocetaje, donde se desarrollaron distintas propuestas basadas en serif y semi-serif elegantes que transmitieran feminidad y distinción. Se experimentó con variaciones de peso, serifas personalizadas y terminaciones suaves para encontrar una estructura que representara el carácter de Maica. Una vez seleccionada la tipografía más adecuada, se procedió a un proceso minucioso de refinamiento, ajustando espaciados, curvas, proporciones y ritmo visual entre letras. Este trabajo detallado permitió construir un logotipo equilibrado, sofisticado y coherente con los pilares visuales de la marca.',
-        image: '/img-brand/maica/maica-celeste.jpg'
+        image: '/img-brand/maica/boceto-maica.png'
       },
       {
         phase: '03',
         title: 'Paleta de Color',
         description:
           'Se incorporaron tonos celestes para transmitir frescura, calma y una elegancia sutil que refleja la esencia de Maica. El celeste es versátil y accesible para un público amplio, aportando modernidad y una estética atemporal. Además, conecta con el concepto “El hogar de tu esencia”, ya que evoca tranquilidad y confianza. Su combinación con tonos más oscuros o metálicos —como beige o gris profundo— permite añadir un toque de exclusividad y equilibrio a la identidad visual.',
-        image: '/img-brand/maica/maica-celeste.jpg'
+        image: '/img-brand/maica/paleta-maica.png'
       }
     ],
 
@@ -85,7 +85,7 @@
         caption: 'Línea de papelería navideña y vitrina temática'
       },
       {
-        url: '/img-brand/maica/box-maica.png',
+        url: '/img-brand/maica/stick-maica.png',
         caption: 'Implementación de vitrina con nueva identidad'
       },
       {
@@ -95,13 +95,7 @@
     ],
 
     brandAssets: [
-      { url: '/img-brand/test.jpg', caption: 'Logo principal' },
-      { url: '/img-brand/test.jpg', caption: 'Tipografía' },
-      {
-        url: '/img-brand/test.jpg',
-        caption: 'Tarjetas de presentación'
-      },
-      { url: '/img-brand/test.jpg', caption: 'Patrón de papel' },
+      { url: '/img-brand/maica/etiquetas-maica.png', caption: 'etiquetas' },
       { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
       { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
     ],
@@ -239,7 +233,7 @@
   </section>
 
   <!-- Proceso: Layout de revista con imágenes grandes -->
-  <section class="py-32">
+  <section class="pt-32">
     <div class="px-8 md:px-16 mb-24">
       <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400">Proceso</h2>
     </div>
@@ -247,7 +241,7 @@
     {#each project.process as step, i}
       {#if i % 2 === 0}
         <!-- Layout: Imagen full width arriba, texto abajo en dos columnas -->
-        <div class="mb-32">
+        <div class="mb-12">
           <div class="px-8 md:px-16 grid md:grid-cols-12 gap-12">
             <div class="md:col-span-2">
               <span class="text-7xl font-light text-zinc-200">{step.phase}</span
@@ -288,30 +282,12 @@
             <img
               src={step.image}
               alt={step.title}
-              class="w-full object-cover"
+              class="w-full h-[600px] object-cover"
             />
           </div>
         </div>
       {/if}
     {/each}
-  </section>
-
-  <!-- Sistema de identidad: Grid tipo Pinterest -->
-  <section class="px-8 md:px-16 py-32 bg-zinc-50">
-    <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
-      Sistema de Identidad Visual
-    </h2>
-
-    <div class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
-      {#each project.brandAssets as asset}
-        <div class="break-inside-avoid">
-          <img src={asset.url} alt={asset.caption} class="w-full mb-4" />
-          <p class="text-xs uppercase tracking-wider text-zinc-400 px-2">
-            {asset.caption}
-          </p>
-        </div>
-      {/each}
-    </div>
   </section>
 
   <!-- Implementaciones: Grid irregular -->
@@ -340,31 +316,41 @@
       </div>
       <div class="md:col-span-3">
         <img
-          src={project.images[2].url}
-          alt={project.images[2].caption}
+          src={project.images[3].url}
+          alt={project.images[3].caption}
           class="w-full h-full object-cover"
         />
       </div>
+    </div>
 
-      <div class="md:col-span-2 space-y-4">
-        <p class="text-xs text-zinc-400">
-          Línea especial de Navidad con diseño de vitrina y papelería temática
-          para la temporada.
-        </p>
+    <!-- Sistema de identidad: Grid tipo Pinterest -->
+    <section class="mt-4">
+      <div class="columns-1 md:columns-2 lg:columns-3 gap-4">
+        {#each project.brandAssets as asset}
+          <div class="break-inside-avoid">
+            <img src={asset.url} alt={asset.caption} class="w-full mb-4" />
+          </div>
+        {/each}
+      </div>
+    </section>
 
-        <!-- Links de Instagram -->
-        <div class="space-y-3">
-          {#each project.instagramLinks as link}
-            <a
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block text-xs tracking-wider uppercase text-zinc-800 hover:text-zinc-500 transition-colors border-b border-zinc-300 pb-2"
-            >
-              {link.text} →
-            </a>
-          {/each}
-        </div>
+    <!-- Links de Instagram -->
+    <div class="md:col-span-2 space-y-4">
+      <p class="text-xs text-zinc-400">
+        Línea especial de Navidad con diseño de vitrina y papelería temática
+        para la temporada.
+      </p>
+      <div class="space-y-3">
+        {#each project.instagramLinks as link}
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block text-xs tracking-wider uppercase text-zinc-800 hover:text-zinc-500 transition-colors border-b border-zinc-300 pb-2"
+          >
+            {link.text} →
+          </a>
+        {/each}
       </div>
     </div>
   </section>
