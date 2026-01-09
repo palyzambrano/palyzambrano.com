@@ -47,7 +47,7 @@
         phase: '03',
         title: 'Paleta de Color',
         description:
-          'Se incorporaron tonos celestes para transmitir frescura, calma y una elegancia sutil que refleja la esencia de Maica. El celeste es versátil y accesible para un público amplio, aportando modernidad y una estética atemporal. Además, conecta con el concepto “El hogar de tu esencia”, ya que evoca tranquilidad y confianza. Su combinación con tonos más oscuros o metálicos —como beige o gris profundo— permite añadir un toque de exclusividad y equilibrio a la identidad visual.',
+          'Se incorporaron tonos celestes para transmitir frescura, calma y una elegancia sutil que refleja la esencia de Maica. El celeste es versátil y accesible para un público amplio, aportando modernidad y una estética atemporal. Además, conecta con el concepto “El hogar de tu esencia”, ya que evoca tranquilidad y confianza. Su combinación con otros tonos —como beige o azul— permite añadir un toque de exclusividad y equilibrio a la identidad visual.',
         image: '/img-brand/maica/paleta-maica.png'
       }
     ],
@@ -70,9 +70,9 @@
 
     testimonial: {
       quote:
-        'La nueva identidad capturó perfectamente la evolución de Colomba. Pasamos de una imagen casera a una marca profesional que refleja la calidad de nuestros productos y la experiencia que ofrecemos en talleres y cursos.',
-      author: 'Constanza',
-      role: 'Founder, Pastelería Colomba'
+        'El resultado superó completamente mis expectativas. El proyecto no solo es hermoso, sino que transmite exactamente lo que quería para mi marca. Estoy profundamente agradecida',
+      author: 'Carla',
+      role: 'Founder, Maica'
     },
 
     images: [
@@ -95,9 +95,15 @@
     ],
 
     brandAssets: [
-      { url: '/img-brand/maica/etiquetas-maica.png', caption: 'etiquetas' },
-      { url: '/img-brand/test.jpg', caption: 'Cinta cierra cajas' },
-      { url: '/img-brand/test.jpg', caption: 'Tarjeta agradecimientos' }
+      { url: '/img-brand/maica/etiqueta-maica.png', caption: 'etiquetas' },
+      {
+        url: '/img-brand/maica/fotos-maica.png',
+        caption: 'Cinta cierra cajas'
+      },
+      {
+        url: '/img-brand/maica/redes-maica.png',
+        caption: 'Tarjeta agradecimientos'
+      }
     ],
 
     credits: [
@@ -291,7 +297,7 @@
   </section>
 
   <!-- Implementaciones: Grid irregular -->
-  <section class="py-32 px-8 md:px-16">
+  <section class="pb-32 px-8 md:px-16">
     <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
       Implementaciones
     </h2>
@@ -324,7 +330,7 @@
     </div>
 
     <!-- Sistema de identidad: Grid tipo Pinterest -->
-    <section class="mt-4">
+    <section class="mt-4 pb-20">
       <div class="columns-1 md:columns-2 lg:columns-3 gap-4">
         {#each project.brandAssets as asset}
           <div class="break-inside-avoid">
