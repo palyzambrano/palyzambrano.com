@@ -4,7 +4,7 @@
     title: 'Ecosistema Digital Completo',
     tagline: 'App Web · Sitio Web · Social Media',
     year: '2024',
-    client: 'Nombre del Cliente',
+    client: 'Endurance',
     duration: '3 meses',
 
     // Overview del proyecto
@@ -17,9 +17,8 @@
 
     // Roles y equipo
     team: [
-      { role: 'Diseño UI/UX', name: 'Tu Nombre' },
-      { role: 'Desarrollo', name: 'Tu Nombre' },
-      { role: 'Social Media Design', name: 'Tu Nombre' }
+      { role: 'Diseño UI/UX', name: 'Paly Zambrano' },
+      { role: 'Desarrollo', name: 'Leo Borai' }
     ],
 
     // DELIVERABLE 1: App Web
@@ -54,11 +53,11 @@
 
       screenshots: [
         {
-          url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
+          url: '/img-brand/endurance/client-admin.png',
           caption: 'Dashboard principal con métricas'
         },
         {
-          url: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80',
+          url: '/img-brand/endurance/client-user.png ',
           caption: 'Vista de perfil y configuración'
         }
       ],
@@ -94,7 +93,7 @@
 
       screenshots: [
         {
-          url: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
+          url: '/img-brand/endurance/portada-endurance.png',
           caption: 'Hero section con animaciones sutiles'
         },
         {
@@ -172,23 +171,23 @@
 
       gallery: [
         {
-          url: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80',
+          url: '/img-brand/endurance/general-post.png',
           caption: 'Template Instagram Post'
         },
         {
-          url: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&q=80',
+          url: '/img-brand/endurance/run-post.png',
           caption: 'Template Instagram Story'
         },
         {
-          url: 'https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=600&q=80',
+          url: '/img-brand/endurance/cycling-post.png',
           caption: 'Template LinkedIn'
         },
         {
-          url: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&q=80',
+          url: '/img-brand/endurance/horario-nuevo.png',
           caption: 'Template Twitter'
         },
         {
-          url: 'https://images.unsplash.com/photo-1611162617263-4ec3060a115e?w=600&q=80',
+          url: '/img-brand/endurance/valores.png',
           caption: 'Carrusel educativo'
         },
         {
@@ -245,7 +244,7 @@
 <article class="min-h-screen bg-white">
   <!-- Hero Full Width -->
   <section
-    class="relative min-h-screen flex items-center justify-center bg-zinc-900 text-white overflow-hidden"
+    class="relative min-h-min py-32 flex items-center justify-center bg-zinc-900 text-white overflow-hidden"
   >
     <div class="absolute inset-0 opacity-10">
       <div
@@ -258,31 +257,16 @@
 
     <div class="relative z-10 px-8 md:px-16 text-center max-w-5xl">
       <p class="text-xs tracking-[0.4em] uppercase text-zinc-400 mb-8">
-        {project.year} · {project.client}
+        {project.year} · {project.title}
       </p>
       <h1
         class="text-6xl md:text-8xl font-light tracking-tight mb-8 leading-tight"
       >
-        {project.title}
+        {project.client}
       </h1>
-      <p class="text-2xl md:text-3xl font-light text-zinc-300 mb-16">
+      <p class="text-2xl md:text-3xl font-light text-zinc-300 mb-4">
         {project.tagline}
       </p>
-
-      <div class="flex flex-wrap justify-center gap-8 text-sm">
-        <div>
-          <p class="text-zinc-500 uppercase tracking-wider mb-2">Duración</p>
-          <p class="text-white">{project.duration}</p>
-        </div>
-        {#each project.team as member}
-          <div>
-            <p class="text-zinc-500 uppercase tracking-wider mb-2">
-              {member.role}
-            </p>
-            <p class="text-white">{member.name}</p>
-          </div>
-        {/each}
-      </div>
     </div>
   </section>
 
@@ -375,6 +359,20 @@
             </span>
           {/each}
         </div>
+      </div>
+      <div class="flex flex-wrap gap-12 text-sm pt-8">
+        <div>
+          <p class="text-zinc-500 uppercase tracking-wider mb-2">Duración</p>
+          <p class="">{project.duration}</p>
+        </div>
+        {#each project.team as member}
+          <div>
+            <p class="text-zinc-500 uppercase tracking-wider mb-2">
+              {member.role}
+            </p>
+            <p class="">{member.name}</p>
+          </div>
+        {/each}
       </div>
     </div>
   </section>
@@ -553,7 +551,6 @@
                 class="w-full h-auto transition-transform group-hover:scale-105"
               />
             </div>
-            <p class="text-xs text-zinc-500">{template.caption}</p>
           </div>
         {/each}
       </div>
