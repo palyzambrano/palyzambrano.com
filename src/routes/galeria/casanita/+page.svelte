@@ -63,7 +63,7 @@
 
     testimonial: {
       quote:
-        'Desde el inicio sentimos que entendieron perfecto lo que queríamos transmitir con La Casa de Anita. La historia de mi abuela era muy importante para mí y supieron llevarla a la identidad de la marca con mucho cariño. Hoy la heladería se siente cálida, familiar y muy nuestra. Cada detalle refleja el amor con el que hacemos nuestros helados.”',
+        'Desde el inicio sentimos que se entendió perfecto lo que queríamos transmitir con La Casa de Anita. La historia de mi abuela era muy importante para mí y se trasladó a la identidad de la marca con mucho cariño. Hoy la heladería se siente cálida, familiar y muy nuestra. Cada detalle refleja el amor con el que hacemos nuestros helados.”',
       author: 'Michelle',
       role: 'Founder, Gelateria La Casa de Anita'
     },
@@ -80,6 +80,15 @@
       {
         url: '/img-brand/casanita/vasitos.png',
         caption: 'Vasos de café'
+      }
+    ],
+    brandAssets: [
+      { url: '/img-brand/casanita/vasitos.png', caption: 'Logo principal' },
+      { url: '/img-brand/casanita/box-anita.png', caption: 'Tipografía' },
+      { url: '/img-brand/casanita/manija-anita.png', caption: 'Tipografía' },
+      {
+        url: '/img-brand/casanita/bolsas-anita.png',
+        caption: 'diseño de bolsas'
       }
     ],
 
@@ -191,7 +200,7 @@
   </section>
 
   <!-- Proceso: Layout de revista con imágenes grandes -->
-  <section class="py-32">
+  <section class="pt-32">
     <div class="px-8 md:px-16 mb-24">
       <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400">Proceso</h2>
     </div>
@@ -246,6 +255,27 @@
         </div>
       {/if}
     {/each}
+  </section>
+
+  <!-- Sistema de Identidad - Grid masonry -->
+  <section class="bg-white text-zinc-900 pb-16">
+    <div class="max-w-6xl mx-auto px-6 md:px-16">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
+        Sistema de Identidad Visual
+      </h2>
+
+      <div class="space-y-6">
+        {#each project.brandAssets as asset}
+          <div class="group">
+            <img
+              src={asset.url}
+              alt={asset.caption}
+              class="w-full h-auto mb-4 transition-transform group-hover:scale-[1.02]"
+            />
+          </div>
+        {/each}
+      </div>
+    </div>
   </section>
 
   <!-- Testimonial: Layout dividido -->

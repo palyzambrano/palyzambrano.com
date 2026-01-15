@@ -14,19 +14,39 @@
 <section class="overflow-x-scroll ml-4 my-4">
   <ul class="flex space-x-4">
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="Colomba"
+        image="/img-brand/colomba/col-procesos.png"
+        link="/galeria/colomba"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="Maica"
+        image="/img-brand/maica/bolsa-maica.png"
+        link="/galeria/maica"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="Cerveceria del viento"
+        image="/img-brand/delviento/portada-cdv.png"
+        link="/galeria/delviento"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="La casa de Anita"
+        image="/img-brand/casanita/anita-port.jpg"
+        link="/galeria/casanita"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="OMA"
+        image="/img-brand/colomba/col-procesos.png"
+        link="/galeria/oma"
+      />
     </li>
   </ul>
 </section>
