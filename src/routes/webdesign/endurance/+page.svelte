@@ -24,70 +24,72 @@
     // DELIVERABLE 1: App Web
     webapp: {
       title: 'App Web',
-      subtitle: 'Aplicación principal del ecosistema',
+      subtitle: 'Dos Interfaces, Un Ecosistema',
       description:
-        'Una aplicación web robusta y escalable que sirve como núcleo de la experiencia digital. Diseñada para usuarios que necesitan funcionalidad completa y acceso a todas las características.',
-
-      features: [
-        {
-          name: 'Dashboard Intuitivo',
-          detail: 'Panel de control personalizado con datos en tiempo real',
-          icon: '📊'
-        },
-        {
-          name: 'Flujos Optimizados',
-          detail: 'Procesos simplificados para máxima eficiencia',
-          icon: '⚡'
-        },
-        {
-          name: 'Responsive First',
-          detail: 'Funciona perfectamente en desktop y móvil',
-          icon: '📱'
-        },
-        {
-          name: 'Dark Mode',
-          detail: 'Modo oscuro para reducir fatiga visual',
-          icon: '🌙'
-        }
-      ],
+        'El sistema se divide en dos experiencias diferenciadas pero interconectadas. Por un lado, los miembros del gimnasio interactúan con una interfaz limpia e intuitiva donde reservar una clase es tan simple como tres taps. Mientras tanto, el equipo administrativo cuenta con un sistema completo que les permite visualizar la ocupación en tiempo real, gestionar múltiples clases simultáneamente y acceder a reportes que optimizan la toma de decisiones operativas.',
 
       screenshots: [
         {
           url: '/img-brand/endurance/client-admin.png',
-          caption: 'Dashboard principal con métricas'
+          caption: 'Vistas de calendario y gestión de clases'
         },
         {
           url: '/img-brand/endurance/client-user.png ',
-          caption: 'Vista de perfil y configuración'
+          caption: 'Interfaz de usuario con acceso a reservas'
         }
       ],
 
       stack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL']
     },
 
+    // Investigación de Usuarios
+    research: {
+      title: 'Gestión de reservas para usuarios',
+      description:
+        'Para entender mejor las necesidades y expectativas de los usuarios, se llevaron a cabo entrevistas y encuestas a un grupo de miembros del gimnasio con distintos niveles de experiencia tecnológica.',
+
+      findings: [
+        {
+          insight: 'Gestión eficiente',
+          description:
+            'Los administradores necesitaban herramientas eficaces para gestionar horarios, clases y usuarios.'
+        },
+        {
+          insight: 'Necesidad de flexibilidad',
+          description:
+            'Los usuarios querían poder reservar, cancelar y reprogramar sus sesiones fácilmente.'
+        },
+        {
+          insight: 'Interfaz intuitiva',
+          description:
+            'La app debía ser fácil de usar, incluso para aquellos con poca experiencia en tecnología tomando en cuenta las distintas edades de los usuarios.'
+        }
+      ]
+    },
+
     // DELIVERABLE 2: Sitio Web
     website: {
       title: 'Sitio Web',
-      subtitle: 'Landing page y presencia pública',
+      subtitle: 'Acceso multiplataforma y presencia digital',
       description:
-        'Un sitio web institucional diseñado para atraer nuevos usuarios, comunicar el valor de la marca y convertir visitantes en clientes. Optimizado para SEO y conversión.',
+        'Un sitio web desarrollado para permitir a los usuarios acceder a sus reservas desde cualquier dispositivo con conexión a Internet. Incluye información sobre el gimnasio, programas y tarifas, complementando la experiencia de la app móvil.',
 
       sections: [
         {
-          name: 'Hero Impactante',
-          detail: 'Primera impresión que captura atención en 3 segundos'
+          name: 'Información del Gimnasio',
+          detail: 'Presentación completa de instalaciones y servicios'
         },
         {
-          name: 'Casos de Uso',
-          detail: 'Ejemplos reales que demuestran el valor del producto'
+          name: 'Programas y Clases',
+          detail: 'Catálogo detallado de entrenamientos disponibles'
         },
         {
-          name: 'Testimoniales',
-          detail: 'Prueba social con historias de clientes reales'
+          name: 'Tarifas y Planes',
+          detail: 'Información clara sobre membresías y precios'
         },
         {
-          name: 'CTA Estratégico',
-          detail: 'Llamados a la acción optimizados para conversión'
+          name: 'Sistema de Reservas Web',
+          detail: 'Acceso completo a la gestión de cupos desde navegador'
         }
       ],
 
@@ -115,7 +117,56 @@
       stack: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'Vercel']
     },
 
-    // DELIVERABLE 3: Social Media
+    // DELIVERABLE 3: Panel de Administración
+    admin: {
+      title: 'Panel de Administración',
+      subtitle: 'Herramientas de gestión para el gimnasio',
+      description:
+        'Sistema completo para que los administradores gestionen horarios, clases, usuarios y obtengan insights valiosos sobre la operación del gimnasio.',
+
+      platforms: [
+        {
+          name: 'Dashboard Principal',
+          focus: 'Vista general de la operación diaria',
+          formats: [
+            'Calendario semanal',
+            'Calendario mensual',
+            'Vista de reservas'
+          ],
+          frequency: 'Actualización en tiempo real'
+        },
+        {
+          name: 'Gestión de Clases',
+          focus: 'Administración de horarios y capacidad',
+          formats: [
+            'Crear clases',
+            'Modificar horarios',
+            'Asignar instructores'
+          ],
+          frequency: 'Gestión continua'
+        },
+        {
+          name: 'Estadísticas y Reportes',
+          focus: 'Análisis de ocupación y tendencias',
+          formats: [
+            'Reportes de asistencia',
+            'Ocupación de clases',
+            'Análisis de usuarios'
+          ],
+          frequency: 'Reportes semanales/mensuales'
+        }
+      ],
+
+      deliverables: [
+        'Calendario completo de reservas',
+        'Dashboard de gestión intuitivo',
+        'Sistema de reportes y estadísticas',
+        'Gestión de usuarios y clases',
+        'Herramientas de optimización de recursos'
+      ]
+    },
+
+    // DELIVERABLE 4: Social Media
     social: {
       title: 'Social Media Templates',
       subtitle: 'Sistema de contenido para redes sociales',
@@ -301,98 +352,13 @@
     </div>
   </div>
 
-  <!-- DELIVERABLE 1: APP WEB -->
-  <section class="py-32 px-8 md:px-16 bg-gradient-to-b from-white to-zinc-50">
-    <div class="max-w-6xl mx-auto">
-      <!-- Header -->
-      <div class="mb-20">
-        <div class="flex items-baseline gap-4 mb-6">
-          <span class="text-7xl font-light text-zinc-200">01</span>
-          <div>
-            <h2 class="text-4xl md:text-5xl font-light mb-2 text-zinc-800">
-              {project.webapp.title}
-            </h2>
-            <p class="text-xl text-zinc-500">{project.webapp.subtitle}</p>
-          </div>
-        </div>
-        <p class="text-lg leading-relaxed text-zinc-600 max-w-3xl">
-          {project.webapp.description}
-        </p>
-      </div>
-
-      <!-- Features Grid -->
-      <div class="grid md:grid-cols-2 gap-8 mb-20">
-        {#each project.webapp.features as feature}
-          <div class="bg-white p-8 border border-zinc-200">
-            <span class="text-4xl mb-4 block">{feature.icon}</span>
-            <h3 class="text-xl font-light mb-3 text-zinc-800">
-              {feature.name}
-            </h3>
-            <p class="text-sm text-zinc-600">{feature.detail}</p>
-          </div>
-        {/each}
-      </div>
-
-      <!-- Screenshots -->
-      <div class="space-y-8">
-        {#each project.webapp.screenshots as screenshot}
-          <div>
-            <img
-              src={screenshot.url}
-              alt={screenshot.caption}
-              class="w-full h-auto shadow-2xl mb-4"
-            />
-            <p class="text-sm text-zinc-500">{screenshot.caption}</p>
-          </div>
-        {/each}
-      </div>
-
-      <!-- Stack -->
-      <div class="mt-16 pt-16 border-t border-zinc-200">
-        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-          Stack Técnico
-        </h3>
-        <div class="flex flex-wrap gap-3">
-          {#each project.webapp.stack as tech}
-            <span class="px-4 py-2 bg-zinc-900 text-white text-sm">
-              {tech}
-            </span>
-          {/each}
-        </div>
-      </div>
-      <div class="flex flex-wrap gap-12 text-sm pt-8">
-        <div>
-          <p class="text-zinc-500 uppercase tracking-wider mb-2">Duración</p>
-          <p class="">{project.duration}</p>
-        </div>
-        {#each project.team as member}
-          <div>
-            <p class="text-zinc-500 uppercase tracking-wider mb-2">
-              {member.role}
-            </p>
-            <p class="">{member.name}</p>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <!-- Separador con número -->
-  <div class="border-t border-zinc-200 py-4">
-    <div class="max-w-6xl mx-auto px-8 md:px-16">
-      <span class="text-xs tracking-[0.3em] uppercase text-zinc-400"
-        >02 de 03</span
-      >
-    </div>
-  </div>
-
-  <!-- DELIVERABLE 2: SITIO WEB -->
+  <!-- DELIVERABLE 1: SITIO WEB -->
   <section class="py-32 px-8 md:px-16">
     <div class="max-w-6xl mx-auto">
       <!-- Header -->
       <div class="mb-20">
         <div class="flex items-baseline gap-4 mb-6">
-          <span class="text-7xl font-light text-zinc-200">02</span>
+          <span class="text-7xl font-light text-zinc-200">01</span>
           <div>
             <h2 class="text-4xl md:text-5xl font-light mb-2 text-zinc-800">
               {project.website.title}
@@ -448,18 +414,6 @@
         {/each}
       </div>
 
-      <!-- Métricas -->
-      <div class="bg-zinc-50 p-12 grid md:grid-cols-3 gap-12">
-        {#each project.website.metrics as metric}
-          <div class="text-center">
-            <p class="text-5xl font-light mb-3 text-zinc-800">{metric.value}</p>
-            <p class="text-sm uppercase tracking-wider text-zinc-500">
-              {metric.label}
-            </p>
-          </div>
-        {/each}
-      </div>
-
       <!-- Stack -->
       <div class="mt-16 pt-16 border-t border-zinc-200">
         <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
@@ -480,12 +434,143 @@
   <div class="border-t border-zinc-200 py-4">
     <div class="max-w-6xl mx-auto px-8 md:px-16">
       <span class="text-xs tracking-[0.3em] uppercase text-zinc-400"
+        >02 de 03</span
+      >
+    </div>
+  </div>
+
+  <!-- DELIVERABLE 2: APP WEB -->
+  <section class="py-32 px-8 md:px-16 bg-gradient-to-b from-white to-zinc-50">
+    <div class="max-w-6xl mx-auto">
+      <!-- Header -->
+      <div class="mb-20">
+        <div class="flex items-baseline gap-4 mb-6">
+          <span class="text-7xl font-light text-zinc-200">02</span>
+          <div>
+            <h2 class="text-4xl md:text-5xl font-light mb-2 text-zinc-800">
+              {project.webapp.title}
+            </h2>
+            <p class="text-xl text-zinc-500">{project.webapp.subtitle}</p>
+          </div>
+        </div>
+        <p class="text-base leading-relaxed text-zinc-600">
+          {project.webapp.description}
+        </p>
+      </div>
+
+      <!-- parte 1 -->
+      <div class="max-w-6xl mx-auto py-10">
+        <div class="mb-20">
+          <div class="flex items-baseline gap-4 mb-6">
+            <div>
+              <h2 class="text-2xl md:text-2xl font-light mb-2 text-zinc-800">
+                {project.admin.title}
+              </h2>
+            </div>
+          </div>
+          <p class="text-lg leading-relaxed text-zinc-600 max-w-3xl">
+            {project.admin.description}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 mb-20">
+          {#each project.admin.platforms as platform}
+            <div class="bg-white p-8 border border-zinc-200">
+              <h3 class="text-xl font-light mb-6 text-zinc-800">
+                {platform.name}
+              </h3>
+              <p class="text-sm text-zinc-600 mb-6 italic">{platform.focus}</p>
+              <ul class="space-y-2 mb-6">
+                {#each platform.formats as format}
+                  <li class="text-sm text-zinc-600 flex items-start">
+                    <span class="text-zinc-400 mr-2">•</span>
+                    {format}
+                  </li>
+                {/each}
+              </ul>
+              <p class="text-xs text-zinc-500">{platform.frequency}</p>
+            </div>
+          {/each}
+        </div>
+
+        <!-- Screenshots -->
+        <div class="space-y-8">
+          {#each project.webapp.screenshots as screenshot}
+            <div>
+              <img
+                src={screenshot.url}
+                alt={screenshot.caption}
+                class="w-full h-auto shadow-2xl mb-4"
+              />
+              <p class="text-sm text-zinc-500">{screenshot.caption}</p>
+            </div>
+          {/each}
+        </div>
+
+        <!-- parte 2 -->
+        <div class="max-w-6xl mx-auto bg-zinc-50 py-10">
+          <h2 class="text-2xl md:text-2xl font-light mb-8">
+            {project.research.title}
+          </h2>
+          <p class="text-lg text-zinc-600 mb-16 max-w-4xl">
+            {project.research.description}
+          </p>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            {#each project.research.findings as finding}
+              <div class="bg-white p-8 border-l-4 border-zinc-900">
+                <h3 class="text-lg font-medium mb-4 text-zinc-900">
+                  {finding.insight}
+                </h3>
+                <p class="text-sm text-zinc-600 leading-relaxed">
+                  {finding.description}
+                </p>
+              </div>
+            {/each}
+          </div>
+        </div>
+
+        <!-- Stack -->
+        <div class="mt-16 pt-16 border-t border-zinc-200">
+          <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+            Stack Técnico
+          </h3>
+          <div class="flex flex-wrap gap-3">
+            {#each project.webapp.stack as tech}
+              <span class="px-4 py-2 bg-zinc-900 text-white text-sm">
+                {tech}
+              </span>
+            {/each}
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-12 text-sm pt-8">
+          <div>
+            <p class="text-zinc-500 uppercase tracking-wider mb-2">Duración</p>
+            <p class="">{project.duration}</p>
+          </div>
+          {#each project.team as member}
+            <div>
+              <p class="text-zinc-500 uppercase tracking-wider mb-2">
+                {member.role}
+              </p>
+              <p class="">{member.name}</p>
+            </div>
+          {/each}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Separador con número -->
+  <div class="border-t border-zinc-200 py-4">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <span class="text-xs tracking-[0.3em] uppercase text-zinc-400"
         >03 de 03</span
       >
     </div>
   </div>
 
-  <!-- DELIVERABLE 3: SOCIAL MEDIA -->
+  <!-- DELIVERABLE 4: SOCIAL MEDIA -->
   <section class="py-32 px-8 md:px-16 bg-gradient-to-b from-white to-zinc-50">
     <div class="max-w-6xl mx-auto">
       <!-- Header -->
@@ -504,42 +589,6 @@
         </p>
       </div>
 
-      <!-- Plataformas y templates -->
-      <div class="grid md:grid-cols-3 gap-8 mb-20">
-        {#each project.social.platforms as platform}
-          <div class="bg-white p-8 border border-zinc-200">
-            <h3 class="text-xl font-light mb-6 text-zinc-800">
-              {platform.name}
-            </h3>
-            <ul class="space-y-2">
-              {#each platform.templates as template}
-                <li class="text-sm text-zinc-600 flex items-start">
-                  <span class="text-zinc-400 mr-2">•</span>
-                  {template}
-                </li>
-              {/each}
-            </ul>
-          </div>
-        {/each}
-      </div>
-
-      <!-- Categorías de contenido -->
-      <div class="mb-20">
-        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-          Categorías de Contenido
-        </h3>
-        <div class="grid md:grid-cols-2 gap-6">
-          {#each project.social.categories as category}
-            <div class="border-l-4 border-zinc-300 pl-6 py-4">
-              <h4 class="text-lg font-light mb-2 text-zinc-800">
-                {category.type}
-              </h4>
-              <p class="text-sm text-zinc-600">{category.description}</p>
-            </div>
-          {/each}
-        </div>
-      </div>
-
       <!-- Galería de templates -->
       <div class="grid md:grid-cols-3 gap-6 mb-20">
         {#each project.social.gallery as template}
@@ -555,79 +604,66 @@
         {/each}
       </div>
 
-      <!-- Entregables -->
-      <div class="bg-white p-10 border border-zinc-200">
-        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
-          Entregables
-        </h3>
-        <ul class="space-y-3">
-          {#each project.social.deliverables as item}
-            <li class="text-base text-zinc-700 flex items-start">
-              <span class="text-zinc-400 mr-3">✓</span>
-              {item}
-            </li>
-          {/each}
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sistema de Diseño -->
-  <section class="py-32 px-8 md:px-16 bg-zinc-900 text-white">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-light mb-8 text-center">
-        {project.designSystem.title}
-      </h2>
-      <p
-        class="text-lg text-zinc-300 leading-relaxed text-center mb-16 max-w-3xl mx-auto"
-      >
-        {project.designSystem.description}
-      </p>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {#each project.designSystem.elements as element}
-          <div class="text-center">
-            <h3 class="text-lg font-light mb-3 text-white">
-              {element.category}
-            </h3>
-            <p class="text-sm text-zinc-400">{element.detail}</p>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <!-- Links/CTA -->
-  <section class="py-24 px-8 md:px-16 bg-white">
-    <div class="max-w-6xl mx-auto text-center">
-      <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        Explorar Proyecto
-      </p>
-      <div class="flex flex-wrap justify-center gap-4">
-        {#each project.links as link}
-          <a
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
+      <!-- Sistema de Diseño -->
+      <section class="py-32 px-8 md:px-16 bg-zinc-900 text-white">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-light mb-8 text-center">
+            {project.designSystem.title}
+          </h2>
+          <p
+            class="text-lg text-zinc-300 leading-relaxed text-center mb-16 max-w-3xl mx-auto"
           >
-            {link.text} →
-          </a>
-        {/each}
-      </div>
-    </div>
-  </section>
+            {project.designSystem.description}
+          </p>
 
-  <!-- Footer -->
-  <section class="px-8 md:px-16 py-16 bg-zinc-50 border-t border-zinc-200">
-    <div class="max-w-6xl mx-auto">
-      <a
-        href="#"
-        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
-      >
-        <span class="group-hover:-translate-x-1 transition-transform">←</span>
-        Volver a proyectos
-      </a>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {#each project.designSystem.elements as element}
+              <div class="text-center">
+                <h3 class="text-lg font-light mb-3 text-white">
+                  {element.category}
+                </h3>
+                <p class="text-sm text-zinc-400">{element.detail}</p>
+              </div>
+            {/each}
+          </div>
+        </div>
+      </section>
+
+      <!-- Links/CTA -->
+      <section class="py-24 px-8 md:px-16 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+          <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+            Explorar Proyecto
+          </p>
+          <div class="flex flex-wrap justify-center gap-4">
+            {#each project.links as link}
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
+              >
+                {link.text} →
+              </a>
+            {/each}
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section class="px-8 md:px-16 py-16 bg-zinc-50 border-t border-zinc-200">
+        <div class="max-w-6xl mx-auto">
+          <a
+            href="#"
+            class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
+          >
+            <span class="group-hover:-translate-x-1 transition-transform"
+              >←</span
+            >
+            Volver a proyectos
+          </a>
+        </div>
+      </section>
     </div>
   </section>
 </article>
