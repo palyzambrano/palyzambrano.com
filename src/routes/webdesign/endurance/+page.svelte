@@ -108,12 +108,6 @@
         }
       ],
 
-      metrics: [
-        { value: '2.5s', label: 'Tiempo de carga' },
-        { value: '98/100', label: 'Lighthouse Score' },
-        { value: '45%', label: 'Tasa de conversión' }
-      ],
-
       stack: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'Vercel']
     },
 
@@ -173,53 +167,6 @@
       description:
         'Un conjunto completo de plantillas diseñadas para mantener consistencia visual en todas las plataformas sociales. Fácil de personalizar por el equipo de marketing.',
 
-      platforms: [
-        {
-          name: 'Instagram',
-          templates: [
-            'Posts (1:1)',
-            'Stories (9:16)',
-            'Reels covers',
-            'Carruseles'
-          ]
-        },
-        {
-          name: 'LinkedIn',
-          templates: [
-            'Posts empresariales',
-            'Artículos destacados',
-            'Anuncios de productos'
-          ]
-        },
-        {
-          name: 'Twitter/X',
-          templates: [
-            'Tweets informativos',
-            'Hilos visuales',
-            'Headers de perfil'
-          ]
-        }
-      ],
-
-      categories: [
-        {
-          type: 'Anuncios',
-          description: 'Templates para comunicar lanzamientos y novedades'
-        },
-        {
-          type: 'Educativo',
-          description: 'Contenido de valor para la audiencia'
-        },
-        {
-          type: 'Testimoniales',
-          description: 'Historias de clientes y casos de éxito'
-        },
-        {
-          type: 'Tips & Tricks',
-          description: 'Consejos rápidos y accionables'
-        }
-      ],
-
       gallery: [
         {
           url: '/img-brand/endurance/general-post.png',
@@ -245,13 +192,6 @@
           url: 'https://images.unsplash.com/photo-1611162616492-5d6ae69e4e1e?w=600&q=80',
           caption: 'Post de anuncio'
         }
-      ],
-
-      deliverables: [
-        '50+ plantillas editables en Figma',
-        'Guía de uso y mejores prácticas',
-        'Banco de elementos gráficos',
-        'Paleta de colores y tipografías'
       ]
     },
 
@@ -284,11 +224,7 @@
     },
 
     // Links
-    links: [
-      { text: 'Ver App Web', url: '#' },
-      { text: 'Visitar Sitio Web', url: '#' },
-      { text: 'Ver Templates', url: '#' }
-    ]
+    links: [{ text: 'Visitar Sitio Web', url: 'https://endurancetrainning.cl' }]
   };
 </script>
 
