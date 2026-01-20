@@ -95,16 +95,16 @@
 
       screenshots: [
         {
-          url: '/img-brand/endurance/portada-endurance.png',
-          caption: 'Hero section con animaciones sutiles'
+          url: '/img-brand/endurance/landing.png',
+          caption: 'Hero - bienvenida con video'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=1200&q=80',
-          caption: 'Sección de features con iconografía'
+          url: '/img-brand/endurance/landing2.png',
+          caption: 'Tipos de clases y especificaciones'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=1200&q=80',
-          caption: 'Footer con información de contacto'
+          url: '/img-brand/endurance/landing3.png',
+          caption: 'Ilustracion mapa del lugar'
         }
       ],
 
@@ -189,7 +189,7 @@
           caption: 'Carrusel educativo'
         },
         {
-          url: 'https://images.unsplash.com/photo-1611162616492-5d6ae69e4e1e?w=600&q=80',
+          url: '/img-brand/endurance/musica-end.png',
           caption: 'Post de anuncio'
         }
       ]
@@ -331,13 +331,9 @@
                   class="w-full h-auto shadow-xl"
                 />
               </div>
-              <div class="md:col-span-4">
-                <p class="text-base text-zinc-600">{screenshot.caption}</p>
-              </div>
+              <div class="md:col-span-4" />
             {:else}
-              <div class="md:col-span-4 order-2 md:order-1">
-                <p class="text-base text-zinc-600">{screenshot.caption}</p>
-              </div>
+              <div class="md:col-span-4 order-2 md:order-1" />
               <div class="md:col-span-8 order-1 md:order-2">
                 <img
                   src={screenshot.url}
@@ -438,13 +434,15 @@
                 alt={screenshot.caption}
                 class="w-full h-auto shadow-2xl mb-4"
               />
-              <p class="text-sm text-zinc-500">{screenshot.caption}</p>
+              <p class="text-sm text-zinc-500 text-right">
+                {screenshot.caption}
+              </p>
             </div>
           {/each}
         </div>
 
         <!-- parte 2 -->
-        <div class="max-w-6xl mx-auto bg-zinc-50 py-10">
+        <div class="max-w-6xl mx-auto bg-zinc-50 py-10 mt-10">
           <h2 class="text-2xl md:text-2xl font-light mb-8">
             {project.research.title}
           </h2>
