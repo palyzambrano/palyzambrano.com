@@ -21,7 +21,7 @@
       { role: 'Desarrollo', name: 'Leo Borai' }
     ],
 
-    // DELIVERABLE 1: App Web
+    // DELIVERABLE : App Web
     webapp: {
       title: 'App Web',
       subtitle: 'Dos Interfaces, Un Ecosistema',
@@ -39,7 +39,7 @@
         }
       ],
 
-      stack: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL']
+      stack: ['Figma', 'Tailwind CSS', 'Svelte']
     },
 
     // Investigación de Usuarios
@@ -67,7 +67,7 @@
       ]
     },
 
-    // DELIVERABLE 2: Sitio Web
+    // DELIVERABLE : Sitio Web
     website: {
       title: 'Sitio Web',
       subtitle: 'Acceso multiplataforma y presencia digital',
@@ -108,10 +108,10 @@
         }
       ],
 
-      stack: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'Vercel']
+      stack: ['Figma', 'Tailwind CSS', 'Svelte']
     },
 
-    // DELIVERABLE 3: Panel de Administración
+    // DELIVERABLE : Panel de Administración
     admin: {
       title: 'Panel de Administración',
       subtitle: 'Herramientas de gestión para el gimnasio',
@@ -160,12 +160,12 @@
       ]
     },
 
-    // DELIVERABLE 4: Social Media
+    // DELIVERABLE : Social Media
     social: {
       title: 'Social Media Templates',
       subtitle: 'Sistema de contenido para redes sociales',
       description:
-        'Un conjunto completo de plantillas diseñadas para mantener consistencia visual en todas las plataformas sociales. Fácil de personalizar por el equipo de marketing.',
+        'Un conjunto de plantillas diseñadas para mantener consistencia visual en todas las plataformas sociales.',
 
       gallery: [
         {
@@ -199,28 +199,7 @@
     designSystem: {
       title: 'Sistema de Diseño Unificado',
       description:
-        'Todo el ecosistema comparte un sistema de diseño coherente que garantiza consistencia visual y facilita la escalabilidad del proyecto.',
-
-      elements: [
-        {
-          category: 'Colores',
-          detail:
-            'Paleta primaria y secundaria con variaciones para cada plataforma'
-        },
-        {
-          category: 'Tipografía',
-          detail:
-            'Familia tipográfica escalable y legible en todas las resoluciones'
-        },
-        {
-          category: 'Iconografía',
-          detail: 'Set de íconos consistente usado en todas las plataformas'
-        },
-        {
-          category: 'Componentes',
-          detail: 'Biblioteca reutilizable de elementos UI'
-        }
-      ]
+        'Todo el ecosistema comparte un sistema de diseño coherente que garantiza consistencia visual y facilita la escalabilidad del proyecto.'
     },
 
     // Links
@@ -539,27 +518,16 @@
       </div>
 
       <!-- Sistema de Diseño -->
-      <section class="py-32 px-8 md:px-16 bg-zinc-900 text-white">
+      <section class="py-12 px-8 md:px-16 bg-zinc-900 text-white">
         <div class="max-w-6xl mx-auto">
-          <h2 class="text-3xl md:text-4xl font-light mb-8 text-center">
+          <h2 class="text-xl md:text-xl font-light mb-8 text-center">
             {project.designSystem.title}
           </h2>
           <p
-            class="text-lg text-zinc-300 leading-relaxed text-center mb-16 max-w-3xl mx-auto"
+            class="text-base text-zinc-300 leading-relaxed text-center mb-16 max-w-3xl mx-auto"
           >
             {project.designSystem.description}
           </p>
-
-          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {#each project.designSystem.elements as element}
-              <div class="text-center">
-                <h3 class="text-lg font-light mb-3 text-white">
-                  {element.category}
-                </h3>
-                <p class="text-sm text-zinc-400">{element.detail}</p>
-              </div>
-            {/each}
-          </div>
         </div>
       </section>
 
