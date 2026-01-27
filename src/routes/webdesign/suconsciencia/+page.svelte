@@ -1,48 +1,44 @@
 <script>
-  // Reemplaza con tu información
   const project = {
-    title: 'Proyecto Dual',
+    title: 'Su Consciencia',
     subtitle: 'Ilustración + Desarrollo Web',
     year: '2024',
-    client: 'Nombre del Cliente',
+    client: 'Susana - Su Consciencia',
 
-    // Descripción general
     overview:
-      'Un proyecto integral que combina ilustración personalizada y desarrollo web. Cada ilustración fue creada específicamente para complementar la experiencia digital, creando una identidad visual cohesiva y memorable.',
+      'Proyecto integral que combina ilustraciones personalizadas tipo cartas de tarot con el desarrollo de un sitio web para servicios de astrología y mediumnidad. Cada ilustración fue creada específicamente para representar visualmente los servicios espirituales de Susana, creando una identidad visual única y alejada de estereotipos de magia oscura.',
 
     // Fase 1: Ilustraciones
     illustration: {
-      title: 'Ilustración y Concepto Visual',
+      title: 'Ilustraciones Estilo Cartas',
       description:
-        'El proceso creativo comenzó con la conceptualización de un universo visual único. Cada ilustración cuenta una historia y guía al usuario a través de la experiencia.',
+        'El proceso creativo se centró en crear ilustraciones que tuvieran el aspecto de cartas místicas, pero con una estética luminosa y elevada. Cada ilustración representa un servicio específico, funcionando como elementos visuales que comunican la esencia de cada práctica espiritual.',
       approach:
-        'Estilo minimalista con paleta de colores vibrantes, formas orgánicas y personajes que representan los valores de la marca.',
+        'Estilo ilustrativo con paleta de violetas y tonos místicos pero luminosos, evitando asociaciones con magia oscura. Cada carta fue diseñada para transmitir espiritualidad, consciencia y elevación.',
 
-      // Galería de ilustraciones
       gallery: [
         {
-          url: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80',
-          title: 'Ilustración Hero',
-          description: 'Ilustración principal para la página de inicio'
+          url: 'https://images.unsplash.com/photo-1532798442725-41036acc7489?w=800&q=80',
+          title: 'Carta: Lectura Astral',
+          description: 'Ilustración para servicios de astrología'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80',
-          title: 'Iconografía',
-          description: 'Sistema de íconos ilustrados personalizados'
+          url: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80',
+          title: 'Carta: Mediumnidad',
+          description: 'Representación visual de conexión espiritual'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80',
-          title: 'Personajes',
-          description: 'Familia de personajes para secciones clave'
+          url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+          title: 'Carta: Consultas Personales',
+          description: 'Ilustración para sesiones individuales'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=800&q=80',
-          title: 'Elementos decorativos',
-          description: 'Detalles y ornamentos para enriquecer la UI'
+          url: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=800&q=80',
+          title: 'Elementos Decorativos',
+          description: 'Símbolos y ornamentos místicos para el sitio'
         }
       ],
 
-      // Herramientas de ilustración
       tools: ['Procreate', 'Adobe Illustrator', 'Figma']
     },
 
@@ -50,50 +46,49 @@
     development: {
       title: 'Desarrollo Web',
       description:
-        'La implementación técnica trajo las ilustraciones a la vida con animaciones suaves y microinteracciones que mejoran la experiencia del usuario.',
+        'Un sitio web diseñado para facilitar que los clientes conozcan los servicios de Susana y agenden sus consultas de forma rápida. La implementación técnica integra las ilustraciones tipo cartas en una experiencia web cohesiva y profesional.',
 
       features: [
         {
-          name: 'Animaciones SVG',
+          name: 'Landing con CTA Directos',
           detail:
-            'Las ilustraciones cobran vida con animaciones al hacer scroll'
+            'Página principal con botones para agendar cita o contactar por WhatsApp'
         },
         {
-          name: 'Parallax Suave',
-          detail: 'Efecto de profundidad que crea inmersión'
-        },
-        {
-          name: 'Responsive Design',
+          name: 'Catálogo de Servicios Visual',
           detail:
-            'Adaptación perfecta de ilustraciones en todos los dispositivos'
+            'Cada servicio representado con su ilustración tipo carta personalizada'
         },
         {
-          name: 'Performance',
-          detail: 'Optimización de assets para carga rápida'
+          name: 'Sección Sobre Susana',
+          detail: 'Presentación personal que humaniza y genera confianza'
+        },
+        {
+          name: 'Página de Contacto Completa',
+          detail:
+            'Redes sociales, preguntas frecuentes y múltiples formas de contacto'
         }
       ],
 
-      // Screenshots del sitio
       screenshots: [
         {
-          url: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
-          caption: 'Página de inicio con ilustración hero'
+          url: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
+          caption: 'Landing page con ilustraciones místicas y violetas'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=1200&q=80',
-          caption: 'Sección about con personajes animados'
+          url: 'https://images.unsplash.com/photo-1516031190212-da133013de50?w=1200&q=80',
+          caption: 'Sección de servicios con cartas ilustradas'
         },
         {
-          url: 'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=1200&q=80',
-          caption: 'Footer con elementos ilustrados'
+          url: 'https://images.unsplash.com/photo-1487147264018-f937fba0c817?w=1200&q=80',
+          caption: 'Página de contacto con preguntas frecuentes'
         }
       ],
 
-      // Stack técnico
       stack: {
-        frontend: ['HTML/CSS', 'JavaScript', 'GSAP', 'Lottie'],
-        design: ['Figma', 'Adobe Illustrator'],
-        deployment: ['Vercel', 'Cloudflare']
+        frontend: ['HTML/CSS', 'JavaScript', 'Responsive Design'],
+        design: ['Figma', 'Adobe Illustrator', 'Procreate'],
+        deployment: ['Web Hosting', 'WhatsApp Integration']
       }
     },
 
@@ -101,37 +96,156 @@
     integration: {
       title: 'Ilustración + Código',
       description:
-        'La magia sucede cuando el arte y la tecnología se encuentran. Cada ilustración fue optimizada y animada para crear una experiencia fluida y memorable.'
+        'Las ilustraciones tipo cartas se integran perfectamente en el diseño web, creando una experiencia visual coherente donde cada servicio tiene su propia identidad visual pero mantiene la unidad del conjunto. La paleta violeta atraviesa tanto las ilustraciones como el diseño web, creando una marca visual distintiva y elevada.'
+    },
+
+    // Desafío del proyecto
+    challenge: {
+      title: 'El Desafío',
+      description:
+        'Crear una identidad visual que comunicara espiritualidad y misticismo sin caer en los estereotipos asociados con magia oscura. Susana necesitaba una presencia digital que reflejara la naturaleza elevada y consciente de sus servicios de astrología y mediumnidad.',
+      requirements: [
+        'Paleta de violetas para evitar asociaciones con magia oscura',
+        'Ilustraciones tipo cartas que representen cada servicio',
+        'Sitio web funcional con sistema de agendamiento',
+        'Experiencia que genere confianza y profesionalismo'
+      ]
+    },
+
+    // Estructura del sitio
+    siteStructure: {
+      title: 'Estructura del Sitio',
+      sections: [
+        {
+          section: 'Landing Page',
+          description:
+            'Hero impactante con ilustraciones místicas y CTAs prominentes para agendar cita o contactar por WhatsApp'
+        },
+        {
+          section: 'Servicios',
+          description:
+            'Catálogo visual donde cada servicio está representado por su ilustración tipo carta personalizada, con descripciones y categorías claras'
+        },
+        {
+          section: 'Acerca de Susana',
+          description:
+            'Sección personal que cuenta la historia de Susana, su experiencia y su enfoque en la práctica espiritual'
+        },
+        {
+          section: 'Contacto',
+          description:
+            'Página completa con enlaces a redes sociales, preguntas frecuentes y múltiples opciones de contacto'
+        }
+      ]
+    },
+
+    // Paleta y estética
+    visualIdentity: {
+      title: 'Identidad Visual: Violetas Místicos',
+      description:
+        'La paleta de violetas fue cuidadosamente seleccionada para transmitir espiritualidad, intuición y elevación de consciencia, alejándose deliberadamente de tonos oscuros asociados con magia negra.',
+      elements: [
+        {
+          element: 'Paleta Violeta',
+          detail:
+            'Tonos violetas, lilas y púrpuras que transmiten misticismo luminoso y elevación espiritual'
+        },
+        {
+          element: 'Ilustraciones Tipo Cartas',
+          detail:
+            'Cada servicio representado con una ilustración que funciona como carta independiente'
+        },
+        {
+          element: 'Tipografía Mística',
+          detail:
+            'Fuentes que complementan la estética espiritual sin perder legibilidad'
+        },
+        {
+          element: 'Símbolos Espirituales',
+          detail:
+            'Elementos decorativos como lunas, estrellas y símbolos astrológicos integrados sutilmente'
+        }
+      ]
+    },
+
+    // Servicios ilustrados
+    servicesIllustrated: {
+      title: 'Servicios Representados',
+      description:
+        'Cada servicio de Susana fue interpretado visualmente en forma de carta ilustrada:',
+      services: [
+        {
+          name: 'Astrología',
+          description:
+            'Lecturas de carta astral, tránsitos planetarios y análisis astrológico personalizado'
+        },
+        {
+          name: 'Mediumnidad',
+          description: 'Conexión con el plano espiritual y mensajes de guías'
+        },
+        {
+          name: 'Consultas Personales',
+          description:
+            'Sesiones virtuales individuales de orientación espiritual'
+        },
+        {
+          name: 'Talleres y Formaciones',
+          description:
+            'Enseñanza de prácticas espirituales y desarrollo de consciencia'
+        }
+      ]
+    },
+
+    // Funcionalidad de agendamiento
+    bookingFeature: {
+      title: 'Sistema de Agendamiento Simplificado',
+      description:
+        'El sitio web está optimizado para la conversión, con múltiples puntos de contacto que facilitan que los visitantes agenden sus consultas.',
+      features: [
+        'Botón prominente de agendar cita en el hero',
+        'Integración directa con WhatsApp para contacto inmediato',
+        'Enlaces a sistema de reservas desde cada servicio',
+        'Preguntas frecuentes que resuelven dudas antes de agendar'
+      ]
     },
 
     // Resultados
     results: [
-      { metric: '40%', label: 'Aumento en tiempo de permanencia' },
-      { metric: '8/10', label: 'Score de satisfacción visual' },
-      { metric: '100/100', label: 'Lighthouse Performance' }
+      { metric: 'Profesional', label: 'Presencia digital elevada' },
+      { metric: 'Violeta', label: 'Identidad visual única' },
+      { metric: 'Conversión', label: 'CTAs optimizados' },
+      { metric: 'Místico', label: 'Sin estereotipos oscuros' }
     ],
 
-    // Links
-    links: [
-      { text: 'Ver sitio web', url: '#' },
-      { text: 'Proceso en Behance', url: '#' }
-    ]
+    // Testimonial
+    testimonial: {
+      quote:
+        'Las ilustraciones capturaron perfectamente la esencia de mis servicios sin caer en los clichés oscuros que quería evitar. El sitio web refleja profesionalismo y espiritualidad elevada, justo lo que necesitaba para conectar con mis clientes.',
+      author: 'Susana',
+      role: 'Fundadora, Su Consciencia'
+    },
+
+    links: [{ text: 'Ver sitio web', url: 'https://suconsciencia.com' }]
   };
 </script>
 
 <article class="min-h-screen bg-white">
   <!-- Hero: Split con ilustración -->
-  <section class="min-h-screen grid md:grid-cols-2 items-center">
+  <section
+    class="min-h-screen grid md:grid-cols-2 items-center bg-gradient-to-br from-violet-50 to-purple-50"
+  >
     <div class="px-8 md:px-16 py-16 md:py-0 order-2 md:order-1">
-      <span class="text-xs tracking-[0.4em] uppercase text-zinc-400 mb-6 block">
+      <span
+        class="text-xs tracking-[0.4em] uppercase text-violet-600 mb-6 block"
+      >
         {project.year} · {project.client}
       </span>
       <h1
-        class="text-6xl md:text-7xl font-light tracking-tight mb-6 leading-tight"
+        class="text-6xl md:text-7xl font-light tracking-tight mb-6 leading-tight text-zinc-900"
       >
         {project.title}
       </h1>
-      <p class="text-xl md:text-2xl text-zinc-600 font-light mb-12">
+      <p class="text-xl md:text-2xl text-violet-900 font-light mb-12">
         {project.subtitle}
       </p>
       <p class="text-base text-zinc-600 leading-relaxed max-w-md">
@@ -140,18 +254,34 @@
     </div>
 
     <div
-      class="relative h-[50vh] md:h-screen bg-zinc-50 order-1 md:order-2 flex items-center justify-center"
+      class="relative h-[50vh] md:h-screen bg-gradient-to-br from-violet-100 to-purple-200 order-1 md:order-2 flex items-center justify-center"
     >
-      <img
-        src={project.illustration.gallery[0].url}
-        alt="Hero illustration"
-        class="max-w-[80%] max-h-[80%] object-contain"
-      />
+      <div class="text-9xl text-violet-300">✨</div>
     </div>
   </section>
 
-  <!-- Sección: ILUSTRACIÓN -->
-  <section class="py-32 bg-zinc-50">
+  <!-- El Desafío -->
+  <section class="py-32 px-8 md:px-16">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-8 text-zinc-900">
+        {project.challenge.title}
+      </h2>
+      <p class="text-xl leading-relaxed text-zinc-700 mb-12 max-w-4xl">
+        {project.challenge.description}
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        {#each project.challenge.requirements as requirement}
+          <div class="border-l-4 border-violet-500 pl-6 py-4">
+            <p class="text-base text-zinc-700">{requirement}</p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: ILUSTRACIÓN -->
+  <section class="py-32 bg-violet-50">
     <div class="px-8 md:px-16 mb-20">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-light mb-8 text-zinc-800">
@@ -161,8 +291,8 @@
           <p class="text-lg text-zinc-600 leading-relaxed">
             {project.illustration.description}
           </p>
-          <div class="bg-white p-8 border-l-4 border-zinc-300">
-            <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-4">
+          <div class="bg-white p-8 border-l-4 border-violet-500">
+            <h3 class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-4">
               Enfoque Visual
             </h3>
             <p class="text-base text-zinc-700 leading-relaxed">
@@ -177,7 +307,7 @@
     <div class="px-8 md:px-16">
       <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         {#each project.illustration.gallery as artwork}
-          <div class="bg-white p-8 group">
+          <div class="bg-white p-8 group shadow-lg">
             <div class="mb-6 overflow-hidden">
               <img
                 src={artwork.url}
@@ -197,13 +327,13 @@
     <!-- Herramientas de ilustración -->
     <div class="px-8 md:px-16 mt-20">
       <div class="max-w-6xl mx-auto">
-        <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+        <h3 class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-6">
           Herramientas
         </h3>
         <div class="flex flex-wrap gap-3">
           {#each project.illustration.tools as tool}
             <span
-              class="px-4 py-2 bg-white border border-zinc-300 text-sm text-zinc-700"
+              class="px-4 py-2 bg-white border border-violet-200 text-sm text-zinc-700"
             >
               {tool}
             </span>
@@ -213,11 +343,38 @@
     </div>
   </section>
 
-  <!-- Transición visual entre secciones -->
-  <section class="h-32 bg-gradient-to-b from-zinc-50 to-white" />
+  <!-- Servicios Ilustrados -->
+  <section class="py-32 px-8 md:px-16 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-8">
+        {project.servicesIllustrated.title}
+      </h2>
+      <p class="text-lg text-zinc-600 mb-16 max-w-3xl">
+        {project.servicesIllustrated.description}
+      </p>
 
-  <!-- Sección: DESARROLLO WEB -->
-  <section class="py-32">
+      <div class="grid md:grid-cols-2 gap-8">
+        {#each project.servicesIllustrated.services as service}
+          <div
+            class="bg-gradient-to-br from-violet-50 to-purple-50 p-8 border-l-4 border-violet-500"
+          >
+            <h3 class="text-xl font-light mb-4 text-zinc-900">
+              {service.name}
+            </h3>
+            <p class="text-sm text-zinc-700 leading-relaxed">
+              {service.description}
+            </p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Transición visual entre secciones -->
+  <section class="h-32 bg-gradient-to-b from-white to-violet-50" />
+
+  <!-- SECCIÓN: DESARROLLO WEB -->
+  <section class="py-32 bg-violet-50">
     <div class="px-8 md:px-16 mb-20">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-light mb-8 text-zinc-800">
@@ -233,7 +390,7 @@
     <div class="px-8 md:px-16 mb-20">
       <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
         {#each project.development.features as feature}
-          <div class="border-t-2 border-zinc-200 pt-6">
+          <div class="bg-white p-8 border-t-2 border-violet-500">
             <h3 class="text-xl font-light mb-3 text-zinc-800">
               {feature.name}
             </h3>
@@ -280,8 +437,8 @@
     <div class="px-8 md:px-16 mt-20">
       <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
         {#each Object.entries(project.development.stack) as [category, items]}
-          <div>
-            <h3 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-6">
+          <div class="bg-white p-8">
+            <h3 class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-6">
               {category}
             </h3>
             <ul class="space-y-2">
@@ -295,64 +452,147 @@
     </div>
   </section>
 
-  <!-- Sección: INTEGRACIÓN -->
-  <section class="py-32 bg-zinc-900 text-white">
+  <!-- Estructura del Sitio -->
+  <section class="py-32 px-8 md:px-16 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-16">
+        {project.siteStructure.title}
+      </h2>
+
+      <div class="space-y-8">
+        {#each project.siteStructure.sections as section}
+          <div class="border-l-4 border-violet-500 pl-8 py-6">
+            <h3 class="text-xl font-light mb-4 text-zinc-900">
+              {section.section}
+            </h3>
+            <p class="text-base text-zinc-600 leading-relaxed">
+              {section.description}
+            </p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Sistema de Agendamiento -->
+  <section class="py-32 px-8 md:px-16 bg-violet-50">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-8">
+        {project.bookingFeature.title}
+      </h2>
+      <p class="text-lg text-zinc-600 mb-12">
+        {project.bookingFeature.description}
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        {#each project.bookingFeature.features as feature}
+          <div class="bg-white p-6 flex items-start gap-4">
+            <span class="text-violet-500 text-xl">✓</span>
+            <p class="text-base text-zinc-700">{feature}</p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: INTEGRACIÓN -->
+  <section
+    class="py-32 bg-gradient-to-br from-violet-900 to-purple-900 text-white"
+  >
     <div class="px-8 md:px-16">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-light mb-8">
           {project.integration.title}
         </h2>
-        <p class="text-xl md:text-2xl font-light leading-relaxed text-zinc-300">
+        <p
+          class="text-xl md:text-2xl font-light leading-relaxed text-violet-100"
+        >
           {project.integration.description}
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Resultados -->
-  <section class="py-32 bg-white">
-    <div class="px-8 md:px-16">
-      <div class="max-w-6xl mx-auto">
-        <h2
-          class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16 text-center"
-        >
-          Impacto
-        </h2>
-        <div class="grid md:grid-cols-3 gap-12">
-          {#each project.results as result}
-            <div class="text-center">
-              <p class="text-5xl md:text-6xl font-light mb-4 text-zinc-800">
-                {result.metric}
-              </p>
-              <p class="text-sm uppercase tracking-wider text-zinc-500">
-                {result.label}
-              </p>
-            </div>
-          {/each}
-        </div>
+  <!-- Identidad Visual -->
+  <section class="py-32 px-8 md:px-16 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-8">
+        {project.visualIdentity.title}
+      </h2>
+      <p class="text-lg text-zinc-600 mb-16 max-w-3xl">
+        {project.visualIdentity.description}
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        {#each project.visualIdentity.elements as item}
+          <div class="bg-violet-50 p-8 border-l-4 border-violet-500">
+            <h3 class="text-lg font-light mb-4 text-zinc-900">
+              {item.element}
+            </h3>
+            <p class="text-sm text-zinc-600 leading-relaxed">{item.detail}</p>
+          </div>
+        {/each}
       </div>
     </div>
   </section>
 
-  <!-- Links y CTA -->
-  <section class="py-24 bg-zinc-50 border-t border-zinc-200">
-    <div class="px-8 md:px-16">
-      <div class="max-w-6xl mx-auto text-center">
-        <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-          Ver Proyecto Completo
+  <!-- Resultados -->
+  <section class="py-24 px-8 md:px-16 bg-violet-50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light mb-16 text-center">
+        Resultados
+      </h2>
+
+      <div class="grid md:grid-cols-4 gap-12">
+        {#each project.results as result}
+          <div class="text-center">
+            <p class="text-4xl md:text-5xl font-light mb-4 text-violet-900">
+              {result.metric}
+            </p>
+            <p class="text-sm uppercase tracking-wider text-zinc-600">
+              {result.label}
+            </p>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="py-24 px-8 md:px-16 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="w-16 h-1 bg-violet-500 mx-auto mb-12" />
+      <blockquote
+        class="text-2xl md:text-3xl font-light leading-relaxed italic mb-12 text-zinc-700"
+      >
+        "{project.testimonial.quote}"
+      </blockquote>
+      <div>
+        <p class="text-lg font-medium text-zinc-900 mb-1">
+          {project.testimonial.author}
         </p>
-        <div class="flex flex-wrap justify-center gap-4">
-          {#each project.links as link}
-            <a
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
-            >
-              {link.text} →
-            </a>
-          {/each}
-        </div>
+        <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Links/CTA -->
+  <section class="py-24 px-8 md:px-16 bg-violet-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <p class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-8">
+        Ver Proyecto Completo
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        {#each project.links as link}
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block border-2 border-violet-900 px-8 py-4 text-sm tracking-[0.2em] uppercase text-violet-900 hover:bg-violet-900 hover:text-white transition-colors"
+          >
+            {link.text} →
+          </a>
+        {/each}
       </div>
     </div>
   </section>
@@ -361,7 +601,7 @@
   <section class="px-8 md:px-16 py-16 bg-white">
     <div class="max-w-6xl mx-auto">
       <a
-        href="#"
+        href="/proyectos"
         class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
       >
         <span class="group-hover:-translate-x-1 transition-transform">←</span>
