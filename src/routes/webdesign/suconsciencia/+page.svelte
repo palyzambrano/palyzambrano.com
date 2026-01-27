@@ -2,12 +2,18 @@
   const project = {
     title: 'Su Consciencia',
     subtitle: 'Ilustración + Desarrollo Web',
-    year: '2024',
+    year: '2025',
     client: 'Susana - Su Consciencia',
 
     overview:
-      'Proyecto integral que combina ilustraciones personalizadas tipo cartas de tarot con el desarrollo de un sitio web para servicios de astrología y mediumnidad. Cada ilustración fue creada específicamente para representar visualmente los servicios espirituales de Susana, creando una identidad visual única y alejada de estereotipos de magia oscura.',
+      'Proyecto integral de diseño y desarrollo web para servicios de astrología y mediumnidad. El sitio integra ilustraciones personalizadas creadas a medida para representar cada servicio, fortaleciendo la experiencia del usuario y construyendo una identidad visual coherente, clara y diferenciadora.',
 
+    images: [
+      {
+        url: '/img-brand/sucons/portada-su.png',
+        caption: 'portada su'
+      }
+    ],
     // Fase 1: Ilustraciones
     illustration: {
       title: 'Ilustraciones Estilo Cartas',
@@ -18,28 +24,40 @@
 
       gallery: [
         {
-          url: 'https://images.unsplash.com/photo-1532798442725-41036acc7489?w=800&q=80',
-          title: 'Carta: Lectura Astral',
-          description: 'Ilustración para servicios de astrología'
+          url: '/img-brand/sucons/mensajesdelalma.png',
+          title: 'Carta: Mensajes del Alma',
+          description:
+            'El prisma de colores representa la iluminación de la conciencia y la fragmentación de las distintas áreas de la vida. Haciendo visible aquello que necesita ser comprendido, integrado y transformado.'
         },
         {
-          url: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80',
+          url: '/img-brand/sucons/medium.png',
           title: 'Carta: Mediumnidad',
-          description: 'Representación visual de conexión espiritual'
+          description:
+            'La representación gráfica se manifiesta como un puente de estrellas, simbolizando la conexión entre planos, el tránsito de la conciencia y el canal a través del cual se reciben los mensajes espirituales.'
         },
         {
-          url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
-          title: 'Carta: Consultas Personales',
+          url: '/img-brand/sucons/alienergetica.png',
+          title: 'Carta: Alineación Energética',
           description: 'Ilustración para sesiones individuales'
         },
         {
-          url: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=800&q=80',
-          title: 'Elementos Decorativos',
+          url: '/img-brand/sucons/terapiafloral.png',
+          title: 'Carta: Terapia Floral',
+          description: 'Símbolos y ornamentos místicos para el sitio'
+        },
+        {
+          url: '/img-brand/sucons/ninointerior.png',
+          title: 'Carta: Sanación Niño Interior',
+          description: 'Símbolos y ornamentos místicos para el sitio'
+        },
+        {
+          url: '/img-brand/sucons/cartaastral.png',
+          title: 'Carta: Lectura Carta Astral',
           description: 'Símbolos y ornamentos místicos para el sitio'
         }
       ],
 
-      tools: ['Procreate', 'Adobe Illustrator', 'Figma']
+      tools: ['Adobe Illustrator', 'Figma']
     },
 
     // Fase 2: Desarrollo Web
@@ -103,12 +121,12 @@
     challenge: {
       title: 'El Desafío',
       description:
-        'Crear una identidad visual que comunicara espiritualidad y misticismo sin caer en los estereotipos asociados con magia oscura. Susana necesitaba una presencia digital que reflejara la naturaleza elevada y consciente de sus servicios de astrología y mediumnidad.',
+        'Diseñar un sitio web que refleje la espiritualidad y el misticismo de la marca desde una estética moderna y consciente, evitando estereotipos visuales asociados a la magia oscura. El sitio debe transmitir confianza, claridad y una experiencia introspectiva que acompañe los servicios de astrología y mediumnidad de Susana.',
       requirements: [
-        'Paleta de violetas para evitar asociaciones con magia oscura',
-        'Ilustraciones tipo cartas que representen cada servicio',
-        'Sitio web funcional con sistema de agendamiento',
-        'Experiencia que genere confianza y profesionalismo'
+        'Sitio web : Navegación clara e intuitiva, con jerarquías visuales limpias que faciliten la comprensión de los servicios y fomenten la permanencia en el sitio.',
+        'Concepto: Fusión de lo místico y lo moderno. El diseño busca transmitir confianza, introspección y renovación, generando una experiencia visual serena y significativa.',
+        'Ilustraciones : Texturas Etéreas, con uso de nebulosas y transparencias que remiten al universo y lo cósmico.',
+        'Lineamientos Visuales: Orgánico y evolutivo, con líneas suaves y dinámicas que representen transformación y fluidez.'
       ]
     },
 
@@ -168,34 +186,6 @@
       ]
     },
 
-    // Servicios ilustrados
-    servicesIllustrated: {
-      title: 'Servicios Representados',
-      description:
-        'Cada servicio de Susana fue interpretado visualmente en forma de carta ilustrada:',
-      services: [
-        {
-          name: 'Astrología',
-          description:
-            'Lecturas de carta astral, tránsitos planetarios y análisis astrológico personalizado'
-        },
-        {
-          name: 'Mediumnidad',
-          description: 'Conexión con el plano espiritual y mensajes de guías'
-        },
-        {
-          name: 'Consultas Personales',
-          description:
-            'Sesiones virtuales individuales de orientación espiritual'
-        },
-        {
-          name: 'Talleres y Formaciones',
-          description:
-            'Enseñanza de prácticas espirituales y desarrollo de consciencia'
-        }
-      ]
-    },
-
     // Funcionalidad de agendamiento
     bookingFeature: {
       title: 'Sistema de Agendamiento Simplificado',
@@ -231,17 +221,13 @@
 
 <article class="min-h-screen bg-white">
   <!-- Hero: Split con ilustración -->
-  <section
-    class="min-h-screen grid md:grid-cols-2 items-center bg-gradient-to-br from-violet-50 to-purple-50"
-  >
+  <section class="min-h-screen grid md:grid-cols-2 items-center">
     <div class="px-8 md:px-16 py-16 md:py-0 order-2 md:order-1">
-      <span
-        class="text-xs tracking-[0.4em] uppercase text-violet-600 mb-6 block"
-      >
+      <span class="text-xs tracking-[0.4em] uppercase mb-6 block">
         {project.year} · {project.client}
       </span>
       <h1
-        class="text-6xl md:text-7xl font-light tracking-tight mb-6 leading-tight text-zinc-900"
+        class="text-4xl md:text-7xl font-light tracking-tight mb-6 leading-tight text-zinc-900"
       >
         {project.title}
       </h1>
@@ -254,9 +240,13 @@
     </div>
 
     <div
-      class="relative h-[50vh] md:h-screen bg-gradient-to-br from-violet-100 to-purple-200 order-1 md:order-2 flex items-center justify-center"
+      class="relative h-[50vh] md:h-screen order-1 md:order-2 flex items-center justify-center"
     >
-      <div class="text-9xl text-violet-300">✨</div>
+      <img
+        src={project.images[0].url}
+        alt={project.title}
+        class="w-full h-full object-cover"
+      />
     </div>
   </section>
 
@@ -282,13 +272,13 @@
 
   <!-- SECCIÓN: ILUSTRACIÓN -->
   <section class="py-32 bg-violet-50">
-    <div class="px-8 md:px-16 mb-20">
+    <div class="px-8 md:px-16 mb-10">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-light mb-8 text-zinc-800">
           {project.illustration.title}
         </h2>
-        <div class="grid md:grid-cols-2 gap-12">
-          <p class="text-lg text-zinc-600 leading-relaxed">
+        <div class="grid md:grid-cols-2 gap-6">
+          <p class="text-base text-zinc-600 leading-relaxed py-8">
             {project.illustration.description}
           </p>
           <div class="bg-white p-8 border-l-4 border-violet-500">
@@ -303,29 +293,8 @@
       </div>
     </div>
 
-    <!-- Galería de ilustraciones en grid -->
-    <div class="px-8 md:px-16">
-      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        {#each project.illustration.gallery as artwork}
-          <div class="bg-white p-8 group shadow-lg">
-            <div class="mb-6 overflow-hidden">
-              <img
-                src={artwork.url}
-                alt={artwork.title}
-                class="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
-              />
-            </div>
-            <h3 class="text-lg font-light mb-2 text-zinc-800">
-              {artwork.title}
-            </h3>
-            <p class="text-sm text-zinc-500">{artwork.description}</p>
-          </div>
-        {/each}
-      </div>
-    </div>
-
     <!-- Herramientas de ilustración -->
-    <div class="px-8 md:px-16 mt-20">
+    <div class="px-8 md:px-16 my-10">
       <div class="max-w-6xl mx-auto">
         <h3 class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-6">
           Herramientas
@@ -341,40 +310,31 @@
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Servicios Ilustrados -->
-  <section class="py-32 px-8 md:px-16 bg-white">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-light mb-8">
-        {project.servicesIllustrated.title}
-      </h2>
-      <p class="text-lg text-zinc-600 mb-16 max-w-3xl">
-        {project.servicesIllustrated.description}
-      </p>
-
-      <div class="grid md:grid-cols-2 gap-8">
-        {#each project.servicesIllustrated.services as service}
-          <div
-            class="bg-gradient-to-br from-violet-50 to-purple-50 p-8 border-l-4 border-violet-500"
-          >
-            <h3 class="text-xl font-light mb-4 text-zinc-900">
-              {service.name}
+    <!-- Galería de ilustraciones en grid -->
+    <div class="px-8 md:px-16">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-4 md:gap-6">
+        {#each project.illustration.gallery as artwork}
+          <div class="bg-white p-4 group shadow-lg">
+            <div class="mb-6 overflow-hidden">
+              <img
+                src={artwork.url}
+                alt={artwork.title}
+                class="w-full h-[450px] object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
+            <h3 class="text-lg font-light mb-2 text-zinc-800">
+              {artwork.title}
             </h3>
-            <p class="text-sm text-zinc-700 leading-relaxed">
-              {service.description}
-            </p>
+            <p class="text-sm text-zinc-500">{artwork.description}</p>
           </div>
         {/each}
       </div>
     </div>
   </section>
 
-  <!-- Transición visual entre secciones -->
-  <section class="h-32 bg-gradient-to-b from-white to-violet-50" />
-
   <!-- SECCIÓN: DESARROLLO WEB -->
-  <section class="py-32 bg-violet-50">
+  <section class="pb-32 bg-violet-50">
     <div class="px-8 md:px-16 mb-20">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-light mb-8 text-zinc-800">
@@ -496,16 +456,14 @@
   </section>
 
   <!-- SECCIÓN: INTEGRACIÓN -->
-  <section
-    class="py-32 bg-gradient-to-br from-violet-900 to-purple-900 text-white"
-  >
+  <section class="py-32 bg-zinc-50 text-zinc-600">
     <div class="px-8 md:px-16">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl md:text-4xl font-light mb-8">
+        <h2 class="text-xl md:text-2xl font-light mb-8">
           {project.integration.title}
         </h2>
         <p
-          class="text-xl md:text-2xl font-light leading-relaxed text-violet-100"
+          class="text-lg md:text-xl font-light leading-relaxed text-violet-100"
         >
           {project.integration.description}
         </p>

@@ -132,9 +132,17 @@
 </script>
 
 <article class="min-h-screen bg-white">
-  <!-- Hero: Título a la izquierda, Info a la derecha -->
+  <!-- Hero -->
   <section class="min-h-screen grid md:grid-cols-2">
-    <!-- Columna izquierda: Título -->
+    <!-- Columna izquierda: Imagen principal -->
+    <div class="relative h-screen">
+      <img
+        src={project.images[0].url}
+        alt={project.title}
+        class="w-full h-full object-cover object-top"
+      />
+    </div>
+    <!-- Columna derecha: Título -->
     <div class="flex flex-col justify-center px-8 md:px-16 py-24 md:py-0">
       <span class="text-xs tracking-[0.4em] uppercase text-zinc-400 mb-8">
         {project.type}
@@ -162,15 +170,6 @@
           <span class="text-zinc-800">{project.year}</span>
         </div>
       </div>
-    </div>
-
-    <!-- Columna derecha: Imagen principal -->
-    <div class="relative h-screen">
-      <img
-        src={project.images[0].url}
-        alt={project.title}
-        class="w-full h-full object-cover object-top"
-      />
     </div>
   </section>
 
