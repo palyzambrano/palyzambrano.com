@@ -90,11 +90,11 @@
 
       screenshots: [
         {
-          url: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
+          url: '/img-brand/sucons/landing.png',
           caption: 'Landing page con ilustraciones místicas y violetas'
         },
         {
-          url: 'https://images.unsplash.com/photo-1516031190212-da133013de50?w=1200&q=80',
+          url: '/img-brand/sucons/about-su.png',
           caption: 'Sección de servicios con cartas ilustradas'
         },
         {
