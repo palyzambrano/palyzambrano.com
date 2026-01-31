@@ -38,22 +38,26 @@
         {
           url: '/img-brand/sucons/alienergetica.png',
           title: 'Carta: Alineación Energética',
-          description: 'Ilustración para sesiones individuales'
+          description:
+            'La ilustración simboliza los chakras que nos habitan, reflejando el equilibrio y la armonización de la energía interior'
         },
         {
           url: '/img-brand/sucons/terapiafloral.png',
           title: 'Carta: Terapia Floral',
-          description: 'Símbolos y ornamentos místicos para el sitio'
+          description:
+            'La representación se expresa a través de una flor de loto. Su apertura gradual representa los procesos de transformación y armonización que acompañan el camino terapéutico.'
         },
         {
           url: '/img-brand/sucons/ninointerior.png',
           title: 'Carta: Sanación Niño Interior',
-          description: 'Símbolos y ornamentos místicos para el sitio'
+          description:
+            'esta ilustración simboliza el reencuentro con la propia esencia, el cuidado consciente y la integración de las experiencias del pasado desde el amor y la contención.'
         },
         {
           url: '/img-brand/sucons/cartaastral.png',
           title: 'Carta: Lectura Carta Astral',
-          description: 'Símbolos y ornamentos místicos para el sitio'
+          description:
+            'simbolizando el movimiento, la interconexión y la influencia de los astros en los distintos aspectos de la vida'
         }
       ],
 
@@ -90,23 +94,25 @@
 
       screenshots: [
         {
-          url: '/img-brand/sucons/landing.png',
-          caption: 'Landing page con ilustraciones místicas y violetas'
+          url: '/img-brand/sucons/landing-uno.png',
+          caption:
+            'La inclusión de ilustraciones animadas con geometría sagrada aporta una dimensión simbólica y energética al sitio, reforzando la conexión espiritual a través del movimiento.'
         },
         {
-          url: '/img-brand/sucons/about-su.png',
-          caption: 'Sección de servicios con cartas ilustradas'
+          url: '/img-brand/sucons/landing-dos.png',
+          caption:
+            'Las animaciones suaves permiten que las formas se activen y se expandan de manera orgánica, en este caso simulando el movimiento de la luna evocando armonía y transformación, mientras acompañan la experiencia del usuario sin distraerla.'
         },
         {
-          url: 'https://images.unsplash.com/photo-1487147264018-f937fba0c817?w=1200&q=80',
-          caption: 'Página de contacto con preguntas frecuentes'
+          url: '/img-brand/sucons/about.png',
+          caption:
+            'A través de su propia historia, la terapeuta genera un vínculo cercano y empático, invitando a procesos de autoconocimiento, sanación y reconexión con la propia esencia.'
         }
       ],
 
       stack: {
         frontend: ['HTML/CSS', 'JavaScript', 'Responsive Design'],
-        design: ['Figma', 'Adobe Illustrator', 'Procreate'],
-        deployment: ['Web Hosting', 'WhatsApp Integration']
+        design: ['Figma', 'Adobe Illustrator']
       }
     },
 
@@ -127,62 +133,6 @@
         'Concepto: Fusión de lo místico y lo moderno. El diseño busca transmitir confianza, introspección y renovación, generando una experiencia visual serena y significativa.',
         'Ilustraciones : Texturas Etéreas, con uso de nebulosas y transparencias que remiten al universo y lo cósmico.',
         'Lineamientos Visuales: Orgánico y evolutivo, con líneas suaves y dinámicas que representen transformación y fluidez.'
-      ]
-    },
-
-    // Estructura del sitio
-    siteStructure: {
-      title: 'Estructura del Sitio',
-      sections: [
-        {
-          section: 'Landing Page',
-          description:
-            'Hero impactante con ilustraciones místicas y CTAs prominentes para agendar cita o contactar por WhatsApp'
-        },
-        {
-          section: 'Servicios',
-          description:
-            'Catálogo visual donde cada servicio está representado por su ilustración tipo carta personalizada, con descripciones y categorías claras'
-        },
-        {
-          section: 'Acerca de Susana',
-          description:
-            'Sección personal que cuenta la historia de Susana, su experiencia y su enfoque en la práctica espiritual'
-        },
-        {
-          section: 'Contacto',
-          description:
-            'Página completa con enlaces a redes sociales, preguntas frecuentes y múltiples opciones de contacto'
-        }
-      ]
-    },
-
-    // Paleta y estética
-    visualIdentity: {
-      title: 'Identidad Visual: Violetas Místicos',
-      description:
-        'La paleta de violetas fue cuidadosamente seleccionada para transmitir espiritualidad, intuición y elevación de consciencia, alejándose deliberadamente de tonos oscuros asociados con magia negra.',
-      elements: [
-        {
-          element: 'Paleta Violeta',
-          detail:
-            'Tonos violetas, lilas y púrpuras que transmiten misticismo luminoso y elevación espiritual'
-        },
-        {
-          element: 'Ilustraciones Tipo Cartas',
-          detail:
-            'Cada servicio representado con una ilustración que funciona como carta independiente'
-        },
-        {
-          element: 'Tipografía Mística',
-          detail:
-            'Fuentes que complementan la estética espiritual sin perder legibilidad'
-        },
-        {
-          element: 'Símbolos Espirituales',
-          detail:
-            'Elementos decorativos como lunas, estrellas y símbolos astrológicos integrados sutilmente'
-        }
       ]
     },
 
@@ -412,30 +362,8 @@
     </div>
   </section>
 
-  <!-- Estructura del Sitio -->
-  <section class="py-32 px-8 md:px-16 bg-white">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-light mb-16">
-        {project.siteStructure.title}
-      </h2>
-
-      <div class="space-y-8">
-        {#each project.siteStructure.sections as section}
-          <div class="border-l-4 border-violet-500 pl-8 py-6">
-            <h3 class="text-xl font-light mb-4 text-zinc-900">
-              {section.section}
-            </h3>
-            <p class="text-base text-zinc-600 leading-relaxed">
-              {section.description}
-            </p>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
   <!-- Sistema de Agendamiento -->
-  <section class="py-32 px-8 md:px-16 bg-violet-50">
+  <section class="pb-32 px-8 md:px-16 bg-violet-50">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-light mb-8">
         {project.bookingFeature.title}
@@ -471,51 +399,6 @@
     </div>
   </section>
 
-  <!-- Identidad Visual -->
-  <section class="py-32 px-8 md:px-16 bg-white">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-light mb-8">
-        {project.visualIdentity.title}
-      </h2>
-      <p class="text-lg text-zinc-600 mb-16 max-w-3xl">
-        {project.visualIdentity.description}
-      </p>
-
-      <div class="grid md:grid-cols-2 gap-8">
-        {#each project.visualIdentity.elements as item}
-          <div class="bg-violet-50 p-8 border-l-4 border-violet-500">
-            <h3 class="text-lg font-light mb-4 text-zinc-900">
-              {item.element}
-            </h3>
-            <p class="text-sm text-zinc-600 leading-relaxed">{item.detail}</p>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <!-- Resultados -->
-  <section class="py-24 px-8 md:px-16 bg-violet-50">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-light mb-16 text-center">
-        Resultados
-      </h2>
-
-      <div class="grid md:grid-cols-4 gap-12">
-        {#each project.results as result}
-          <div class="text-center">
-            <p class="text-4xl md:text-5xl font-light mb-4 text-violet-900">
-              {result.metric}
-            </p>
-            <p class="text-sm uppercase tracking-wider text-zinc-600">
-              {result.label}
-            </p>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
-
   <!-- Testimonial -->
   <section class="py-24 px-8 md:px-16 bg-white">
     <div class="max-w-4xl mx-auto text-center">
@@ -546,7 +429,7 @@
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block border-2 border-violet-900 px-8 py-4 text-sm tracking-[0.2em] uppercase text-violet-900 hover:bg-violet-900 hover:text-white transition-colors"
+            class="inline-block border-2 border-violet-900 px-8 py-4 text-sm tracking-[0.2em] uppercase text-violet-900"
           >
             {link.text} →
           </a>
@@ -560,9 +443,9 @@
     <div class="max-w-6xl mx-auto">
       <a
         href="/proyectos"
-        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
+        class="group inline-flex items-center gap-3 text-sm text-zinc-400"
       >
-        <span class="group-hover:-translate-x-1 transition-transform">←</span>
+        <span>←</span>
         Volver a proyectos
       </a>
     </div>
