@@ -1,6 +1,6 @@
 <script>
   const project = {
-    title: 'Proyecto Compacto',
+    title: 'Polyproto',
     category: 'Diseño Web',
     year: '2024',
     description:
@@ -38,7 +38,7 @@
     ],
 
     // Stack (opcional)
-    stack: ['Figma', 'HTML/CSS', 'JavaScript', 'Tailwind'],
+    stack: ['Figma', 'HTML/CSS', 'Svelte', 'Tailwind'],
 
     // Links externos (opcional)
     links: [
