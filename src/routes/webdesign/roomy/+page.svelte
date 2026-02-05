@@ -1,105 +1,245 @@
 <script>
-  // Reemplaza con tu información
   const project = {
-    title: 'FORMA Y FUNCIÓN',
-    tagline: 'Donde la estética encuentra propósito',
-    featured_text:
-      'Este proyecto representa la culminación de años explorando la intersección entre belleza y utilidad.',
-    year: '2024',
-    season: 'Otoño/Invierno',
-    mainImage:
-      'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
-    gridImages: [
-      'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=600&q=80',
-      'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=600&q=80',
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80'
+    title: 'ROOMY',
+    subtitle: 'Make Space',
+    year: '2025',
+    type: 'Landing Page',
+    curator: 'Erlend Sogge',
+    description:
+      ' Roomy es una plataforma de comunicación colaborativa que propone una nueva forma de crear, organizar y expandir conversaciones digitales. A diferencia de los sistemas tradicionales de mensajería o foros, Roomy entiende cada interacción como un objeto vivo, capaz de transformarse y evolucionar sin perder contexto.',
+    statement:
+      'La landing page funciona como la puerta de entrada conceptual al producto: no solo explica qué es Roomy, sino que transmite su filosofía de apertura, fluidez y construcción colectiva.',
+
+    challenge: {
+      title: 'Objetivo de landing',
+      content:
+        'Presentar a Roomy como una alternativa innovadora a las plataformas de comunicación convencionales. Comunicar su enfoque public-first, descentralizado y respetuoso con la privacidad. Generar curiosidad e interés en usuarios con afinidad por tecnología, comunidades digitales y cultura open-source. Explicar conceptos complejos de forma visual y accesible.'
+    },
+
+    solution: {
+      title: 'Propuesta de valor',
+      content:
+        'Roomy permite hacer espacio para que las ideas crezcan.Cada mensaje, hilo o post puede expandirse, reorganizarse y mutar según las necesidades del usuario, sin quedar atrapado en estructuras rígidas. La comunicación se concibe como un ecosistema vivo y orgánico.'
+    },
+
+    process: [
+      {
+        phase: '01',
+        title: 'Concepto visual',
+        description:
+          '“Make Space” El concepto se traduce visualmente en un universo ilustrado que representa la expansión de ideas, la convivencia de voces y la creación colectiva. El espacio no es vacío: es fértil, mutable y compartido. Las ilustraciones funcionan como metáforas visuales del sistema',
+        image: '/img-brand/roomy/test-roomy.png'
+      },
+      {
+        phase: '02',
+        title: 'Público objetivo',
+        description:
+          'Personas vinculadas a: Tecnología y desarrollo, Comunidades digitales y open-source, Creadores de contenido, investigadores y colectivos colaborativos. Usuarios con mentalidad exploradora, interés por nuevas formas de interacción online y sensibilidad por el diseño y la narrativa visual.'
+      },
+      {
+        phase: '03',
+        title: 'Paleta de color',
+        description:
+          'Fondo oscuro predominante (azules y violetas profundos) que refuerza la sensación de espacio, profundidad y tecnología. En ilustraciones colores cálidos, saturados y acentos para transmitir energía, vida y movimiento.',
+        image: '/img-brand/roomy/test-roomy.png'
+      },
+      {
+        phase: '04',
+        title: 'Layout',
+        description:
+          'Composición vertical con bloques bien diferenciados. Ritmo visual que alterna texto breve + apoyo gráfico. Espacios amplios que refuerzan el concepto de fluidez y expansión.'
+      },
+      {
+        phase: '05',
+        title: 'Resultado esperado',
+        description:
+          'Una landing inmersiva, memorable y coherente con los valores del proyecto, que posiciona a Roomy como una plataforma experimental, humana y orientada al futuro de la comunicación digital.',
+        image: '/img-brand/roomy/test-roomy.png'
+      }
     ],
-    quote:
-      'El diseño no es solo cómo se ve o cómo se siente. El diseño es cómo funciona.',
-    details: [
-      'Investigación exhaustiva de materiales sostenibles',
-      'Prototipado iterativo durante 4 meses',
-      'Colaboración con artesanos locales',
-      'Enfoque en producción ética'
-    ]
+
+    images: [
+      {
+        url: '/img-brand/roomy/portada.png',
+        caption: 'portada'
+      },
+      {
+        url: '/img-brand/roomy/fondo.png',
+        caption: 'Cartel'
+      }
+    ],
+    brandAssets: [
+      { url: '/img-brand/roomy/landing-roomy.png', caption: 'Landing' }
+    ],
+
+    nextProject: {
+      title: 'Próximo Proyecto',
+      name: 'Siguiente proyecto',
+      link: '/poly'
+    }
   };
 </script>
 
-<article class="min-h-screen bg-zinc-900 text-white">
-  <!-- Header tipo revista -->
-  <header
-    class="border-b border-zinc-700 px-6 md:px-12 py-8 flex justify-between items-center"
-  >
-    <div class="text-xs tracking-[0.3em] uppercase">{project.season}</div>
-    <div class="text-xs tracking-[0.3em] uppercase">{project.year}</div>
-  </header>
+<article class="min-h-screen bg-white">
+  <!-- Hero: Título a la izquierda, Info a la derecha -->
+  <section class="min-h-screen grid md:grid-cols-2">
+    <!-- Columna izquierda: Título -->
+    <div class="flex flex-col justify-center px-8 md:px-16 py-24 md:py-0">
+      <span class="text-xs tracking-[0.4em] uppercase text-zinc-400 mb-8">
+        {project.type}
+      </span>
+      <h1
+        class="text-7xl md:text-8xl font-light tracking-tight leading-none mb-8"
+      >
+        {project.title}
+      </h1>
+      <p class="text-xl text-zinc-600 leading-relaxed mb-12">
+        {project.subtitle}
+      </p>
 
-  <!-- Hero con título grande -->
-  <section class="px-6 md:px-12 py-24">
-    <h1
-      class="text-7xl md:text-9xl font-light tracking-tighter leading-none mb-8"
-    >
-      {project.title}
-    </h1>
-    <p class="text-xl md:text-2xl text-zinc-400 max-w-2xl font-light italic">
-      {project.tagline}
-    </p>
+      <div class="space-y-4 text-sm">
+        <div class="flex gap-4">
+          <span class="text-zinc-400 w-24">Cliente</span>
+          <span class="text-zinc-800">{project.curator}</span>
+        </div>
+
+        <div class="flex gap-4">
+          <span class="text-zinc-400 w-24">Año</span>
+          <span class="text-zinc-800">{project.year}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna derecha: Imagen principal -->
+    <div class="relative h-screen">
+      <img
+        src={project.images[0].url}
+        alt={project.title}
+        class="w-full h-full object-cover object-top"
+      />
+    </div>
   </section>
 
-  <!-- Imagen principal con texto superpuesto -->
-  <section class="px-6 md:px-12 mb-24">
-    <div class="relative h-[70vh]">
+  <!-- Texto flotante sobre imagen -->
+  <section class="relative">
+    <div class="absolute inset-0">
       <img
-        src={project.mainImage}
-        alt={project.title}
-        class="w-full h-full object-cover"
+        src={project.images[1].url}
+        alt="Background"
+        class="w-full h-full object-cover opacity-10"
       />
-      <div
-        class="absolute bottom-0 left-0 right-0 p-12 bg-gradient-to-t from-black/80 to-transparent"
-      >
-        <p class="text-2xl md:text-3xl font-light max-w-3xl leading-relaxed">
-          {project.featured_text}
+    </div>
+    <div class="relative py-32 px-8 md:px-16">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+          Contexto
+        </h2>
+        <p class="text-lg md:text-xl font-light leading-relaxed text-zinc-800">
+          {project.description}
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Layout tipo revista - Texto y grid de imágenes -->
-  <section class="px-6 md:px-12 pb-24">
-    <div class="grid md:grid-cols-2 gap-16 mb-24">
-      <!-- Columna de texto -->
-      <div class="space-y-12">
-        <div>
-          <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-500 mb-6">
-            Proceso
-          </h2>
-          <ul class="space-y-4">
-            {#each project.details as detail}
-              <li
-                class="text-lg text-zinc-300 leading-relaxed flex items-start"
+  <!-- Desafío y Solución: Grid asimétrico -->
+  <section class="grid md:grid-cols-2 gap-px bg-zinc-200 mt-14">
+    <!-- Desafío: 1 columna -->
+    <div class="bg-white p-12 md:p-16">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+        {project.challenge.title}
+      </h2>
+      <p class="text-base leading-relaxed text-zinc-700">
+        {project.challenge.content}
+      </p>
+    </div>
+
+    <!-- Solución: 2 columnas -->
+    <div class="bg-white p-12 md:p-16 md:col-span-1">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+        {project.solution.title}
+      </h2>
+      <p class="text-base leading-relaxed text-zinc-700 mb-12">
+        {project.solution.content}
+      </p>
+    </div>
+  </section>
+
+  <!-- Statement con borde lateral -->
+  <section class="py-24 px-8 md:px-16 bg-zinc-50">
+    <div class="max-w-4xl border-l-4 border-zinc-300 pl-8">
+      <p class="text-lg leading-relaxed text-zinc-700 italic">
+        {project.statement}
+      </p>
+    </div>
+  </section>
+
+  <!-- Proceso: Layout de revista con imágenes grandes -->
+  <section class="pt-32">
+    <div class="px-8 md:px-16 mb-24">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400">Proceso</h2>
+    </div>
+
+    {#each project.process as step, i}
+      {#if i % 2 === 0}
+        <!-- Layout: Texto a la izquierda, imagen a la derecha -->
+        <div class="px-8 md:px-16 mb-32">
+          <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+              <span class="text-7xl font-light text-zinc-200 block mb-6"
+                >{step.phase}</span
               >
-                <span class="text-zinc-600 mr-4">—</span>
-                {detail}
-              </li>
-            {/each}
-          </ul>
-        </div>
-
-        <blockquote class="border-l-2 border-white pl-8 py-4">
-          <p class="text-2xl font-light italic leading-relaxed text-zinc-200">
-            {project.quote}
-          </p>
-        </blockquote>
-      </div>
-
-      <!-- Grid de imágenes -->
-      <div class="space-y-6">
-        {#each project.gridImages as image, i}
-          <div class="relative" style="margin-left: {i * 10}%">
+              <h3 class="text-2xl font-light mb-6 text-zinc-800">
+                {step.title}
+              </h3>
+              <p class="text-base text-zinc-600 leading-relaxed">
+                {step.description}
+              </p>
+            </div>
             <img
-              src={image}
-              alt="Detail {i + 1}"
-              class="w-full h-auto object-cover"
+              src={step.image}
+              alt={step.title}
+              class="w-full object-cover"
+            />
+          </div>
+        </div>
+      {:else}
+        <!-- Layout: Imagen full width arriba, texto abajo en dos columnas -->
+        <div class="mb-32">
+          <div class="px-8 md:px-16 grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-2">
+              <span class="text-7xl font-light text-zinc-200">{step.phase}</span
+              >
+            </div>
+            <div class="md:col-span-4">
+              <h3 class="text-2xl font-light mb-4 text-zinc-800">
+                {step.title}
+              </h3>
+            </div>
+            <div class="md:col-span-6">
+              <p class="text-base text-zinc-600 leading-relaxed">
+                {step.description}
+              </p>
+            </div>
+          </div>
+        </div>
+      {/if}
+    {/each}
+  </section>
+
+  <!-- Sistema de Identidad - Grid masonry -->
+  <section class="bg-white text-zinc-900 pb-16">
+    <div class="max-w-6xl mx-auto px-6 md:px-16">
+      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-16">
+        Sistema de Identidad Visual
+      </h2>
+
+      <div class="space-y-6">
+        {#each project.brandAssets as asset}
+          <div class="group">
+            <img
+              src={asset.url}
+              alt={asset.caption}
+              class="w-full h-auto mb-4 transition-transform group-hover:scale-[1.02]"
             />
           </div>
         {/each}
@@ -107,13 +247,25 @@
     </div>
   </section>
 
-  <!-- Footer minimalista -->
-  <footer class="border-t border-zinc-700 px-6 md:px-12 py-12">
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-      <p class="text-xs tracking-[0.3em] uppercase text-zinc-500">
-        Siguiente Proyecto
-      </p>
-      <button class="text-xl hover:text-zinc-400 transition-colors">→</button>
+  <!-- Próximo Proyecto -->
+  <section class="px-6 md:px-16 pb-32 pt-16 border-t border-zinc-200">
+    <div class="max-w-6xl mx-auto">
+      <a href={project.nextProject.link} class="group block">
+        <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-4">
+          {project.nextProject.title}
+        </p>
+        <div class="flex items-center justify-between">
+          <h3
+            class="text-xl md:text-2xl font-light text-zinc-800 group-hover:text-zinc-600 transition-colors"
+          >
+            {project.nextProject.name}
+          </h3>
+          <span
+            class="text-3xl text-zinc-400 group-hover:translate-x-2 transition-transform"
+            >→</span
+          >
+        </div>
+      </a>
     </div>
-  </footer>
+  </section>
 </article>
