@@ -34,8 +34,7 @@
         phase: '02',
         title: 'Público objetivo',
         description:
-          'Personas vinculadas a: Tecnología y desarrollo, Comunidades digitales y open-source, Creadores de contenido, investigadores y colectivos colaborativos. Usuarios con mentalidad exploradora, interés por nuevas formas de interacción online y sensibilidad por el diseño y la narrativa visual.',
-        image: '/img-brand/roomy/test-roomy.png'
+          'Personas vinculadas a: Tecnología y desarrollo, Comunidades digitales y open-source, Creadores de contenido, investigadores y colectivos colaborativos. Usuarios con mentalidad exploradora, interés por nuevas formas de interacción online y sensibilidad por el diseño y la narrativa visual.'
       },
       {
         phase: '03',
@@ -48,8 +47,7 @@
         phase: '04',
         title: 'Layout',
         description:
-          'Composición vertical con bloques bien diferenciados. Ritmo visual que alterna texto breve + apoyo gráfico. Espacios amplios que refuerzan el concepto de fluidez y expansión.',
-        image: '/img-brand/roomy/test-roomy.png'
+          'Composición vertical con bloques bien diferenciados. Ritmo visual que alterna texto breve + apoyo gráfico. Espacios amplios que refuerzan el concepto de fluidez y expansión.'
       },
       {
         phase: '05',
@@ -62,11 +60,11 @@
 
     images: [
       {
-        url: '/img-brand/casanita/cartel.png',
+        url: '/img-brand/roomy/portada.png',
         caption: 'portada'
       },
       {
-        url: '/img-brand/test.jpg',
+        url: '/img-brand/roomy/fondo.png',
         caption: 'Cartel'
       }
     ],
@@ -183,31 +181,6 @@
 
     {#each project.process as step, i}
       {#if i % 2 === 0}
-        <!-- Layout: Imagen full width arriba, texto abajo en dos columnas -->
-        <div class="mb-32">
-          <div class="px-8 md:px-16 grid md:grid-cols-12 gap-12">
-            <div class="md:col-span-2">
-              <span class="text-7xl font-light text-zinc-200">{step.phase}</span
-              >
-            </div>
-            <div class="md:col-span-4">
-              <h3 class="text-2xl font-light mb-4 text-zinc-800">
-                {step.title}
-              </h3>
-            </div>
-            <div class="md:col-span-6">
-              <p class="text-base text-zinc-600 leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-          </div>
-          <img
-            src={step.image}
-            alt={step.title}
-            class="px-8 md:px-16 w-full object-cover mb-8"
-          />
-        </div>
-      {:else}
         <!-- Layout: Texto a la izquierda, imagen a la derecha -->
         <div class="px-8 md:px-16 mb-32">
           <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -227,6 +200,26 @@
               alt={step.title}
               class="w-full object-cover"
             />
+          </div>
+        </div>
+      {:else}
+        <!-- Layout: Imagen full width arriba, texto abajo en dos columnas -->
+        <div class="mb-32">
+          <div class="px-8 md:px-16 grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-2">
+              <span class="text-7xl font-light text-zinc-200">{step.phase}</span
+              >
+            </div>
+            <div class="md:col-span-4">
+              <h3 class="text-2xl font-light mb-4 text-zinc-800">
+                {step.title}
+              </h3>
+            </div>
+            <div class="md:col-span-6">
+              <p class="text-base text-zinc-600 leading-relaxed">
+                {step.description}
+              </p>
+            </div>
           </div>
         </div>
       {/if}
