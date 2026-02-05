@@ -345,7 +345,7 @@
   <section class="px-6 md:px-12 py-16 bg-zinc-50">
     <div class="max-w-5xl mx-auto">
       <a
-        href="#"
+        href="/webdesign"
         class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
       >
         <span class="group-hover:-translate-x-1 transition-transform">←</span>
