@@ -14,19 +14,39 @@
 <section class="overflow-x-scroll ml-4 my-4">
   <ul class="flex space-x-4">
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="Endurance"
+        image="/img-brand/endurance/portada.png"
+        link="/webdesign/endurance"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="Suconsciencia"
+        image="/img-brand/sucons/mokker-su.png"
+        link="/webdesign/suconsciencia"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="Polyproto"
+        image="/img-brand/poly/mokker.png"
+        link="/webdesign/poly"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="weird"
+        image="/img-brand/weird/portada.png"
+        link="/webdesign/weird"
+      />
     </li>
     <li>
-      <CardGaleria />
+      <CardGaleria
+        title="roomy"
+        image="/img-brand/roomy/portada.png"
+        link="/webdesign/roomy"
+      />
     </li>
   </ul>
 </section>

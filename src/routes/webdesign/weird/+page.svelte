@@ -24,13 +24,16 @@
 
       gallery: [
         {
-          url: '/img-brand/weird/stick.png'
+          url: '/img-brand/weird/stick.png',
+          title: 'stickers'
         },
         {
-          url: '/img-brand/weird/shirt.png'
+          url: '/img-brand/weird/shirt.png',
+          title: 'camiseta ilustracion'
         },
         {
-          url: '/img-brand/weird/sock.png'
+          url: '/img-brand/weird/sock.png',
+          title: 'medias con logo'
         }
       ],
 
