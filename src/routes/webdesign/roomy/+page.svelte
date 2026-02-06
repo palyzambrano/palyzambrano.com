@@ -5,6 +5,9 @@
     year: '2025',
     type: 'Landing Page',
     curator: 'Erlend Sogge',
+    overview:
+      'Proyecto integral de diseño de landing page para una plataforma de comunicación colaborativa. La propuesta combina ilustración, jerarquía visual y estructura UI para explicar un sistema de conversaciones fluidas, construyendo una experiencia clara, coherente y alineada con los valores del producto.',
+
     description:
       ' Roomy es una plataforma de comunicación colaborativa que propone una nueva forma de crear, organizar y expandir conversaciones digitales. A diferencia de los sistemas tradicionales de mensajería o foros, Roomy entiende cada interacción como un objeto vivo, capaz de transformarse y evolucionar sin perder contexto.',
     statement:
@@ -76,7 +79,9 @@
       title: 'Próximo Proyecto',
       name: 'Siguiente proyecto',
       link: '/poly'
-    }
+    },
+
+    links: [{ text: 'Ver proyecto', url: 'https://github.com/erlend-sh' }]
   };
 </script>
 
@@ -86,7 +91,7 @@
     <!-- Columna izquierda: Título -->
     <div class="flex flex-col justify-center px-8 md:px-16 py-24 md:py-0">
       <span class="text-xs tracking-[0.4em] uppercase text-zinc-400 mb-8">
-        {project.type}
+        {project.type} · {project.year}
       </span>
       <h1
         class="text-7xl md:text-8xl font-light tracking-tight leading-none mb-8"
@@ -96,18 +101,15 @@
       <p class="text-xl text-zinc-600 leading-relaxed mb-12">
         {project.subtitle}
       </p>
-
-      <div class="space-y-4 text-sm">
+      <div class="space-y-4 text-sm mb-4">
         <div class="flex gap-4">
           <span class="text-zinc-400 w-24">Cliente</span>
           <span class="text-zinc-800">{project.curator}</span>
         </div>
-
-        <div class="flex gap-4">
-          <span class="text-zinc-400 w-24">Año</span>
-          <span class="text-zinc-800">{project.year}</span>
-        </div>
       </div>
+      <p class="text-base text-zinc-600 leading-relaxed max-w-md">
+        {project.overview}
+      </p>
     </div>
 
     <!-- Columna derecha: Imagen principal -->
@@ -247,24 +249,36 @@
     </div>
   </section>
 
-  <!-- Próximo Proyecto -->
-  <section class="px-6 md:px-16 pb-32 pt-16 border-t border-zinc-200">
+  <!-- Links/CTA -->
+  <section class="py-24 px-8 md:px-16 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+        Explorar Proyecto
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        {#each project.links as link}
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
+          >
+            {link.text} →
+          </a>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="px-8 md:px-16 py-16 bg-zinc-50 border-t border-zinc-200">
     <div class="max-w-6xl mx-auto">
-      <a href={project.nextProject.link} class="group block">
-        <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-4">
-          {project.nextProject.title}
-        </p>
-        <div class="flex items-center justify-between">
-          <h3
-            class="text-xl md:text-2xl font-light text-zinc-800 group-hover:text-zinc-600 transition-colors"
-          >
-            {project.nextProject.name}
-          </h3>
-          <span
-            class="text-3xl text-zinc-400 group-hover:translate-x-2 transition-transform"
-            >→</span
-          >
-        </div>
+      <a
+        href="/webdesign"
+        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
+      >
+        <span class="group-hover:-translate-x-1 transition-transform">←</span>
+        Volver a proyectos
       </a>
     </div>
   </section>

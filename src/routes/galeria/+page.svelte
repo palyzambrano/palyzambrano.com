@@ -41,12 +41,12 @@
         link="/galeria/casanita"
       />
     </li>
-    <li>
-      <CardGaleria
-        title="OMA"
-        image="/img-brand/colomba/col-procesos.png"
-        link="/galeria/oma"
-      />
-    </li>
+    <!-- <li>
+        <CardGaleria
+          title="OMA"
+          image="/img-brand/colomba/col-procesos.png"
+          link="/galeria/oma"
+        />
+      </li> -->
   </ul>
 </section>

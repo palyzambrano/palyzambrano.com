@@ -10,7 +10,7 @@
 
     images: [
       {
-        url: '/img-brand/sucons/portada-su.png',
+        url: '/img-brand/sucons/mokker-su.png',
         caption: 'portada su'
       }
     ],
@@ -399,12 +399,12 @@
     </div>
   </section>
 
-  <!-- Testimonial -->
+  <!-- Testimonial 
   <section class="py-24 px-8 md:px-16 bg-white">
     <div class="max-w-4xl mx-auto text-center">
       <div class="w-16 h-1 bg-violet-500 mx-auto mb-12" />
       <blockquote
-        class="text-2xl md:text-3xl font-light leading-relaxed italic mb-12 text-zinc-700"
+        class="text-lg md:text-xl font-light leading-relaxed italic mb-12 text-zinc-700"
       >
         "{project.testimonial.quote}"
       </blockquote>
@@ -415,13 +415,13 @@
         <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Links/CTA -->
-  <section class="py-24 px-8 md:px-16 bg-violet-50">
+  <section class="py-24 px-8 md:px-16 bg-white">
     <div class="max-w-6xl mx-auto text-center">
-      <p class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-8">
-        Ver Proyecto Completo
+      <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+        Explorar Proyecto
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         {#each project.links as link}
@@ -429,7 +429,7 @@
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block border-2 border-violet-900 px-8 py-4 text-sm tracking-[0.2em] uppercase text-violet-900"
+            class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
           >
             {link.text} →
           </a>
@@ -439,13 +439,13 @@
   </section>
 
   <!-- Footer -->
-  <section class="px-8 md:px-16 py-16 bg-white">
+  <section class="px-8 md:px-16 py-16 bg-zinc-50 border-t border-zinc-200">
     <div class="max-w-6xl mx-auto">
       <a
-        href="/proyectos"
-        class="group inline-flex items-center gap-3 text-sm text-zinc-400"
+        href="/webdesign"
+        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
       >
-        <span>←</span>
+        <span class="group-hover:-translate-x-1 transition-transform">←</span>
         Volver a proyectos
       </a>
     </div>
