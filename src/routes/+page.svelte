@@ -1,16 +1,25 @@
 <section
-  class="h-screen w-full flex justify-center bg-[url(/hero.jpg)] bg-cover top-0"
+  class="w-full flex flex-col md:flex-row justify-center md:items-end md:pt-16"
 >
-  <div class="w-3/4 md:w-2/5 p-8 m-auto space-y-2 bg-white">
-    <h2>Hola!</h2>
-    <p>
-      Soy Paly, diseñadora, creadora visual y amante de las historias que se
-      cuentan en colores, formas y texturas.
-    </p>
-    <p>
-      Este espacio no es solo una galería: es una invitación a recorrer mi mundo
-      creativo, donde cada detalle cuenta y cada idea tiene un lugar para
-      crecer.
-    </p>
+  <div class="md:w-4/12 p-4">
+    <div>
+      <img src="/img-brand/test.jpg" alt="" />
+    </div>
+  </div>
+  <div class="md:w-5/12 p-4">
+    <article
+      class="  md:p-8 p-4 space-y-2 bg-zinc-100 text-sm shadow-sm shadow-zinc-300"
+    >
+      <h2 class="text-base">Hola!</h2>
+      <p>
+        Soy Paly, diseñadora, creadora visual y amante de las historias que se
+        cuentan en colores, formas y texturas.
+      </p>
+      <p>
+        Este espacio no es solo una galería: es una invitación a recorrer mi
+        mundo creativo, donde cada detalle cuenta y cada idea tiene un lugar
+        para crecer.
+      </p>
+    </article>
   </div>
 </section>
