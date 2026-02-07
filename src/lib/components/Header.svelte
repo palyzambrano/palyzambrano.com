@@ -1,12 +1,13 @@
 <script lang="ts">
   import { page } from '$app/stores';
-
+  import List from '~icons/custom/list';
+  import Closed from '~icons/custom/closed';
   let isHamburgerMenuOpen = false;
 </script>
 
 <header class="px-8 md:px-16 bg-neutral-50">
   <div
-    class="w-full flex py-4 items-center justify-between border-b border-gray-600"
+    class="w-full flex py-4 items-center justify-between border-b border-gray-600 h-[80px]"
   >
     <a href="/galeria">
       <figure>
@@ -41,14 +42,16 @@
       on:click={() => (isHamburgerMenuOpen = true)}
       class="md:hidden bg-neutral-50"
     >
-      Menu
+      <List />
     </button>
     {#if isHamburgerMenuOpen}
       <div
         class="md:hidden bg-neutral-50 fixed top-0 left-0 flex flex-col h-screen w-screen z-10"
       >
         <div class="p-4">
-          <button on:click={() => (isHamburgerMenuOpen = false)}>x</button>
+          <button on:click={() => (isHamburgerMenuOpen = false)}>
+            <Closed />
+          </button>
         </div>
         <ul class="flex flex-col space-y-4 items-center p-4 w-full h-full">
           <li class="text-center w-full">
@@ -67,15 +70,6 @@
               href="/galeria"
               class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
               >Galería</a
-            >
-          </li>
-          <li class="text-center w-full">
-            <a
-              on:click={() => (isHamburgerMenuOpen = false)}
-              class="nav-item nav-item-mobile"
-              href="/procesos"
-              class:active-nav-item={$page.url.pathname.startsWith('/procesos')}
-              >Procesos</a
             >
           </li>
           <li class="text-center w-full">

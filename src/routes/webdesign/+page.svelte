@@ -11,8 +11,8 @@
     </p>
   </div>
 </section>
-<section class="overflow-x-scroll ml-4 my-4">
-  <ul class="flex space-x-4">
+<section class="md:overflow-x-scroll md:pl-10 py-4">
+  <ul class="flex flex-col md:flex-row gap-4 items-center">
     <li>
       <CardGaleria
         title="Endurance"

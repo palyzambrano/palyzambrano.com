@@ -124,16 +124,10 @@
       { url: '/img-brand/delviento/story-6.png', caption: 'ubicacion' }
     ],
 
-    credits: [
-      { role: 'Dirección Creativa', name: 'Paly Zambrano' },
-      { role: 'Cliente', name: 'Cerveceria del viento' },
-      { role: 'Diseño de Marca', name: 'Paly Zambrano' }
-    ],
-
     nextProject: {
       title: 'Próximo Proyecto',
       name: 'Siguiente proyecto',
-      link: '#'
+      link: '/galeria/casanita'
     },
 
     instagramLinks: [
@@ -398,25 +392,6 @@
           {project.testimonial.author}
         </p>
         <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Créditos -->
-  <section class="px-6 md:px-16 pb-24 border-t border-zinc-200 pt-16">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        Créditos
-      </h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        {#each project.credits as credit}
-          <div>
-            <p class="text-xs uppercase tracking-wider text-zinc-400 mb-2">
-              {credit.role}
-            </p>
-            <p class="text-base text-zinc-800">{credit.name}</p>
-          </div>
-        {/each}
       </div>
     </div>
   </section>

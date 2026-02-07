@@ -58,12 +58,12 @@
         { category: 'Diseño', items: ['Adobe Illustrator', 'Photoshop'] },
         {
           category: 'Aplicaciones',
-          items: ['Papelería', 'Uniformes', 'Señalética']
+          items: ['Papelería']
         },
-        { category: 'Elementos', items: ['Logotipo', 'Patrones', 'Packaging'] },
+        { category: 'Elementos', items: ['Logotipo', 'Packaging'] },
         {
           category: 'Implementación',
-          items: ['Pintura de Local', 'Vitrina', 'Identidad Visual']
+          items: ['Identidad Visual']
         }
       ]
     },
@@ -106,28 +106,11 @@
       }
     ],
 
-    credits: [
-      { role: 'Dirección Creativa', name: 'Paly Zambrano' },
-      { role: 'Cliente', name: 'Constanza - Pastelería Colomba' },
-      { role: 'Diseño de Marca', name: 'Paly Zambrano' }
-    ],
-
     nextProject: {
       title: 'Próximo Proyecto',
       name: 'Siguiente proyecto',
-      link: '#'
-    },
-
-    instagramLinks: [
-      {
-        text: 'Ver video de Navidad',
-        url: 'https://www.instagram.com/p/DCsVYkMsaCn/'
-      },
-      {
-        text: 'Ver video de vitrina',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
-      }
-    ]
+      link: '/galeria/delviento'
+    }
   };
 </script>
 
@@ -338,26 +321,6 @@
         {/each}
       </div>
     </section>
-
-    <!-- Links de Instagram -->
-    <div class="md:col-span-2 space-y-4">
-      <p class="text-xs text-zinc-400">
-        Línea especial de Navidad con diseño de vitrina y papelería temática
-        para la temporada.
-      </p>
-      <div class="space-y-3">
-        {#each project.instagramLinks as link}
-          <a
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="block text-xs tracking-wider uppercase text-zinc-800 hover:text-zinc-500 transition-colors border-b border-zinc-300 pb-2"
-          >
-            {link.text} →
-          </a>
-        {/each}
-      </div>
-    </div>
   </section>
 
   <!-- Stack: Horizontal en una línea -->
@@ -378,41 +341,21 @@
     </div>
   </section>
 
-  <!-- Testimonial: Layout dividido -->
-  <section class="grid md:grid-cols-2 min-h-[60vh]">
-    <div class="bg-zinc-900 p-16 md:p-24 flex items-center justify-center">
-      <div class="w-20 h-20 border-2 border-white rounded-full" />
-    </div>
-    <div class="p-16 md:p-24 flex flex-col justify-center">
-      <blockquote
-        class="text-xl md:text-2xl font-light leading-relaxed mb-8 text-zinc-700"
-      >
-        "{project.testimonial.quote}"
+  <!-- Testimonial -->
+  <section class="px-6 md:px-16 pb-24 pt-24">
+    <div class="max-w-4xl mx-auto text-center">
+      <blockquote class="mb-8">
+        <p
+          class="text-lg md:text-xl font-light italic leading-relaxed text-zinc-700 mb-8"
+        >
+          "{project.testimonial.quote}"
+        </p>
       </blockquote>
       <div>
-        <p class="text-base font-medium text-zinc-900">
+        <p class="text-base font-medium text-zinc-800">
           {project.testimonial.author}
         </p>
         <p class="text-sm text-zinc-500">{project.testimonial.role}</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Créditos -->
-  <section class="px-6 md:px-16 pb-24 border-t border-zinc-200 pt-16">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
-        Créditos
-      </h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        {#each project.credits as credit}
-          <div>
-            <p class="text-xs uppercase tracking-wider text-zinc-400 mb-2">
-              {credit.role}
-            </p>
-            <p class="text-base text-zinc-800">{credit.name}</p>
-          </div>
-        {/each}
       </div>
     </div>
   </section>

@@ -103,18 +103,6 @@
       {
         url: '/img-brand/colomba/vitrina.png',
         caption: 'Implementación de vitrina con nueva identidad'
-      },
-      {
-        url: '/img-brand/colomba/colcuatro.png',
-        caption: 'Implementación de vitrina con nueva identidad'
-      },
-      {
-        url: '/img-brand/colomba/colcinco.png',
-        caption: 'Implementación de vitrina con nueva identidad'
-      },
-      {
-        url: '/img-brand/colomba/colcinco.png',
-        caption: 'papel manteca'
       }
     ],
 
@@ -126,16 +114,8 @@
 
     instagramLinks: [
       {
-        text: 'Ver video de Navidad en Instagram',
-        url: 'https://www.instagram.com/p/DCsVYkMsaCn/'
-      },
-      {
         text: 'Ver video de vitrina en Instagram',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
-      },
-      {
-        text: 'Ver video de vitrina en Instagram',
-        url: 'https://www.instagram.com/p/DDX0tVzPAOQ/'
+        url: 'https://www.instagram.com/reels/DDX0tVzPAOQLNNABjkuPVJN3ZwfNYssPPzHcy40/'
       }
     ],
     brandAssets: [
@@ -386,7 +366,7 @@
     <div class="max-w-4xl mx-auto text-center">
       <blockquote class="mb-8">
         <p
-          class="text-xl md:text-2xl font-light italic leading-relaxed text-zinc-700 mb-8"
+          class="text-lg md:text-xl font-light italic leading-relaxed text-zinc-700 mb-8"
         >
           "{project.testimonial.quote}"
         </p>

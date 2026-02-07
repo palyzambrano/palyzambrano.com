@@ -304,7 +304,7 @@
   <!-- Concepto -->
   <section class="pb-32 px-8 md:px-16 bg-violet-50">
     <div class="max-w-5xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-light mb-8">
+      <h2 class="text-xl md:text-2xl font-light mb-8">
         {project.bookingFeature.title}
       </h2>
       <p class="text-lg text-zinc-600 mb-12">
@@ -314,10 +314,10 @@
   </section>
 
   <!-- Links/CTA -->
-  <section class="py-24 px-8 md:px-16 bg-violet-50">
+  <section class="py-24 px-8 md:px-16 bg-white">
     <div class="max-w-6xl mx-auto text-center">
-      <p class="text-xs tracking-[0.3em] uppercase text-violet-600 mb-8">
-        Ver Proyecto Completo
+      <p class="text-xs tracking-[0.3em] uppercase text-zinc-400 mb-8">
+        Explorar Proyecto
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         {#each project.links as link}
@@ -325,7 +325,7 @@
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block border-2 border-violet-900 px-8 py-4 text-sm tracking-[0.2em] uppercase text-violet-900"
+            class="inline-block border-2 border-zinc-900 px-8 py-4 text-sm tracking-[0.2em] uppercase hover:bg-zinc-900 hover:text-white transition-colors"
           >
             {link.text} →
           </a>
@@ -335,13 +335,13 @@
   </section>
 
   <!-- Footer -->
-  <section class="px-8 md:px-16 py-16 bg-white">
+  <section class="px-8 md:px-16 py-16 bg-zinc-50 border-t border-zinc-200">
     <div class="max-w-6xl mx-auto">
       <a
-        href="/proyectos"
-        class="group inline-flex items-center gap-3 text-sm text-zinc-400"
+        href="/webdesign"
+        class="group inline-flex items-center gap-3 text-sm text-zinc-500 hover:text-zinc-900 transition-colors"
       >
-        <span>←</span>
+        <span class="group-hover:-translate-x-1 transition-transform">←</span>
         Volver a proyectos
       </a>
     </div>

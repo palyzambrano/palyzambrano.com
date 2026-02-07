@@ -11,8 +11,8 @@
     </p>
   </div>
 </section>
-<section class="overflow-x-scroll ml-4 my-4">
-  <ul class="flex space-x-4">
+<section class="md:overflow-x-scroll py-4">
+  <ul class="flex flex-col md:flex-row gap-4 items-center justify-center">
     <li>
       <CardGaleria
         title="Colomba"
@@ -41,12 +41,12 @@
         link="/galeria/casanita"
       />
     </li>
-    <li>
-      <CardGaleria
-        title="OMA"
-        image="/img-brand/colomba/col-procesos.png"
-        link="/galeria/oma"
-      />
-    </li>
+    <!-- <li>
+        <CardGaleria
+          title="OMA"
+          image="/img-brand/colomba/col-procesos.png"
+          link="/galeria/oma"
+        />
+      </li> -->
   </ul>
 </section>
