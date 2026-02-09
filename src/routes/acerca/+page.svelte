@@ -26,7 +26,7 @@
     </div>
     <img
       class="w-full md:w-5/6 h-52 md:h-96 object-cover my-10 md:my-20 mx-auto"
-      src="/hero.jpg"
+      src="/about.png"
       alt=""
     />
     <div class="my-4">
@@ -42,12 +42,12 @@
     <div class="flex flex-row justify-between items-end">
       <img
         class="w-1/2 md:w-2/6 md:h-96 h-48 object-cover p-2 mb-20 mt-4"
-        src="/hero.jpg"
+        src="/about-dos.png"
         alt=""
       />
       <img
         class="w-1/2 md:w-3/6 md:h-52 h-48 object-cover p-2"
-        src="/hero.jpg"
+        src="/about-tres.png"
         alt=""
       />
     </div>
