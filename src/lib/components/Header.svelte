@@ -9,7 +9,7 @@
   <div
     class="w-full flex py-4 items-center justify-between border-b border-gray-600 h-[80px]"
   >
-    <a href="/galeria">
+    <a href="/">
       <figure>
         <img alt="Paly Logo" src="/paly.png" height="65" width="65" />
       </figure>
