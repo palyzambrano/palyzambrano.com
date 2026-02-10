@@ -2,6 +2,7 @@ name: Deploy Production
 on:
   push:
     tags:
+      - 'v*'
 
 jobs:
   deploy:
@@ -37,5 +38,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages deploy ./.svelte-kit/cloudflare --project-name=${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }} --branch=main
+          command: pages deploy ./.svelte-kit/cloudflare --project-name=${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }} --branch=main --commit-dirty=true
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
