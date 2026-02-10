@@ -31,20 +31,20 @@
         title: 'Concepto visual',
         description:
           '“Make Space” El concepto se traduce visualmente en un universo ilustrado que representa la expansión de ideas, la convivencia de voces y la creación colectiva. El espacio no es vacío: es fértil, mutable y compartido. Las ilustraciones funcionan como metáforas visuales del sistema',
-        image: '/img-brand/roomy/test-roomy.png'
+        image: '/img-brand/roomy/concept.png'
       },
       {
         phase: '02',
-        title: 'Público objetivo',
+        title: 'Resultado esperado',
         description:
-          'Personas vinculadas a: Tecnología y desarrollo, Comunidades digitales y open-source, Creadores de contenido, investigadores y colectivos colaborativos. Usuarios con mentalidad exploradora, interés por nuevas formas de interacción online y sensibilidad por el diseño y la narrativa visual.'
+          'Una landing inmersiva, memorable y coherente con los valores del proyecto, que posiciona a Roomy como una plataforma experimental, humana y orientada al futuro de la comunicación digital.'
       },
       {
         phase: '03',
         title: 'Paleta de color',
         description:
           'Fondo oscuro predominante (azules y violetas profundos) que refuerza la sensación de espacio, profundidad y tecnología. En ilustraciones colores cálidos, saturados y acentos para transmitir energía, vida y movimiento.',
-        image: '/img-brand/roomy/test-roomy.png'
+        image: '/img-brand/roomy/color-roomy.png'
       },
       {
         phase: '04',
@@ -54,10 +54,10 @@
       },
       {
         phase: '05',
-        title: 'Resultado esperado',
+        title: 'Público objetivo',
         description:
-          'Una landing inmersiva, memorable y coherente con los valores del proyecto, que posiciona a Roomy como una plataforma experimental, humana y orientada al futuro de la comunicación digital.',
-        image: '/img-brand/roomy/test-roomy.png'
+          'Personas vinculadas a: Tecnología y desarrollo, Comunidades digitales y open-source, Creadores de contenido, investigadores y colectivos colaborativos. Usuarios con mentalidad exploradora, interés por nuevas formas de interacción online y sensibilidad por el diseño y la narrativa visual.',
+        image: '/img-brand/roomy/user-roomy.png'
       }
     ],
 
@@ -185,7 +185,7 @@
       {#if i % 2 === 0}
         <!-- Layout: Texto a la izquierda, imagen a la derecha -->
         <div class="px-8 md:px-16 mb-32">
-          <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div class="grid md:grid-cols-2 gap-16 items-end">
             <div>
               <span class="text-7xl font-light text-zinc-200 block mb-6"
                 >{step.phase}</span
@@ -200,7 +200,7 @@
             <img
               src={step.image}
               alt={step.title}
-              class="w-full object-cover"
+              class="w-3/4 m-auto object-cover"
             />
           </div>
         </div>
